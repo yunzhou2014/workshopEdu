@@ -1,0 +1,27 @@
+/* line 1, e:\workshopEdu\workshopEdu\css\app */
+.top-header-container {
+  background-color: #2d343e;
+}
+/* line 3, e:\workshopEdu\workshopEdu\css\app */
+.top-header-container #phone {
+  background: url(http://www.ansonika.com/edu/img/icon-phone.png) no-repeat center right;
+  padding-right: 46px;
+  text-align: right;
+  float: right;
+  font-size: 12px;
+  color: #fff;
+  margin-top: 5px;
+}
+/* line 14, e:\workshopEdu\workshopEdu\css\app */
+.navbar {
+  background-color: #0099cc;
+}
+/* line 18, e:\workshopEdu\workshopEdu\css\app */
+.navbar ul li a {
+  color: #fff;
+}
+/* line 22, e:\workshopEdu\workshopEdu\css\app */
+.navbar ul li ul li a {
+  background-color: #0099cc;
+  color: #fff;
+}

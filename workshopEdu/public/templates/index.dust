@@ -1,6 +1,67 @@
 {>"layouts/master" /}
+{<title}
+educational courses
+{/title}
 
 {<body}
-    <h1>My name is {name}</h1>
-    <p>This is my first project!</p>
+    <header>
+    <div class="row top-header-container">
+	    
+    	<div class="col-xs-6">
+    		<img src="http://www.ansonika.com/edu/img/logo.png"></img>
+    	</div>
+		<div class="col-xs-3">
+		<ul class="nav navbar-nav">
+			<li><a href="#">Home</a>|</li>
+			<li><a href="#">News & Events</a>|</li>
+			<li><a href="#">Contact</a></li>
+		</ul>
+		</div>
+		<div class="col-xs-3">
+		    <div id="phone">
+			    <strong>+44 (0) 123 456 789</strong><br>
+			    Admissions department
+		    </div>
+		</div>
+	    
+    </div>
+
+    <div class="row">
+	    <nav class="navbar">
+	      <ul class="nav navbar-nav">
+	        <li class="dropdown">
+	          <a href="#" class="dropdown-toggle" data-toggle="dropdown">COURSES </a>
+	        </li>
+	        <li class="dropdown">
+	          <a href="#" class="dropdown-toggle" data-toggle="dropdown">SCHOOL&ACADEMICS </a>
+	        </li>
+	        <li class="dropdown">
+	          <a href="#" class="dropdown-toggle" data-toggle="dropdown">ABOUT </a>
+	        </li>
+	        <li class="dropdown">
+	          <a href="#" class="dropdown-toggle" data-toggle="dropdown">PAGES </a>
+	        </li>
+	        <li><a href="#">BLOG </a></li>
+	        <li class="dropdown">
+	          <a href="#" class="dropdown-toggle" data-toggle="dropdown">SIMPLE DROP <span class="caret"></span></a>
+	          <ul class="dropdown-menu" role="menu">
+	            <li><a href="#">About</a></li>
+	            <li><a href="#">All Courses</a></li>
+	            <li><a href="#">Course detail</a></li>
+	          </ul>
+	        </li>
+	        <li class="dropdown">
+	          <a href="#" class="dropdown-toggle" data-toggle="dropdown">CONTACTS </a>
+	        </li>
+	      </ul>     
+		</nav>
+	</div>
+    </header>
+
+
+
+
+
+    <section></section>
+    <footer></footer>
 {/body}
