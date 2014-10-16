@@ -38,11 +38,15 @@
 .navbar {
   background-color: #0099cc;
 }
-/* line 41, e:\workshopEdu\workshopEdu\css\app */
+/* line 40, e:\workshopEdu\workshopEdu\css\app */
+.navbar .navbar-brand {
+  color: #FF9;
+}
+/* line 44, e:\workshopEdu\workshopEdu\css\app */
 .navbar ul li a {
   color: #fff;
 }
-/* line 45, e:\workshopEdu\workshopEdu\css\app */
+/* line 48, e:\workshopEdu\workshopEdu\css\app */
 .navbar ul li ul li a {
   background-color: #0099cc;
   color: #fff;
