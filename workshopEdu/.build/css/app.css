@@ -2,7 +2,22 @@
 .top-header-container {
   background-color: #2d343e;
 }
-/* line 3, e:\workshopEdu\workshopEdu\css\app */
+/* line 5, e:\workshopEdu\workshopEdu\css\app */
+.top-header-container .menu-top ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+/* line 10, e:\workshopEdu\workshopEdu\css\app */
+.top-header-container .menu-top li {
+  display: inline;
+  color: #d0dbeb;
+}
+/* line 13, e:\workshopEdu\workshopEdu\css\app */
+.top-header-container .menu-top li a {
+  color: #d0dbeb;
+}
+/* line 19, e:\workshopEdu\workshopEdu\css\app */
 .top-header-container #phone {
   background: url(http://www.ansonika.com/edu/img/icon-phone.png) no-repeat center right;
   padding-right: 46px;
@@ -12,15 +27,22 @@
   color: #fff;
   margin-top: 5px;
 }
-/* line 14, e:\workshopEdu\workshopEdu\css\app */
+/* line 28, e:\workshopEdu\workshopEdu\css\app */
+.top-header-container #phone strong {
+  font-size: 18px;
+  color: #66cccc;
+  font-weight: 700;
+  display: block;
+}
+/* line 37, e:\workshopEdu\workshopEdu\css\app */
 .navbar {
   background-color: #0099cc;
 }
-/* line 18, e:\workshopEdu\workshopEdu\css\app */
+/* line 41, e:\workshopEdu\workshopEdu\css\app */
 .navbar ul li a {
   color: #fff;
 }
-/* line 22, e:\workshopEdu\workshopEdu\css\app */
+/* line 45, e:\workshopEdu\workshopEdu\css\app */
 .navbar ul li ul li a {
   background-color: #0099cc;
   color: #fff;
