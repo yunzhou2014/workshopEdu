@@ -35,6 +35,14 @@
 	}
 }
 
+.nav>li{
+	position:initial;
+}
+
+.dropdown{
+	position:absolute;
+}
+
 .navbar{
 	background-color: #0099cc;
 	.navbar-toggle .icon-bar{
@@ -42,6 +50,9 @@
 	}
 	.navbar-brand {
 		color: #FF9;
+	}
+	.dropdown-keep-position{
+		position: relative;
 	}
 	ul li {
 		a {
@@ -52,6 +63,7 @@
 			background-color: #0099cc;
 			color: #fff;
 		}
+		
 	}
 }
 
@@ -81,13 +93,30 @@
 			font-size: 28px;
 		}
 	}
-	.green a:hover{
-		background-color: #669933;
+	.green{
+		a:hover{
+			transition: background-color .8s;
+			background-color: #669933;
+		}
 	}
 	.orange a:hover{
+		transition: background-color .8s;
 		background-color: #F60;
 	}
 	.red a:hover{
+		transition: background-color .8s;
 		background-color: #ff6666;
+	}
+}
+
+.contacts{
+	background-color: #2d343e;
+	color: #fff;
+	ul{
+		list-style-type: none;
+		padding-left: 0px;
+		.glyphicon{
+			margin-right: .4em;
+		}
 	}
 }

@@ -40,34 +40,46 @@
   display: block;
 }
 /* line 38, e:\workshopEdu\workshopEdu\css\app */
+.nav > li {
+  position: initial;
+}
+/* line 42, e:\workshopEdu\workshopEdu\css\app */
+.dropdown {
+  position: absolute;
+}
+/* line 46, e:\workshopEdu\workshopEdu\css\app */
 .navbar {
   background-color: #0099cc;
 }
-/* line 40, e:\workshopEdu\workshopEdu\css\app */
+/* line 48, e:\workshopEdu\workshopEdu\css\app */
 .navbar .navbar-toggle .icon-bar {
   background-color: #fff;
 }
-/* line 43, e:\workshopEdu\workshopEdu\css\app */
+/* line 51, e:\workshopEdu\workshopEdu\css\app */
 .navbar .navbar-brand {
   color: #FF9;
 }
-/* line 47, e:\workshopEdu\workshopEdu\css\app */
+/* line 54, e:\workshopEdu\workshopEdu\css\app */
+.navbar .dropdown-keep-position {
+  position: relative;
+}
+/* line 58, e:\workshopEdu\workshopEdu\css\app */
 .navbar ul li a {
   color: #fff;
 }
-/* line 51, e:\workshopEdu\workshopEdu\css\app */
+/* line 62, e:\workshopEdu\workshopEdu\css\app */
 .navbar ul li ul li a {
   background-color: #0099cc;
   color: #fff;
 }
-/* line 58, e:\workshopEdu\workshopEdu\css\app */
+/* line 70, e:\workshopEdu\workshopEdu\css\app */
 .main-boxes {
   margin-top: -35px;
   position: relative;
   z-index: 1;
   margin-bottom: 35px;
 }
-/* line 65, e:\workshopEdu\workshopEdu\css\app */
+/* line 77, e:\workshopEdu\workshopEdu\css\app */
 .main-boxes .box a {
   color: #fff;
   display: block;
@@ -80,22 +92,39 @@
   margin-bottom: 15px;
   border-radius: 5px;
 }
-/* line 77, e:\workshopEdu\workshopEdu\css\app */
+/* line 89, e:\workshopEdu\workshopEdu\css\app */
 .main-boxes .box h3 {
   margin-top: 0px;
   margin-bottom: 0px;
   color: #FF9;
   font-size: 28px;
 }
-/* line 84, e:\workshopEdu\workshopEdu\css\app */
+/* line 97, e:\workshopEdu\workshopEdu\css\app */
 .main-boxes .green a:hover {
+  transition: background-color 0.8s;
   background-color: #669933;
 }
-/* line 87, e:\workshopEdu\workshopEdu\css\app */
+/* line 102, e:\workshopEdu\workshopEdu\css\app */
 .main-boxes .orange a:hover {
+  transition: background-color 0.8s;
   background-color: #F60;
 }
-/* line 90, e:\workshopEdu\workshopEdu\css\app */
+/* line 106, e:\workshopEdu\workshopEdu\css\app */
 .main-boxes .red a:hover {
+  transition: background-color 0.8s;
   background-color: #ff6666;
+}
+/* line 112, e:\workshopEdu\workshopEdu\css\app */
+.contacts {
+  background-color: #2d343e;
+  color: #fff;
+}
+/* line 115, e:\workshopEdu\workshopEdu\css\app */
+.contacts ul {
+  list-style-type: none;
+  padding-left: 0px;
+}
+/* line 118, e:\workshopEdu\workshopEdu\css\app */
+.contacts ul .glyphicon {
+  margin-right: .4em;
 }

@@ -66,26 +66,31 @@
     <div class="collapse navbar-collapse" id="content-navbar-collapse">
       <ul class="nav navbar-nav">
         <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown">COURSES </a>
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">COURSES <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            {>"pages/courses" /}
+          </ul>
         </li>
         <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown">SCHOOL&ACADEMICS </a>
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">SCHOOL&ACADEMICS <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            {>"pages/school" /}
+          </ul>
         </li>
         <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown">ABOUT </a>
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">ABOUT <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            {>"pages/about" /}
+          </ul>
         </li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown">PAGES <span class="caret"></span></a>
           <ul class="dropdown-menu" role="menu">
-            <li><a href="#">About</a></li>
-            <li><a href="#">Academics</a></li>
-            <li><a href="#">All courses</a></li>
-            <li><a href="#">Course detail</a></li>
-            <li><a href="#">Staff page</a></li>
+            {>"pages/pages" /}
           </ul>
         </li>
         <li><a href="#">BLOG </a></li>
-        <li class="dropdown">
+        <li class="dropdown dropdown-keep-position">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown">SIMPLE DROP <span class="caret"></span></a>
           <ul class="dropdown-menu" role="menu">
             <li><a href="#">About</a></li>
@@ -94,7 +99,12 @@
           </ul>
         </li>
         <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown">CONTACTS </a>
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">CONTACTS <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <div class="container">
+              {>"pages/contacts" /}
+            </div>
+          </ul>
         </li>
       </ul>
     </div>    
