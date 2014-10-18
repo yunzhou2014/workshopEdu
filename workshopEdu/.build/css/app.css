@@ -1,24 +1,29 @@
 /* line 1, e:\workshopEdu\workshopEdu\css\app */
-.top-header-container {
+.header-top {
   background-color: #2d343e;
+  padding: 8px 0;
 }
-/* line 5, e:\workshopEdu\workshopEdu\css\app */
-.top-header-container .menu-top ul {
+/* line 4, e:\workshopEdu\workshopEdu\css\app */
+.header-top .menu-top {
+  float: right;
+}
+/* line 6, e:\workshopEdu\workshopEdu\css\app */
+.header-top .menu-top ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
-/* line 10, e:\workshopEdu\workshopEdu\css\app */
-.top-header-container .menu-top li {
+/* line 11, e:\workshopEdu\workshopEdu\css\app */
+.header-top .menu-top li {
   display: inline;
   color: #d0dbeb;
 }
-/* line 13, e:\workshopEdu\workshopEdu\css\app */
-.top-header-container .menu-top li a {
+/* line 14, e:\workshopEdu\workshopEdu\css\app */
+.header-top .menu-top li a {
   color: #d0dbeb;
 }
-/* line 19, e:\workshopEdu\workshopEdu\css\app */
-.top-header-container #phone {
+/* line 20, e:\workshopEdu\workshopEdu\css\app */
+.header-top #phone {
   background: url(http://www.ansonika.com/edu/img/icon-phone.png) no-repeat center right;
   padding-right: 46px;
   text-align: right;
@@ -27,27 +32,70 @@
   color: #fff;
   margin-top: 5px;
 }
-/* line 28, e:\workshopEdu\workshopEdu\css\app */
-.top-header-container #phone strong {
+/* line 29, e:\workshopEdu\workshopEdu\css\app */
+.header-top #phone strong {
   font-size: 18px;
   color: #66cccc;
   font-weight: 700;
   display: block;
 }
-/* line 37, e:\workshopEdu\workshopEdu\css\app */
+/* line 38, e:\workshopEdu\workshopEdu\css\app */
 .navbar {
   background-color: #0099cc;
 }
 /* line 40, e:\workshopEdu\workshopEdu\css\app */
+.navbar .navbar-toggle .icon-bar {
+  background-color: #fff;
+}
+/* line 43, e:\workshopEdu\workshopEdu\css\app */
 .navbar .navbar-brand {
   color: #FF9;
 }
-/* line 44, e:\workshopEdu\workshopEdu\css\app */
+/* line 47, e:\workshopEdu\workshopEdu\css\app */
 .navbar ul li a {
   color: #fff;
 }
-/* line 48, e:\workshopEdu\workshopEdu\css\app */
+/* line 51, e:\workshopEdu\workshopEdu\css\app */
 .navbar ul li ul li a {
   background-color: #0099cc;
   color: #fff;
+}
+/* line 58, e:\workshopEdu\workshopEdu\css\app */
+.main-boxes {
+  margin-top: -35px;
+  position: relative;
+  z-index: 1;
+  margin-bottom: 35px;
+}
+/* line 65, e:\workshopEdu\workshopEdu\css\app */
+.main-boxes .box a {
+  color: #fff;
+  display: block;
+  font-size: 14px;
+  text-shadow: 1px 1px 0 px rgba(0, 0, 0, 0.3);
+  padding: 25px 25px 5px 25px;
+  text-decoration: none;
+  font-weight: 700;
+  background-color: #0099cc;
+  margin-bottom: 15px;
+  border-radius: 5px;
+}
+/* line 77, e:\workshopEdu\workshopEdu\css\app */
+.main-boxes .box h3 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: #FF9;
+  font-size: 28px;
+}
+/* line 84, e:\workshopEdu\workshopEdu\css\app */
+.main-boxes .green a:hover {
+  background-color: #669933;
+}
+/* line 87, e:\workshopEdu\workshopEdu\css\app */
+.main-boxes .orange a:hover {
+  background-color: #F60;
+}
+/* line 90, e:\workshopEdu\workshopEdu\css\app */
+.main-boxes .red a:hover {
+  background-color: #ff6666;
 }
