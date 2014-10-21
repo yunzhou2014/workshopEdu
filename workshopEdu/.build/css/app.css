@@ -3,26 +3,26 @@
   background-color: #2d343e;
   padding: 8px 0;
 }
-/* line 4, e:\workshopEdu\workshopEdu\css\app */
+/* line 5, e:\workshopEdu\workshopEdu\css\app */
 .header-top .menu-top {
   float: right;
 }
-/* line 6, e:\workshopEdu\workshopEdu\css\app */
+/* line 7, e:\workshopEdu\workshopEdu\css\app */
 .header-top .menu-top ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
-/* line 11, e:\workshopEdu\workshopEdu\css\app */
+/* line 12, e:\workshopEdu\workshopEdu\css\app */
 .header-top .menu-top li {
   display: inline;
   color: #d0dbeb;
 }
-/* line 14, e:\workshopEdu\workshopEdu\css\app */
+/* line 15, e:\workshopEdu\workshopEdu\css\app */
 .header-top .menu-top li a {
   color: #d0dbeb;
 }
-/* line 20, e:\workshopEdu\workshopEdu\css\app */
+/* line 21, e:\workshopEdu\workshopEdu\css\app */
 .header-top #phone {
   background: url(http://www.ansonika.com/edu/img/icon-phone.png) no-repeat center right;
   padding-right: 46px;
@@ -32,54 +32,135 @@
   color: #fff;
   margin-top: 5px;
 }
-/* line 29, e:\workshopEdu\workshopEdu\css\app */
+/* line 30, e:\workshopEdu\workshopEdu\css\app */
 .header-top #phone strong {
   font-size: 18px;
   color: #66cccc;
   font-weight: 700;
   display: block;
 }
-/* line 38, e:\workshopEdu\workshopEdu\css\app */
-.nav > li {
-  position: initial;
-}
-/* line 42, e:\workshopEdu\workshopEdu\css\app */
-.dropdown {
-  position: absolute;
-}
-/* line 46, e:\workshopEdu\workshopEdu\css\app */
+/* line 40, e:\workshopEdu\workshopEdu\css\app */
 .navbar {
   background-color: #0099cc;
+  margin-bottom: 0;
 }
-/* line 48, e:\workshopEdu\workshopEdu\css\app */
+/* line 43, e:\workshopEdu\workshopEdu\css\app */
 .navbar .navbar-toggle .icon-bar {
   background-color: #fff;
 }
-/* line 51, e:\workshopEdu\workshopEdu\css\app */
+/* line 47, e:\workshopEdu\workshopEdu\css\app */
 .navbar .navbar-brand {
   color: #FF9;
 }
-/* line 54, e:\workshopEdu\workshopEdu\css\app */
-.navbar .dropdown-keep-position {
+/* line 51, e:\workshopEdu\workshopEdu\css\app */
+.navbar .nav > li {
+  position: inherit;
+}
+/* line 53, e:\workshopEdu\workshopEdu\css\app */
+.navbar .nav > li > a {
+  color: #fff;
+}
+/* line 57, e:\workshopEdu\workshopEdu\css\app */
+.navbar .dropdown {
+  position: absolute;
+}
+/* line 60, e:\workshopEdu\workshopEdu\css\app */
+.navbar .dropdown.simple-drop {
   position: relative;
 }
-/* line 58, e:\workshopEdu\workshopEdu\css\app */
-.navbar ul li a {
-  color: #fff;
-}
-/* line 62, e:\workshopEdu\workshopEdu\css\app */
-.navbar ul li ul li a {
+/* line 65, e:\workshopEdu\workshopEdu\css\app */
+#simple-drop {
   background-color: #0099cc;
+  margin-top: 5px;
+  border-radius: 10px;
+}
+/* line 69, e:\workshopEdu\workshopEdu\css\app */
+#simple-drop li a {
   color: #fff;
 }
-/* line 70, e:\workshopEdu\workshopEdu\css\app */
+/* line 74, e:\workshopEdu\workshopEdu\css\app */
+#contacts {
+  background-color: #2d343e;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  margin: 0 5%;
+}
+/* line 80, e:\workshopEdu\workshopEdu\css\app */
+#contacts .contacts {
+  background-color: #2d343e;
+  color: #fff;
+}
+/* line 83, e:\workshopEdu\workshopEdu\css\app */
+#contacts .contacts h4 {
+  margin: 0 0 10px 0;
+}
+/* line 86, e:\workshopEdu\workshopEdu\css\app */
+#contacts .contacts ul {
+  list-style-type: none;
+  padding-left: 0px;
+}
+/* line 89, e:\workshopEdu\workshopEdu\css\app */
+#contacts .contacts ul .glyphicon {
+  margin-right: .4em;
+}
+/* line 92, e:\workshopEdu\workshopEdu\css\app */
+#contacts .contacts ul li a {
+  color: #12b0e6;
+}
+/* line 96, e:\workshopEdu\workshopEdu\css\app */
+#contacts .contacts hr {
+  margin: 0 0 20px 0;
+  border-top: 1px solid #25282d;
+  border-bottom: 1px solid #414750;
+}
+/* line 101, e:\workshopEdu\workshopEdu\css\app */
+#contacts .contacts h5 {
+  margin: 0 0 10px 0;
+  font-weight: bold;
+}
+/* line 106, e:\workshopEdu\workshopEdu\css\app */
+#contacts .contacts .btn {
+  background-color: #ff6666;
+}
+/* line 112, e:\workshopEdu\workshopEdu\css\app */
+#pages {
+  background-color: #2d343e;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  margin: 0 5%;
+}
+/* line 118, e:\workshopEdu\workshopEdu\css\app */
+#pages .pages {
+  background-color: #2d343e;
+}
+/* line 120, e:\workshopEdu\workshopEdu\css\app */
+#pages .pages a {
+  display: block;
+  background-color: #424952;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  padding: 20px 15px;
+  margin-bottom: 25px;
+  color: #fff;
+  -webkit-box-shadow: inset 0 0 0 3px rgba(255, 255, 255, 0.1);
+  box-shadow: inset 0 0 0 3px rgba(255, 255, 255, 0.1);
+}
+/* line 134, e:\workshopEdu\workshopEdu\css\app */
+#pages .pages a:hover {
+  transition: background .5s;
+  background-color: #0099cc;
+  text-decoration: none;
+}
+/* line 142, e:\workshopEdu\workshopEdu\css\app */
 .main-boxes {
   margin-top: -35px;
   position: relative;
   z-index: 1;
   margin-bottom: 35px;
 }
-/* line 77, e:\workshopEdu\workshopEdu\css\app */
+/* line 149, e:\workshopEdu\workshopEdu\css\app */
 .main-boxes .box a {
   color: #fff;
   display: block;
@@ -92,39 +173,25 @@
   margin-bottom: 15px;
   border-radius: 5px;
 }
-/* line 89, e:\workshopEdu\workshopEdu\css\app */
+/* line 161, e:\workshopEdu\workshopEdu\css\app */
 .main-boxes .box h3 {
   margin-top: 0px;
   margin-bottom: 0px;
   color: #FF9;
   font-size: 28px;
 }
-/* line 97, e:\workshopEdu\workshopEdu\css\app */
+/* line 169, e:\workshopEdu\workshopEdu\css\app */
 .main-boxes .green a:hover {
   transition: background-color 0.8s;
   background-color: #669933;
 }
-/* line 102, e:\workshopEdu\workshopEdu\css\app */
+/* line 174, e:\workshopEdu\workshopEdu\css\app */
 .main-boxes .orange a:hover {
   transition: background-color 0.8s;
   background-color: #F60;
 }
-/* line 106, e:\workshopEdu\workshopEdu\css\app */
+/* line 178, e:\workshopEdu\workshopEdu\css\app */
 .main-boxes .red a:hover {
   transition: background-color 0.8s;
   background-color: #ff6666;
-}
-/* line 112, e:\workshopEdu\workshopEdu\css\app */
-.contacts {
-  background-color: #2d343e;
-  color: #fff;
-}
-/* line 115, e:\workshopEdu\workshopEdu\css\app */
-.contacts ul {
-  list-style-type: none;
-  padding-left: 0px;
-}
-/* line 118, e:\workshopEdu\workshopEdu\css\app */
-.contacts ul .glyphicon {
-  margin-right: .4em;
 }

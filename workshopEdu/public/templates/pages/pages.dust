@@ -1,1 +1,62 @@
-Pages Page
+<section class="pages">
+
+	<div class="row">      
+		<div class="col-md-3 col-xs-10">
+				<a href="#" title="About ">About </a>
+		</div>
+		<div class="col-md-3 col-xs-10">
+			<a href="#" title="Academics ">Academics </a>
+		</div>
+		<div class="col-md-3 col-xs-10">
+			<a href="#" title="All courses ">All courses </a>
+		</div>
+		<div class="col-md-3 col-xs-10">
+			<a href="#" title="Course detail ">Course detail </a>
+		</div>
+	</div>
+	
+	<div class="row"> 
+		<div class="col-md-3 col-xs-10">
+				<a href="#" title="Staff page ">Staff page </a>
+		</div>
+		<div class="col-md-3 col-xs-10">
+			<a href="#" title="Contact ">Contact </a>
+		</div>
+		<div class="col-md-3 col-xs-10">
+			<a href="#" title="Plan a visit ">Plan a visit </a>
+		</div>
+		<div class="col-md-3 col-xs-10">
+			<a href="#" title="News ">News </a>
+		</div>
+	</div>
+	
+	<div class="row"> 
+		<div class="col-md-3 col-xs-10">
+				<a href="#" title="Blog ">Blog </a>
+		</div>
+		<div class="col-md-3 col-xs-10">
+			<a href="#" title="Single post ">Single post </a>
+		</div>
+		<div class="col-md-3 col-xs-10">
+			<a href="#" title="Typography ">Typography </a>
+		</div>
+		<div class="col-md-3 col-xs-10">
+			<a href="#" title="Javascript ">Javascript </a>
+		</div>
+	</div>
+	
+	<div class="row"> 
+		<div class="col-md-3 col-xs-10">
+				<a href="#" title="gallery ">Photo/Video Gallery </a>
+		</div>
+		<div class="col-md-3 col-xs-10">
+			<a href="#" title="calendar ">Events calendar </a>
+		</div>
+		<div class="col-md-3 col-xs-10">
+			
+		</div>
+		<div class="col-md-3 col-xs-10">
+			
+		</div>
+	</div>
+</section>
