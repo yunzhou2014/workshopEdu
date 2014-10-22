@@ -1,5 +1,12 @@
+@dark-blue: #2d343e;
+@body-blue: #0099cc;
+@dropdown-text-blue: #12b0e6;
+@button-blue: #099ad1;
+@tab-blue: #0f91bd;
+@footer-blue: #0088cc;
+
 .header-top {
-	background-color: #2d343e;
+	background-color: @dark-blue;
 	padding: 8px 0;
 
 	.menu-top {
@@ -38,7 +45,7 @@
 
 
 .navbar {
-	background-color: #0099cc;
+	background-color: @body-blue;
 	margin-bottom: 0;
 	.navbar-toggle .icon-bar {
 		background-color: #fff;
@@ -60,63 +67,77 @@
 	.dropdown.simple-drop {
 		position: relative;
 	}
-}
 
-#simple-drop {
-	background-color: #0099cc;
-	margin-top: 5px;
-	border-radius: 10px;
-	li a {
-		color: #fff;
+	.dropdown-menu {
+		background-color: @dark-blue;
+		padding-top: 30px;
+		padding-bottom: 20px;
+		margin: 0 5%;
 	}
 }
 
-#contacts {
-	background-color: #2d343e;
-	padding-top: 30px;
-	padding-bottom: 20px;
-	margin: 0 5%;
 
-	.contacts {
-		background-color: #2d343e;
-		color: #fff;
+#courses {
+
+}
+
+#school {
+	
+}
+
+
+#about {
+	.about {
+		background-color: @dark-blue;
 		h4 {
 			margin: 0 0 10px 0;
+			color: #fff;
 		}
-		ul {
-			list-style-type: none;
-			padding-left: 0px;
-			.glyphicon {
-				margin-right: .4em;
-			}
-			li a {
-				color: #12b0e6;
-			}
-		}
-		hr {
+		.list-menu {
 			margin: 0 0 20px 0;
-			border-top: 1px solid #25282d;
-			border-bottom: 1px solid #414750;
+			padding-left: 5px;
+
+			a {
+				font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+				color: @dropdown-text-blue;			
+			}
+
+			a:hover {
+				color: #fff;
+				text-decoration: none;
+			}
 		}
-		h5 {
-			margin: 0 0 10px 0;
-			font-weight: bold;
-		}
-		
+
 		.btn {
-			background-color: #ff6666;
+			background-color: @button-blue;
+			color: #fff;
+		}
+
+		.tab-pane {
+			color: #fff;
+			.management {
+				background: url(http://www.ansonika.com/edu/img/teacher-small.jpg) no-repeat;
+				height: 150px;
+				border-radius: 10px;
+				margin: 10px 10px;
+			}
+			.business {
+				background: url(http://www.ansonika.com/edu/img/teacher-small-2.jpg) no-repeat;
+				height: 150px;
+				border-radius: 10px;
+				margin: 10px 10px;
+			}
+			.admin {
+				.management;
+				background: url(http://www.ansonika.com/edu/img/teacher-small-3.jpg) no-repeat;
+			}
 		}
 	}
 }
 
 #pages {
-	background-color: #2d343e;
-	padding-top: 30px;
-	padding-bottom: 20px;
-	margin: 0 5%;
-
 	.pages {
-		background-color: #2d343e;
+		background-color: @dark-blue;
 		a {
 			display: block;
 			background-color: #424952;
@@ -139,6 +160,48 @@
 	}
 }
 
+#simple-drop {
+	background-color: @body-blue;
+	margin-top: 5px;
+	border-radius: 10px;
+	li a {
+		color: #fff;
+	}
+}
+
+#contacts {
+	.contacts {
+		background-color: @dark-blue;
+		color: #fff;
+		h4 {
+			margin: 0 0 10px 0;
+		}
+		ul {
+			list-style-type: none;
+			padding-left: 0px;
+			.glyphicon {
+				margin-right: .4em;
+			}
+			li a {
+				color: @dropdown-text-blue;
+			}
+		}
+		hr {
+			margin: 0 0 20px 0;
+			border-top: 1px solid #25282d;
+			border-bottom: 1px solid #414750;
+		}
+		h5 {
+			margin: 0 0 10px 0;
+			font-weight: bold;
+		}
+		
+		.btn {
+			background-color: #ff6666;
+		}
+	}
+}
+
 .main-boxes {
 	margin-top: -35px;
 	position: relative;
@@ -154,7 +217,7 @@
 			padding: 25px 25px 5px 25px;
 			text-decoration: none;
 			font-weight: 700;
-			background-color: #0099cc;
+			background-color: @body-blue;
 			margin-bottom: 15px;
 			border-radius: 5px;
 		}
