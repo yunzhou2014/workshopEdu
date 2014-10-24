@@ -1,1 +1,54 @@
-School and academics page
+<section class="school">
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md-7 col-xs-10">
+				<iframe width="600" height="300" src="http://www.youtube.com/embed/pgk-719mTxM" frameborder="0" allowfullscreen></iframe>
+			</div>
+			<div class="col-md-5 col-xs-10">
+				<h4>Youtube Video</h4>
+				<p>An utinam reprimique duo, putant mandamus cu qui. Autem possim his cu, quodsi nominavi fabellas ut sit, mea ea ullum epicurei. Saepe tantas ocurreret duo ea, has facilisi vulputate an. Pri aeque iuvaret nominati et, ad mea clita numquam.</p>
+				<p>An utinam reprimique duo, putant mandamus cu qui. Autem possim his cu, quodsi nominavi fabellas ut sit, mea ea ullum epicurei. Saepe tantas ocurreret duo ea, has facilisi vulputate an. Pri aeque iuvaret nominati et, ad mea clita numquam.</p>
+				<button type="button" class="btn btn-sm btn-red" title="All courses">Read more</button>
+			</div>
+		</div>
+	</div>
+	<hr>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3 col-xs-10">
+				<h5>Degrees</h5>
+				<ul class="list-menu">
+					<li><a href="#">Prospect</a></li>
+					<li><a href="#">Mission</a></li>
+					<li><a href="#">President of the College</a></li>
+				</ul>
+			</div>
+			<div class="col-md-3 col-xs-10">
+				<h5>Bacherlors</h5>
+				<ul class="list-menu">
+					<li><a href="#">Quick Facts</a></li>
+					<li><a href="#">Mission</a></li>
+					<li><a href="#">President of the College</a></li>
+				</ul>
+			</div>
+			<div class="col-md-3 col-xs-10">
+				<h5>Masters</h5>
+				<ul class="list-menu">
+					<li><a href="#">Quick Facts</a></li>
+					<li><a href="#">Mission</a></li>
+					<li><a href="#">President of the College</a></li>
+				</ul>
+			</div>
+			<div class="col-md-3 col-xs-10">
+				<h5>Courses</h5>
+				<ul class="list-menu">
+					<li><a href="#">Quick Facts</a></li>
+					<li><a href="#">Mission</a></li>
+					<li><a href="#">President of the College</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+</section>

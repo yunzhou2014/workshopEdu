@@ -1,1 +1,86 @@
-Courses page
+<section class="courses">
+
+	<div class="row">      
+		<div class="col-md-3 col-xs-10">
+
+			<h4>Quick links</h4>
+			<ul class="list-menu">
+				<li><a href="#" title="All courses ">All courses </a>
+				</li>
+				<li><a href="#" title="Course detail ">Course detail </a>
+				</li>
+				<li><a href="#" title="Meet the team ">Meet the team</a>
+				</li>
+				<li><a href="#" title="Apply for a course ">Apply for a course </a>
+				</li>
+				<li><a href="#" title="About ">About </a>
+				</li>
+				<li><a href="#" title="News ">News </a>
+				</li>
+				<li><a href="#" title="Contact ">Ask for more information </a>
+				</li>
+			</ul>
+
+			<button type="button" class="btn btn-blue" title="Courses">View all courses</button>			
+		</div>
+
+		<div class="col-md-9 col-xs-10">
+			
+			<div class="container">
+				<div class="row" >
+					
+					<div class="col-md-3 col-xs-10">
+						<h5><a href="#"><i class="fa fa-book"></i> Administration</a>
+						&nbsp;(10)
+						</h5>
+						<p>An utinam reprimique duo, putant mandamus cu qui. Autem possim his cu, quodsi nominavi fabellas ut sit, mea ea ullum epicurei.</p>
+						<button type="button" class="btn btn-sm btn-red">Read more</button>
+					</div>
+					<div class="col-md-3 col-xs-10">
+						<h5><a href="#"><i class="fa fa-book"></i> Business</a>
+						&nbsp;(08)	
+						</h5>
+						<p>An utinam reprimique duo, putant mandamus cu qui. Autem possim his cu, quodsi nominavi fabellas ut sit, mea ea ullum epicurei.</p>
+						<button type="button" class="btn btn-sm btn-red">Read more</button>
+					</div>
+					<div class="col-md-3 col-xs-10">
+						
+						<h5><a href="#"><i class="fa fa-book"></i> Communication</a>
+						&nbsp;(05) 	
+						</h5>
+						<p>An utinam reprimique duo, putant mandamus cu qui. Autem possim his cu, quodsi nominavi fabellas ut sit, mea ea ullum epicurei.</p>
+						<button type="button" class="btn btn-sm btn-red">Read more</button>
+					</div>
+				</div>
+			</div>
+			<br>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-3 col-xs-10">
+						<h5><a href="#"><i class="fa fa-book"></i> Computing</a>
+						&nbsp;(10) 	
+						</h5>
+						<p>An utinam reprimique duo, putant mandamus cu qui. Autem possim his cu, quodsi nominavi fabellas ut sit, mea ea ullum epicurei.</p>
+						<button type="button" class="btn btn-sm btn-red">Read more</button>
+					</div>
+					<div class="col-md-3 col-xs-10">
+						<h5><a href="#"><i class="fa fa-book"></i> Consueling</a>
+						&nbsp;(08) 	
+						</h5>
+						<p>An utinam reprimique duo, putant mandamus cu qui. Autem possim his cu, quodsi nominavi fabellas ut sit, mea ea ullum epicurei.</p>
+						<button type="button" class="btn btn-sm btn-red">Read more</button>
+					</div>
+					<div class="col-md-3 col-xs-10">
+						<h5><a href="#"><i class="fa fa-book"></i> Education</a>
+						&nbsp;(05) 	
+						</h5>
+						<p>An utinam reprimique duo, putant mandamus cu qui. Autem possim his cu, quodsi nominavi fabellas ut sit, mea ea ullum epicurei.</p>
+						<button type="button" class="btn btn-sm btn-red">Read more</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+	
+</section>

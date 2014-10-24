@@ -9,6 +9,8 @@
 		<!-- Latest compiled and minified CSS -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 
+		<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
 		<!-- Optional theme -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
 
@@ -139,27 +141,40 @@
 			<!-- Wrapper for slides -->
 			<div class="carousel-inner">
 				<div class="item active">
-					<img src="http://www.ansonika.com/edu/images/slides/slide-intro.jpg" alt="...">
+					
+					<img src="http://www.ansonika.com/edu/images/slides/slide-intro.jpg" alt="..." class="bg">
+ 
+					<img src="http://www.ansonika.com/edu/images/slides/logo.png" alt="..." class="flyin-img">
+
 					<div class="carousel-caption">
 						...
 					</div>
 				</div>
 				<div class="item">
-					<img src="http://www.ansonika.com/edu/images/slides/slide-1.jpg" alt="...">
+					<img src="http://www.ansonika.com/edu/images/slides/slide-1.jpg" alt="..." class="bg">
+
+					<img src="http://www.ansonika.com/edu/images/slides/diagram.png" alt="..." class="flyin-img">
+					<img src="http://www.ansonika.com/edu/images/slides/icon-slide-1.png" alt="..." class="flyin-img">
+					<img src="http://www.ansonika.com/edu/images/slides/icon-slide-2.png" alt="..." class="flyin-img">
+					<img src="http://www.ansonika.com/edu/images/slides/icon-slide-3.png" alt="..." class="flyin-img">
+					<img src="http://www.ansonika.com/edu/images/slides/icon-slide-4.png" alt="..."class="flyin-img">
+
 					<div class="carousel-caption">
 						...
 					</div>
 				</div>
 				<div class="item">
-					<img src="http://www.ansonika.com/edu/images/slides/slide-2.jpg" alt="...">
+					<img src="http://www.ansonika.com/edu/images/slides/slide-2.jpg" alt="..." class="bg">
 					<div class="carousel-caption">
-						...
+						JOIN THE COMMUNITY
+						<button type="button" class="btn btn-blue btn-lg">Read more</button>
 					</div>
 				</div>
 				<div class="item">
 					<img src="http://www.ansonika.com/edu/images/slides/slide-3.jpg" alt="...">
 					<div class="carousel-caption">
-						...
+						DIFFERENT COURSES AVAILABLE
+						<button type="button" class="btn btn-blue btn-lg">Read more</button>
 					</div>
 				</div>
 				
@@ -181,24 +196,37 @@
 		<div class="row">
 			<div class = "col-md-4 col-xs-10 box green">
 				<a href="#" title="All Courses">
+					<img src="http://www.ansonika.com/edu/img/icon-home-course.png" alt="">
 					<h3>Courses</h3>
 					<p>Lorem ipsum dolor sit amet, dicta aliquip ad vix, ne sit everti corpora. Qui cu eros feugiat, elitr iudico ad pri.</p>
 				</a>
 			</div>
 			<div class = "col-md-4 col-xs-10 box orange">
 				<a href="#" title="Apply">
+					<img src="http://www.ansonika.com/edu/img/icon-home-apply.png" alt="">
 					<h3>Apply now</h3>
 					<p>Lorem ipsum dolor sit amet, dicta aliquip ad vix, ne sit everti corpora. Qui cu eros feugiat, elitr iudico ad pri.</p>
 			</div>
 			<div class = "col-md-4 col-xs-10 box red">
 				<a href="#" title="Plan a visit">
+					<img src="http://www.ansonika.com/edu/img/icon-home-visit.png" alt="">
 					<h3>Plan a visit</h3>
 					<p>Lorem ipsum dolor sit amet, dicta aliquip ad vix, ne sit everti corpora. Qui cu eros feugiat, elitr iudico ad pri.</p>
 				</a>
 			</div>
 </section>
 
-<footer></footer>
+<footer>
+	<div class="row">
+		<div class="col-md-4 col-xs-10">
+		</div>
+		<div class="col-md-4 col-xs-10">
+			
+		</div>
+		<div class="col-md-4 col-xs-10">
+		</div>
+	</div>
+</footer>
 </div>
 
 

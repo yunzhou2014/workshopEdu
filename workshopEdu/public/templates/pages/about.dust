@@ -21,11 +21,11 @@
 				</li>
 			</ul>
 
-			<button type="button" class="btn" title="Courses">View all courses</button>			
+			<button type="button" class="btn btn-blue" title="Courses">View all courses</button>			
 		</div>
 
 		<div class="col-md-9 col-xs-10">
-			<div class="container">
+			
 				<ul class="nav nav-tabs" role="tablist">
 					<li class="active"><a href="#staff" role="tab" data-toggle="tab">Staff</a></li>
 	  			<li><a href="#history" role="tab" data-toggle="tab">History</a></li>
@@ -34,36 +34,36 @@
 				<!--Tab panes -->
 				<div class="tab-content">
 					<div class="tab-pane active row" id="staff">
-						<div class="col-md-3 col-xs-10">
-							<div class="management">photo</div>
+						<div class="col-md-4 col-xs-10">
+							<div class="management"></div>
 							<h5>Ms. Annie Ann 
 								<em>Management</em>
 							</h5>
 							<p>An utinam reprimique duo, putant mandamus cu qui. Autem possim his cu, quodsi nominavi fabellas ut sit, mea ea ullum epicurei.</p>
-							<button type="button" class="btn" title="staff">Read more</button>
+							<button type="button" class="btn btn-sm btn-red" title="staff">Read more</button>
 						</div>
-						<div class="col-md-3 col-xs-10">
-							<div>photo</div>
+						<div class="col-md-4 col-xs-10">
+							<div class="business"></div>
 							<h5>Ms. Annie Ann 
 								<em>Business</em>
 							</h5>
 							<p>An utinam reprimique duo, putant mandamus cu qui. Autem possim his cu, quodsi nominavi fabellas ut sit, mea ea ullum epicurei.</p>
-							<button type="button" class="btn" title="staff">Read more</button>
+							<button type="button" class="btn btn-sm btn-red" title="staff">Read more</button>
 						</div>
-						<div class="col-md-3 col-xs-10">
-							<div>photo</div>
+						<div class="col-md-4 col-xs-10">
+							<div class="admin"></div>
 							<h5>Ms. Annie Ann 
 								<em>Administration</em>
 							</h5>
 							<p>An utinam reprimique duo, putant mandamus cu qui. Autem possim his cu, quodsi nominavi fabellas ut sit, mea ea ullum epicurei.</p>
-							<button type="button" class="btn" title="staff">Read more</button>
+							<button type="button" class="btn btn-sm btn-red" title="staff">Read more</button>
 						</div>
 					</div>
 
 					<div class="tab-pane" id="history">
 						<div class="row">
 							<div class="col-md-10 col-xs-10">
-								<p>An utinam reprimique duo, putant mandamus cu qui. Autem possim his cu, quodsi nominavi fabellas ut sit, mea ea ullum epicurei. An utinam reprimique duo, putant mandamus cu qui.</p>
+								<p class="lead ">An utinam reprimique duo, putant mandamus cu qui. Autem possim his cu, quodsi nominavi fabellas ut sit, mea ea ullum epicurei. An utinam reprimique duo, putant mandamus cu qui.</p>
 							</div>
 						</div>
 						<hr>
@@ -78,10 +78,7 @@
 							</div>
 						</div>
 					</div>
-
-				</div>
-				
-			</div>			
+				</div>		
 		</div>
 	</div>
 	
