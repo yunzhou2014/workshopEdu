@@ -26,11 +26,12 @@
 
 <body>
 <div id="wrapper" class="content">
-	<header class="header-top">
-		<div class="container">
-			<div class="row">      
+
+<header class="header-top">
+	<div class="container">
+		<div class="row">      
 			<div class="logo col-md-4 hidden-xs">
-					<img src="http://www.ansonika.com/edu/img/logo.png"></img>
+				<img src="http://www.ansonika.com/edu/img/logo.png"></img>
 			</div>
 			<div class="col-md-4 col-xs-10">
 				<div class="menu-top">
@@ -42,14 +43,14 @@
 				</div>
 			</div>
 			<div class="col-md-4 hidden-xs">
-					<div id="phone">
-							<strong>+44 (0) 123 456 789</strong>
-							Admissions department
-					</div>
-			</div>
+				<div id="phone">
+						<strong>+44 (0) 123 456 789</strong>
+						Admissions department
+				</div>
 			</div>
 		</div>
-	</header>
+	</div>
+</header>
 
 
 <nav class="navbar">
@@ -129,65 +130,65 @@
 </nav>
 
 <section class="slider">
-		<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-			<!-- Indicators -->
-			<ol class="carousel-indicators">
-				<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-				<li data-target="#carousel-example-generic" data-slide-to="1"></li>
-				<li data-target="#carousel-example-generic" data-slide-to="2"></li>
-				<li data-target="#carousel-example-generic" data-slide-to="3"></li>
-			</ol>
+	<div id="carousel-example-generic" class="carousel slide carousel-roll" data-ride="carousel">
+		<!-- Indicators -->
+		<ol class="carousel-indicators">
+			<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+			<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+			<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+			<li data-target="#carousel-example-generic" data-slide-to="3"></li>
+		</ol>
 
-			<!-- Wrapper for slides -->
-			<div class="carousel-inner">
-				<div class="item active">
-					
-					<img src="http://www.ansonika.com/edu/images/slides/slide-intro.jpg" alt="..." class="bg">
- 
-					<img src="http://www.ansonika.com/edu/images/slides/logo.png" alt="..." class="flyin-img">
-
-					<div class="carousel-caption">
-						...
-					</div>
-				</div>
-				<div class="item">
-					<img src="http://www.ansonika.com/edu/images/slides/slide-1.jpg" alt="..." class="bg">
-
-					<img src="http://www.ansonika.com/edu/images/slides/diagram.png" alt="..." class="flyin-img">
-					<img src="http://www.ansonika.com/edu/images/slides/icon-slide-1.png" alt="..." class="flyin-img">
-					<img src="http://www.ansonika.com/edu/images/slides/icon-slide-2.png" alt="..." class="flyin-img">
-					<img src="http://www.ansonika.com/edu/images/slides/icon-slide-3.png" alt="..." class="flyin-img">
-					<img src="http://www.ansonika.com/edu/images/slides/icon-slide-4.png" alt="..."class="flyin-img">
-
-					<div class="carousel-caption">
-						...
-					</div>
-				</div>
-				<div class="item">
-					<img src="http://www.ansonika.com/edu/images/slides/slide-2.jpg" alt="..." class="bg">
-					<div class="carousel-caption">
-						JOIN THE COMMUNITY
-						<button type="button" class="btn btn-blue btn-lg">Read more</button>
-					</div>
-				</div>
-				<div class="item">
-					<img src="http://www.ansonika.com/edu/images/slides/slide-3.jpg" alt="...">
-					<div class="carousel-caption">
-						DIFFERENT COURSES AVAILABLE
-						<button type="button" class="btn btn-blue btn-lg">Read more</button>
-					</div>
-				</div>
+		<!-- Wrapper for slides -->
+		<div class="carousel-inner">
+			<div class="item active">
 				
+				<img src="http://www.ansonika.com/edu/images/slides/slide-intro.jpg" alt="First slider" class="bg">
+
+				<img src="http://www.ansonika.com/edu/images/slides/logo.png" alt="..." class="flyin-img">
+			</div>
+			<div class="item">
+				<img src="http://www.ansonika.com/edu/images/slides/slide-1.jpg" alt="..." class="bg">
+
+				<img src="http://www.ansonika.com/edu/images/slides/diagram.png" alt="..." class="flyin-img">
+				<img src="http://www.ansonika.com/edu/images/slides/icon-slide-1.png" alt="..." class="flyin-img">
+				<img src="http://www.ansonika.com/edu/images/slides/icon-slide-2.png" alt="..." class="flyin-img">
+				<img src="http://www.ansonika.com/edu/images/slides/icon-slide-3.png" alt="..." class="flyin-img">
+				<img src="http://www.ansonika.com/edu/images/slides/icon-slide-4.png" alt="..."class="flyin-img">
 			</div>
 
-			<!-- Controls -->
-			<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-				<span class="glyphicon glyphicon-chevron-left"></span>
-			</a>
-			<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-				<span class="glyphicon glyphicon-chevron-right"></span>
-			</a>
+			<div class="item">
+				<img src="http://www.ansonika.com/edu/images/slides/slide-2.jpg" alt="..." class="bg">
+				<div class="caption">
+					<div class="caption-text">
+						JOIN THE COMMUNITY
+					</div>
+					<div>
+						<a href="#" class="btn btn-blue btn-lg">Read more</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="item">
+				<img src="http://www.ansonika.com/edu/images/slides/slide-3.jpg" alt="..." class="bg">
+				<div class="caption">
+					<div class="caption-text">
+						DIFFERENT COURSES AVAILABLE
+					</div>
+					<div>
+						<button type="button" class="btn btn-blue btn-lg">Read more</button>
+					</div>
+				</div>
+			</div>
 		</div>
+		<!-- Controls -->
+		<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+			<span class="glyphicon glyphicon-chevron-left"></span>
+		</a>
+		<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+			<span class="glyphicon glyphicon-chevron-right"></span>
+		</a>
+	</div>
 </section>
 
 
@@ -206,6 +207,7 @@
 					<img src="http://www.ansonika.com/edu/img/icon-home-apply.png" alt="">
 					<h3>Apply now</h3>
 					<p>Lorem ipsum dolor sit amet, dicta aliquip ad vix, ne sit everti corpora. Qui cu eros feugiat, elitr iudico ad pri.</p>
+				</a>
 			</div>
 			<div class = "col-md-4 col-xs-10 box red">
 				<a href="#" title="Plan a visit">
@@ -214,6 +216,8 @@
 					<p>Lorem ipsum dolor sit amet, dicta aliquip ad vix, ne sit everti corpora. Qui cu eros feugiat, elitr iudico ad pri.</p>
 				</a>
 			</div>
+		</div>
+	</div>
 </section>
 
 <footer>
@@ -227,7 +231,6 @@
 		</div>
 	</div>
 </footer>
-</div>
 
 
 <script data-main="/js/app" src="/components/requirejs/require.js"></script>
@@ -237,5 +240,6 @@
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 
+</div>
 </body>
 </html>
