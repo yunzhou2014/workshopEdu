@@ -5,23 +5,23 @@
 
 			<h4>Quick links</h4>
 			<ul class="list-menu">
-				<li><a href="#" title="All courses ">All courses </a>
+				<li><a href="all-courses" title="All courses ">All courses </a>
 				</li>
-				<li><a href="#" title="Course detail ">Course detail </a>
+				<li><a href="course-detail" title="Course detail ">Course detail </a>
 				</li>
-				<li><a href="#" title="Meet the team ">Meet the team</a>
+				<li><a href="staff" title="Meet the team ">Meet the team</a>
 				</li>
-				<li><a href="#" title="Apply for a course ">Apply for a course </a>
+				<li><a href="contact" title="Apply for a course ">Apply for a course </a>
 				</li>
-				<li><a href="#" title="About ">About </a>
+				<li><a href="about-us" title="About ">About </a>
 				</li>
-				<li><a href="#" title="News ">News </a>
+				<li><a href="news-events" title="News ">News </a>
 				</li>
-				<li><a href="#" title="Contact ">Ask for more information </a>
+				<li><a href="contact" title="Contact ">Ask for more information </a>
 				</li>
 			</ul>
 
-			<button type="button" class="btn btn-blue" title="Courses">View all courses</button>			
+			<a href="all-courses" class="btn btn-blue" title="Courses">View all courses</a>			
 		</div>
 
 		<div class="col-md-9 col-xs-10">
@@ -40,7 +40,7 @@
 								<em>Management</em>
 							</h5>
 							<p>An utinam reprimique duo, putant mandamus cu qui. Autem possim his cu, quodsi nominavi fabellas ut sit, mea ea ullum epicurei.</p>
-							<button type="button" class="btn btn-sm btn-red" title="staff">Read more</button>
+							<button type="button" class="btn btn-sm btn-red staff" title="staff">Read more</button>
 						</div>
 						<div class="col-md-4 col-xs-10">
 							<div class="business"></div>
@@ -48,7 +48,7 @@
 								<em>Business</em>
 							</h5>
 							<p>An utinam reprimique duo, putant mandamus cu qui. Autem possim his cu, quodsi nominavi fabellas ut sit, mea ea ullum epicurei.</p>
-							<button type="button" class="btn btn-sm btn-red" title="staff">Read more</button>
+							<button type="button" class="btn btn-sm btn-red staff" title="staff">Read more</button>
 						</div>
 						<div class="col-md-4 col-xs-10">
 							<div class="admin"></div>
@@ -56,7 +56,7 @@
 								<em>Administration</em>
 							</h5>
 							<p>An utinam reprimique duo, putant mandamus cu qui. Autem possim his cu, quodsi nominavi fabellas ut sit, mea ea ullum epicurei.</p>
-							<button type="button" class="btn btn-sm btn-red" title="staff">Read more</button>
+							<button type="button" class="btn btn-sm btn-red staff" title="staff">Read more</button>
 						</div>
 					</div>
 

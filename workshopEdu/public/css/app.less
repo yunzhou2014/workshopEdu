@@ -164,6 +164,9 @@ ul.list-menu {
 #school {
 	.school {
 		background-color: @dark-blue;
+		.btn {
+			color: #fff;
+		}
 
 	}
 }
@@ -281,42 +284,114 @@ ul.list-menu {
 	}
 	.carousel-roll .carousel-inner {
 		.item {
-			opacity: 0.3;
-			//-webkit-transition: all 0.3s linear;
 			.bg {
+				width: 1920px;
+				min-width: 1920px;
 				height: 500px;
+				left: -285.5px;
+				position: relative;
 			}
 		}
 
 		.active, .active.left, .active.right {
-			//-webkit-transform: rotateX(-90deg) translateZ(250px);
-		  opacity: 1;
 		}
 	}
 
 	.flyin-img {
 		transition-property: right, bottom;
 		transition-duration: 1s, 1s;
-		transition-timing-function: ease-in 3s;
-		transition-delay: 2s;
-		bottom: 0;
+		transition-timing-function: ease-in;
+		transition-delay: 0.5s;
+		bottom: -800px;
 		right: 40%;
 		position: absolute;
-		
 		}
 
-	.active>.flyin-img {
-			bottom: 30%;
+	#icon1 {
+		top: 18%;
+		left: 23%;
+		position: absolute;
+	}
+	#icon2 {
+		bottom: 18%;
+		left: 25%;
+		position: absolute;
+	}
+	#icon3 {
+		top: 18%;
+		right: 30%;
+		position: absolute;
+	}
+	#icon4 {
+		bottom: 20%;
+		right: 30%;
+		position: absolute;
 	}
 
-	/*-webkit-animation: slider-animate 5s linear 0s infinite;*/
+	.active>.flyin-img {
+		bottom: 30%;
+	} 
 
-/*	@-webkit-keyframes slider-animate {
-		0% {background: red;}
-		25% {background: yellow;}
-		50% {background: blue;}
-		100% {background: pink;}
-	}*/
+	.active>#icon1 {
+		-webkit-animation: icon-animate1 2.5s linear;
+	}
+
+	@-webkit-keyframes icon-animate1 {
+		from { 
+			top: -800px;
+			left: -800px;
+		}
+		to { 
+			top: 18%;
+			left: 23%;
+		}
+	}
+
+	.active>#icon2 {
+		-webkit-animation: icon-animate2 3s linear;
+	}
+
+	@-webkit-keyframes icon-animate2 {
+		from { 
+			bottom: -800px;
+			left: -800px;
+		}
+		to { 
+			bottom: 18%;
+			left: 25%;
+		}
+	}
+
+	.active>#icon3 {
+		-webkit-animation: icon-animate3 3.5s linear;
+	}
+
+	@-webkit-keyframes icon-animate3 {
+		from { 
+			top: -800px;
+			right: -800px;
+		}
+		to { 
+			top: 18%;
+			right: 30%;
+		}
+	}
+
+	.active>#icon4 {
+		-webkit-animation: icon-animate4 4s linear;
+	}
+
+	@-webkit-keyframes icon-animate4 {
+		from { 
+			bottom: -800px;
+			right: -800px;
+		}
+		to { 
+			bottom: 20%;
+			right: 30%;
+		}
+	}
+
 	.caption {
 		position: absolute;
 		bottom: 30%;
@@ -350,6 +425,7 @@ ul.list-menu {
 
 	.box {
 		a {
+			-webkit-box-shadow: 0 10px 12px -6px rgba(000, 000, 000, 0.4), inset 0 0 0 5px rgba(255, 255, 255, 0.1);
 			display: block;
 			font-size: 14px;
 			text-shadow: 1px 1px 0 px rgba(0,0,0,.3);
@@ -375,12 +451,11 @@ ul.list-menu {
 			vertical-align: middle;
 		}
 	}
-	.green {
-		a:hover {
-			transition: background-color .8s;
-			background-color: #669933;
-		}
+	.green a:hover {
+		transition: background-color .8s;
+		background-color: #669933;
 	}
+
 	.orange a:hover {
 		transition: background-color .8s;
 		background-color: #F60;
