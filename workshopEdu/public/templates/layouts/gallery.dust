@@ -1,6 +1,127 @@
 {>"layouts/master" /}
 
 {<body}
-  <h3>Gallery</h3>
-	<p>Lorem ipsum dolor sit amet, dicta aliquip ad vix, ne sit everti corpora. Qui cu eros feugiat, elitr iudico ad pri.</p>
+
+<div class="container gallery">
+	<div class="row">
+	  <h1>Gallery page</h1>
+	  <ol class="breadcrumb">
+		  <li><a href="/">Home</a></li>
+		  <li class="active">Gallery</li>
+		</ol>
+		
+		<div class="col-lg-4 col-xs-10">
+			<div class="col-left">
+				<h4>Photo and video Gallery</h4>
+				<p>Suspendisse quis risus turpis, ut pharetra arcu. Donec adipiscing, quam non faucibus luctus, mi arcu blandit diam, at faucibus mi ante vel augue.</p>
+				<h6>We are looking for</h6>
+				<ul class="list">			
+					<li>Vivamus sagittis lacus vel augue laoreet </li><li>Nullam quis risus eget urna mollis</li>
+					<li>Nullam id dolor id nibh ultricies</li>
+					<li>Donec id elit non mi porta</li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="col-lg-8 col-xs-10">
+			<div class="col-right">
+				<div class="row">
+					<div class="col-lg-4 col-xs-10">
+						<a href="http://www.ansonika.com/edu/img/gallery/1.jpg" title="Title" class="thumbnail">
+							<span class="photo_icon"></span>
+							<img src="http://www.ansonika.com/edu/img/gallery/1.jpg" alt>
+						</a>
+					</div>
+					<div class="col-lg-4 col-xs-10">
+						<a href="http://www.ansonika.com/edu/img/gallery/2.jpg" title="Title" class="thumbnail">
+							<span class="photo_icon"></span>
+							<img src="http://www.ansonika.com/edu/img/gallery/2.jpg" alt>
+						</a>
+					</div>
+					<div class="col-lg-4 col-xs-10">
+						<a href="http://www.youtube.com/watch?v=opj24KnzrWo" title="Title" class="thumbnail">
+							<span class="video_icon"></span>
+							<img src="http://www.ansonika.com/edu/img/gallery/3.jpg" alt>
+						</a>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-lg-4 col-xs-10">
+						<a href="http://vimeo.com/36031564" title="Title" class="thumbnail">
+							<span class="photo_icon"></span>
+							<img src="http://www.ansonika.com/edu/img/gallery/4.jpg" alt>
+						</a>
+					</div>
+					<div class="col-lg-4 col-xs-10">
+						<a href="http://www.ansonika.com/edu/img/gallery/5.jpg" title="Title" class="thumbnail">
+							<span class="photo_icon"></span>
+							<img src="http://www.ansonika.com/edu/img/gallery/5.jpg" alt>
+						</a>
+					</div>
+					<div class="col-lg-4 col-xs-10">
+						<a href="http://www.ansonika.com/edu/img/gallery/6.jpg" title="Title" class="thumbnail">
+							<span class="photo_icon"></span>
+							<img src="http://www.ansonika.com/edu/img/gallery/6.jpg" alt>
+						</a>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-lg-4 col-xs-10">
+						<a href="http://www.ansonika.com/edu/img/gallery/4.jpg" title="Title" class="thumbnail">
+								<span class="photo_icon"></span>
+								<img src="http://www.ansonika.com/edu/img/gallery/4.jpg" alt>
+							</a>
+					</div>
+					<div class="col-lg-4 col-xs-10">
+						<a href="http://www.ansonika.com/edu/img/gallery/5.jpg" title="Title" class="thumbnail">
+								<span class="photo_icon"></span>
+								<img src="http://www.ansonika.com/edu/img/gallery/5.jpg" alt>
+							</a>
+					</div>
+					<div class="col-lg-4 col-xs-10">
+						<a href="http://www.ansonika.com/edu/img/gallery/6.jpg" title="Title" class="thumbnail">
+								<span class="photo_icon"></span>
+								<img src="http://www.ansonika.com/edu/img/gallery/6.jpg" alt>
+							</a>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-lg-4 col-xs-10">
+						<a href="http://www.ansonika.com/edu/img/gallery/7.jpg" title="Title" class="thumbnail">
+								<span class="photo_icon"></span>
+								<img src="http://www.ansonika.com/edu/img/gallery/7.jpg" alt>
+							</a>
+					</div>
+					<div class="col-lg-4 col-xs-10">
+						<a href="http://www.ansonika.com/edu/img/gallery/7.jpg" title="Title" class="thumbnail">
+								<span class="photo_icon"></span>
+								<img src="http://www.ansonika.com/edu/img/gallery/7.jpg" alt>
+							</a>
+					</div>
+					<div class="col-lg-4 col-xs-10">
+						<a href="http://www.ansonika.com/edu/img/gallery/7.jpg" title="Title" class="thumbnail">
+								<span class="photo_icon"></span>
+								<img src="http://www.ansonika.com/edu/img/gallery/7.jpg" alt>
+							</a>
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+	</div>
+	
+	<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">         
+        <div class="modal-body">                
+        </div>
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+  </div><!-- /.modal -->
+</div>
+
 {/body}

@@ -90,6 +90,7 @@ header,section,nav {
 
 .btn-red {
 	background-color: @button-red;
+	color: #fff;
 }
 
 .btn-red:hover {
@@ -144,6 +145,14 @@ ul.list-menu {
 	}
 }
 
+ul.list {
+	list-style: none;
+	li {
+		background: url(http://www.ansonika.com/edu/img/arrow_2.png) no-repeat 3px 5px;
+		padding-left: 20px;
+	}
+}
+
 #courses {
 	.courses {
 		background-color: @dark-blue;
@@ -164,10 +173,6 @@ ul.list-menu {
 #school {
 	.school {
 		background-color: @dark-blue;
-		.btn {
-			color: #fff;
-		}
-
 	}
 }
 
@@ -305,7 +310,7 @@ ul.list-menu {
 		bottom: -800px;
 		right: 40%;
 		position: absolute;
-		}
+	}
 
 	#icon1 {
 		top: 18%;
@@ -464,4 +469,53 @@ ul.list-menu {
 		transition: background-color .8s;
 		background-color: #ff6666;
 	}
+}
+
+footer {
+}
+
+.gallery {
+
+	.col-left {
+		padding: 30px 30px 15px 30px;
+		background-color: #fff;
+		border: 1px solid #e2e2e2;
+		border-radius: 5px;
+		margin-bottom: 30px;
+	}
+	.col-right {
+		.col-left;
+	}
+	.thumbnail
+	{	
+		border: 0px;
+		/*img { 
+			min-height:168px;
+			height:168px;
+		}*/
+	} 
+	.photo-icon {
+		background: url(http://www.ansonika.com/edu/img/zoom_1.png) no-repeat 10px 10px;
+		position: absolute;
+		width: 100%;
+		z-index: 1;
+	}
+
+	.video-icon {
+		background: url(http://www.ansonika.com/edu/img/icon_play.png) no-repeat 10px 10px;
+		position: absolute;
+		width: 100%;
+		z-index: 1;
+	}
+
+	a:hover {
+		.photo-icon, .video-icon {
+			display: inline;
+		}
+	}
+	
+}
+
+body.modal-open {
+	overflow: scroll;
 }
