@@ -96,20 +96,129 @@
 </section>
 
 
-	<div class="container">
-		<div class="row">
-			<div class="col-md-4 col-xs-10">
-				<div class="ribbon-box">
+<div class="container">
+	<div class="row">
+		<div class="col-md-4 col-xs-10">
+			<div class="ribbon-box">
+				<div class="feat">
+					<i class="fa fa-group fa-3x"></i>
 					<h3>Expert teachers</h3>
+					<p>An utinam reprimique duo, putant mandamus cu qui. Autem possim his cu, quodsi nominavi fabellas ut sit, mea ea ullum epicurei. </p>
+
+					<hr class="double">
+					
+					<i class="fa fa-film fa-3x"></i>
 					<h3>Video Courses</h3>
+					<p>An utinam reprimique duo, putant mandamus cu qui. Autem possim his cu, quodsi nominavi fabellas ut sit, mea ea ullum epicurei. </p>
+
+					<hr class="double">
+
+					<i class="fa fa-book fa-3x"></i>
 					<h3>Library</h3>
+					<p>An utinam reprimique duo, putant mandamus cu qui. Autem possim his cu, quodsi nominavi fabellas ut sit, mea ea ullum epicurei. </p>
+
+					<hr class="double">
+
+					<i class="fa fa-laptop fa-3x"></i>
 					<h3>Online courses</h3>
+					<p>An utinam reprimique duo, putant mandamus cu qui. Autem possim his cu, quodsi nominavi fabellas ut sit, mea ea ullum epicurei. </p>
 				</div>
 			</div>
-			<div class="col-md-8 col-xs-10">
-				
+			<p><a href="all-courses" title="All courses"><img src="http://www.ansonika.com/edu/img/banner.jpg" alt="Banner" class="img-rounded"></a></p>
+		</div>
+		<div class="col-md-8 col-xs-10">
+			<div class="col-right">
+				<h2>Upcoming courses</h2>
+				<p>An utinam reprimique duo, putant mandamus cu qui. Autem possim his cu, quodsi nominavi fabellas ut sit, mea ea ullum epicurei. Saepe tantas ocurreret duo ea, has facilisi vulputate an. Priaeque iuvaret nominati et, ad mea clita numquam. Maluisset dissentiunt et per, dico liber erroribus vis te. Dolor consul graecis nec ut, scripta eruditi scriptorem et nam.</p>
+				<hr>
+
+				<div class="strip-lessons">
+					<div class="row">
+						<div class="col-md-3 col-xs-10">
+							<div class="box-course"><img src="http://www.ansonika.com/edu/img/lessons.png" alt=""><h5>Intro</h5></div>
+						</div>
+						<div class="col-md-9 col-xs-10">
+							<h4>Autem possim his</h4>
+							<p>An utinam reprimique duo, putant mandamus cu qui. Autem possim his cu, quodsi nominavi fabellas ut sit, <strong>mea ea ullum epicurei</strong>. Saepe tantas ocurreret duo ea, has facilisi vulputate an. Pri aeque iuvaret nominati et, ad mea clita numquam. </p>
+							<ul class="data-lessons">
+              	<li><i class="fa fa-clock-o"></i>&nbsp;Duration: 3 hours</li>
+                  <li><i class="fa fa-film"></i>&nbsp;<a class="fancybox-media" href="http://www.youtube.com/embed/pgk-719mTxM" rel="media-gallery">Play video</a></li>
+                  <li><i class="fa fa-cloud-download"></i>&nbsp;<a href="#">Donwload prospect</a></li>
+               </ul>
+						</div>
+					</div>
+				</div>
+
+				<div class="strip-lessons">
+					<div class="row">
+						<div class="col-md-3 col-xs-10">
+							<div class="box-course"><img src="http://www.ansonika.com/edu/img/teacher.jpg" alt="" class=""><h5>lesson one</h5></div>
+						</div>
+						<div class="col-md-9 col-xs-10">
+							<h4>Autem possim his</h4>
+							<p>An utinam reprimique duo, putant mandamus cu qui. Autem possim his cu, quodsi nominavi fabellas ut sit, <strong>mea ea ullum epicurei</strong>. Saepe tantas ocurreret duo ea, has facilisi vulputate an. Pri aeque iuvaret nominati et, ad mea clita numquam. </p>
+							<ul class="data-lessons">
+              	<li><i class="fa fa-clock-o"></i>&nbsp;Duration: 3 hours</li>
+                  <li><i class="fa fa-film"></i>&nbsp;<a class="fancybox-media" href="http://www.youtube.com/embed/pgk-719mTxM" rel="media-gallery">Play video</a></li>
+                  <li><i class="fa fa-cloud-download"></i>&nbsp;<a href="#">Donwload prospect</a></li>
+               </ul>
+						</div>
+					</div>
+				</div>
+
+				<div class="strip-lessons">
+					<div class="row">
+						<div class="col-md-3 col-xs-10">
+							<div class="box-course"><img src="http://www.ansonika.com/edu/img/teacher-2.jpg" alt=""><h5>lesson two</h5></div>
+						</div>
+						<div class="col-md-9 col-xs-10">
+							<h4>Autem possim his</h4>
+							<p>An utinam reprimique duo, putant mandamus cu qui. Autem possim his cu, quodsi nominavi fabellas ut sit, <strong>mea ea ullum epicurei</strong>. Saepe tantas ocurreret duo ea, has facilisi vulputate an. Pri aeque iuvaret nominati et, ad mea clita numquam. </p>
+							<ul class="data-lessons">
+	            	<li><i class="fa fa-clock-o"></i>&nbsp;Duration: 3 hours</li>
+	                <li><i class="fa fa-film"></i>&nbsp;<a class="fancybox-media" href="http://www.youtube.com/embed/pgk-719mTxM" rel="media-gallery">Play video</a></li>
+	                <li><i class="fa fa-cloud-download"></i>&nbsp;<a href="#">Donwload prospect</a></li>
+	             </ul>
+						</div>
+					</div>
+				</div>
+
+				<div class="strip-lessons">
+					<div class="row">
+						<div class="col-md-3 col-xs-10">
+							<div class="box-course"><img src="http://www.ansonika.com/edu/img/teacher-3.jpg" alt=""><h5>lesson three</h5></div>
+						</div>
+						<div class="col-md-9 col-xs-10">
+							<h4>Autem possim his</h4>
+							<p>An utinam reprimique duo, putant mandamus cu qui. Autem possim his cu, quodsi nominavi fabellas ut sit, <strong>mea ea ullum epicurei</strong>. Saepe tantas ocurreret duo ea, has facilisi vulputate an. Pri aeque iuvaret nominati et, ad mea clita numquam. </p>
+							<ul class="data-lessons">
+	            	<li><i class="fa fa-clock-o"></i>&nbsp;Duration: 3 hours</li>
+	                <li><i class="fa fa-film"></i>&nbsp;<a class="fancybox-media" href="http://www.youtube.com/embed/pgk-719mTxM" rel="media-gallery">Play video</a></li>
+	                <li><i class="fa fa-cloud-download"></i>&nbsp;<a href="#">Donwload prospect</a></li>
+	            </ul>
+						</div>
+					</div>
+				</div>
+				<p class="text-center">
+				<a href="contact" class="btn btn-blue btn-lg">View all courses</a>
+			</p>
 			</div>
 		</div>
 	</div>
+	
 
+	<div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+
+      <div class="modal-content">  
+      	<div class="modal-header">
+      		<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+      	</div>
+        <div class="modal-body">  
+        	
+        </div>
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+  </div><!-- /.modal -->
+	</div>
 {/body}

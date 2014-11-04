@@ -116,94 +116,109 @@ hr {
   border-bottom: 1px solid #414750;
 }
 /* line 120, e:\workshopEdu\workshopEdu\css\app */
+hr.double {
+  margin: 10px 0 20px 0;
+  border: 0;
+  border-top: 1px solid #cedee7;
+  border-bottom: 1px solid #fff;
+}
+/* line 127, e:\workshopEdu\workshopEdu\css\app */
 h4 {
   margin: 0 0 10px 0;
 }
-/* line 124, e:\workshopEdu\workshopEdu\css\app */
+/* line 131, e:\workshopEdu\workshopEdu\css\app */
 h5 {
   margin: 0 0 10px 0;
   font-weight: bold;
 }
-/* line 129, e:\workshopEdu\workshopEdu\css\app */
+/* line 136, e:\workshopEdu\workshopEdu\css\app */
 ul.list-menu {
   list-style-type: none;
   margin: 0 0 20px 0;
   padding-left: 5px;
 }
-/* line 133, e:\workshopEdu\workshopEdu\css\app */
+/* line 140, e:\workshopEdu\workshopEdu\css\app */
 ul.list-menu li {
   background: url(http://www.ansonika.com/edu/img/arrow-2.png) no-repeat center left;
   padding-left: 12px;
 }
-/* line 137, e:\workshopEdu\workshopEdu\css\app */
+/* line 144, e:\workshopEdu\workshopEdu\css\app */
 ul.list-menu a {
   color: #12b0e6;
 }
-/* line 142, e:\workshopEdu\workshopEdu\css\app */
+/* line 149, e:\workshopEdu\workshopEdu\css\app */
 ul.list-menu a:hover {
   color: #fff;
   text-decoration: none;
 }
-/* line 148, e:\workshopEdu\workshopEdu\css\app */
+/* line 155, e:\workshopEdu\workshopEdu\css\app */
 ul.list {
   list-style: none;
 }
-/* line 150, e:\workshopEdu\workshopEdu\css\app */
+/* line 157, e:\workshopEdu\workshopEdu\css\app */
 ul.list li {
   background: url(http://www.ansonika.com/edu/img/arrow_2.png) no-repeat 3px 5px;
   padding-left: 20px;
 }
-/* line 157, e:\workshopEdu\workshopEdu\css\app */
+/* line 163, e:\workshopEdu\workshopEdu\css\app */
+.col-left {
+  padding: 30px 30px 15px 30px;
+  background-color: #fff;
+  border: 1px solid #e2e2e2;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+/* line 172, e:\workshopEdu\workshopEdu\css\app */
 #courses .courses {
   background-color: #2d343e;
 }
-/* line 161, e:\workshopEdu\workshopEdu\css\app */
+/* line 176, e:\workshopEdu\workshopEdu\css\app */
 #courses .courses h5 a {
   color: #12b0e6;
 }
-/* line 164, e:\workshopEdu\workshopEdu\css\app */
+/* line 179, e:\workshopEdu\workshopEdu\css\app */
 #courses .courses h5 a:hover {
   color: #fff;
   text-decoration: none;
 }
-/* line 174, e:\workshopEdu\workshopEdu\css\app */
+/* line 189, e:\workshopEdu\workshopEdu\css\app */
 #school .school {
   background-color: #2d343e;
 }
-/* line 181, e:\workshopEdu\workshopEdu\css\app */
+/* line 196, e:\workshopEdu\workshopEdu\css\app */
 #about .about {
   background-color: #2d343e;
 }
-/* line 184, e:\workshopEdu\workshopEdu\css\app */
+/* line 199, e:\workshopEdu\workshopEdu\css\app */
 #about .about .nav.nav-tabs {
   border-bottom: 2px solid #414750;
 }
-/* line 187, e:\workshopEdu\workshopEdu\css\app */
+/* line 202, e:\workshopEdu\workshopEdu\css\app */
 #about .about .nav.nav-tabs li.active a {
   color: #fff;
   background-color: #0f91bd;
 }
-/* line 192, e:\workshopEdu\workshopEdu\css\app */
+/* line 207, e:\workshopEdu\workshopEdu\css\app */
 #about .about .nav.nav-tabs li {
   background-color: #424952;
 }
-/* line 194, e:\workshopEdu\workshopEdu\css\app */
+/* line 209, e:\workshopEdu\workshopEdu\css\app */
 #about .about .nav.nav-tabs li a {
   color: #12b0e6;
 }
-/* line 197, e:\workshopEdu\workshopEdu\css\app */
+/* line 212, e:\workshopEdu\workshopEdu\css\app */
 #about .about .nav.nav-tabs li a:hover {
   color: #fff;
   background-color: #424952;
 }
-/* line 206, e:\workshopEdu\workshopEdu\css\app */
+/* line 221, e:\workshopEdu\workshopEdu\css\app */
 #about .about .tab-content #staff .management {
   height: 150px;
   border-radius: 10px;
   margin: 10px 10px;
   background: url(http://www.ansonika.com/edu/img/teacher-small.jpg) no-repeat;
 }
-/* line 212, e:\workshopEdu\workshopEdu\css\app */
+/* line 227, e:\workshopEdu\workshopEdu\css\app */
 #about .about .tab-content #staff .business {
   height: 150px;
   border-radius: 10px;
@@ -211,7 +226,7 @@ ul.list li {
   background: url(http://www.ansonika.com/edu/img/teacher-small.jpg) no-repeat;
   background: url(http://www.ansonika.com/edu/img/teacher-small-2.jpg) no-repeat;
 }
-/* line 216, e:\workshopEdu\workshopEdu\css\app */
+/* line 231, e:\workshopEdu\workshopEdu\css\app */
 #about .about .tab-content #staff .admin {
   height: 150px;
   border-radius: 10px;
@@ -219,18 +234,18 @@ ul.list li {
   background: url(http://www.ansonika.com/edu/img/teacher-small.jpg) no-repeat;
   background: url(http://www.ansonika.com/edu/img/teacher-small-3.jpg) no-repeat;
 }
-/* line 220, e:\workshopEdu\workshopEdu\css\app */
+/* line 235, e:\workshopEdu\workshopEdu\css\app */
 #about .about .tab-content #staff h5 em {
   display: block;
   font-weight: normal;
   color: #999;
   font-size: 12px;
 }
-/* line 232, e:\workshopEdu\workshopEdu\css\app */
+/* line 247, e:\workshopEdu\workshopEdu\css\app */
 #pages .pages {
   background-color: #2d343e;
 }
-/* line 234, e:\workshopEdu\workshopEdu\css\app */
+/* line 249, e:\workshopEdu\workshopEdu\css\app */
 #pages .pages a {
   display: block;
   background-color: #424952;
@@ -243,49 +258,53 @@ ul.list li {
   -webkit-box-shadow: inset 0 0 0 3px rgba(255, 255, 255, 0.1);
   box-shadow: inset 0 0 0 3px rgba(255, 255, 255, 0.1);
 }
-/* line 247, e:\workshopEdu\workshopEdu\css\app */
+/* line 262, e:\workshopEdu\workshopEdu\css\app */
 #pages .pages a i {
   float: right;
   margin: -10px 0 0 0;
 }
-/* line 252, e:\workshopEdu\workshopEdu\css\app */
+/* line 267, e:\workshopEdu\workshopEdu\css\app */
 #pages .pages a:hover {
   transition: background .5s;
   background-color: #0099cc;
   text-decoration: none;
 }
-/* line 260, e:\workshopEdu\workshopEdu\css\app */
+/* line 275, e:\workshopEdu\workshopEdu\css\app */
 #simple-drop {
   background-color: #0099cc;
   margin-top: 5px;
   border-radius: 10px;
 }
-/* line 264, e:\workshopEdu\workshopEdu\css\app */
+/* line 279, e:\workshopEdu\workshopEdu\css\app */
 #simple-drop li a {
   color: #fff;
 }
-/* line 270, e:\workshopEdu\workshopEdu\css\app */
+/* line 285, e:\workshopEdu\workshopEdu\css\app */
 #contacts .contacts {
   background-color: #2d343e;
 }
-/* line 272, e:\workshopEdu\workshopEdu\css\app */
+/* line 287, e:\workshopEdu\workshopEdu\css\app */
 #contacts .contacts ul {
   list-style-type: none;
   padding-left: 0px;
 }
-/* line 275, e:\workshopEdu\workshopEdu\css\app */
+/* line 290, e:\workshopEdu\workshopEdu\css\app */
 #contacts .contacts ul .glyphicon {
   margin-right: .4em;
 }
-/* line 278, e:\workshopEdu\workshopEdu\css\app */
+/* line 293, e:\workshopEdu\workshopEdu\css\app */
 #contacts .contacts ul li a {
   color: #12b0e6;
 }
-/* line 287, e:\workshopEdu\workshopEdu\css\app */
+/* line 296, e:\workshopEdu\workshopEdu\css\app */
+#contacts .contacts ul li a:hover {
+  color: #fff;
+}
+/* line 305, e:\workshopEdu\workshopEdu\css\app */
 .slider .carousel {
   height: 500px;
 }
-/* line 292, e:\workshopEdu\workshopEdu\css\app */
+/* line 310, e:\workshopEdu\workshopEdu\css\app */
 .slider .carousel-roll .carousel-inner .item .bg {
   width: 1920px;
   min-width: 1920px;
@@ -293,7 +312,7 @@ ul.list li {
   left: -285.5px;
   position: relative;
 }
-/* line 305, e:\workshopEdu\workshopEdu\css\app */
+/* line 323, e:\workshopEdu\workshopEdu\css\app */
 .slider .flyin-img {
   transition-property: right, bottom;
   transition-duration: 1s, 1s;
@@ -303,105 +322,105 @@ ul.list li {
   right: 40%;
   position: absolute;
 }
-/* line 315, e:\workshopEdu\workshopEdu\css\app */
+/* line 333, e:\workshopEdu\workshopEdu\css\app */
 .slider #icon1 {
   top: 18%;
   left: 23%;
   position: absolute;
 }
-/* line 320, e:\workshopEdu\workshopEdu\css\app */
+/* line 338, e:\workshopEdu\workshopEdu\css\app */
 .slider #icon2 {
   bottom: 18%;
   left: 25%;
   position: absolute;
 }
-/* line 325, e:\workshopEdu\workshopEdu\css\app */
+/* line 343, e:\workshopEdu\workshopEdu\css\app */
 .slider #icon3 {
   top: 18%;
   right: 30%;
   position: absolute;
 }
-/* line 330, e:\workshopEdu\workshopEdu\css\app */
+/* line 348, e:\workshopEdu\workshopEdu\css\app */
 .slider #icon4 {
   bottom: 20%;
   right: 30%;
   position: absolute;
 }
-/* line 336, e:\workshopEdu\workshopEdu\css\app */
+/* line 354, e:\workshopEdu\workshopEdu\css\app */
 .slider .active > .flyin-img {
   bottom: 30%;
 }
-/* line 340, e:\workshopEdu\workshopEdu\css\app */
+/* line 358, e:\workshopEdu\workshopEdu\css\app */
 .slider .active > #icon1 {
   -webkit-animation: icon-animate1 2.5s linear;
 }
 @-webkit-keyframes icon-animate1 {
-  /* line 345, e:\workshopEdu\workshopEdu\css\app */
+  /* line 363, e:\workshopEdu\workshopEdu\css\app */
   from {
     top: -800px;
     left: -800px;
   }
-  /* line 349, e:\workshopEdu\workshopEdu\css\app */
+  /* line 367, e:\workshopEdu\workshopEdu\css\app */
   to {
     top: 18%;
     left: 23%;
   }
 }
-/* line 355, e:\workshopEdu\workshopEdu\css\app */
+/* line 373, e:\workshopEdu\workshopEdu\css\app */
 .slider .active > #icon2 {
   -webkit-animation: icon-animate2 3s linear;
 }
 @-webkit-keyframes icon-animate2 {
-  /* line 360, e:\workshopEdu\workshopEdu\css\app */
+  /* line 378, e:\workshopEdu\workshopEdu\css\app */
   from {
     bottom: -800px;
     left: -800px;
   }
-  /* line 364, e:\workshopEdu\workshopEdu\css\app */
+  /* line 382, e:\workshopEdu\workshopEdu\css\app */
   to {
     bottom: 18%;
     left: 25%;
   }
 }
-/* line 370, e:\workshopEdu\workshopEdu\css\app */
+/* line 388, e:\workshopEdu\workshopEdu\css\app */
 .slider .active > #icon3 {
   -webkit-animation: icon-animate3 3.5s linear;
 }
 @-webkit-keyframes icon-animate3 {
-  /* line 375, e:\workshopEdu\workshopEdu\css\app */
+  /* line 393, e:\workshopEdu\workshopEdu\css\app */
   from {
     top: -800px;
     right: -800px;
   }
-  /* line 379, e:\workshopEdu\workshopEdu\css\app */
+  /* line 397, e:\workshopEdu\workshopEdu\css\app */
   to {
     top: 18%;
     right: 30%;
   }
 }
-/* line 385, e:\workshopEdu\workshopEdu\css\app */
+/* line 403, e:\workshopEdu\workshopEdu\css\app */
 .slider .active > #icon4 {
   -webkit-animation: icon-animate4 4s linear;
 }
 @-webkit-keyframes icon-animate4 {
-  /* line 390, e:\workshopEdu\workshopEdu\css\app */
+  /* line 408, e:\workshopEdu\workshopEdu\css\app */
   from {
     bottom: -800px;
     right: -800px;
   }
-  /* line 394, e:\workshopEdu\workshopEdu\css\app */
+  /* line 412, e:\workshopEdu\workshopEdu\css\app */
   to {
     bottom: 20%;
     right: 30%;
   }
 }
-/* line 400, e:\workshopEdu\workshopEdu\css\app */
+/* line 418, e:\workshopEdu\workshopEdu\css\app */
 .slider .caption {
   position: absolute;
   bottom: 30%;
   right: 10%;
 }
-/* line 405, e:\workshopEdu\workshopEdu\css\app */
+/* line 423, e:\workshopEdu\workshopEdu\css\app */
 .slider .caption .caption-text {
   text-shadow: none;
   font-weight: 800;
@@ -415,18 +434,18 @@ ul.list li {
   padding: 0 15px;
   background-color: #2d343e;
 }
-/* line 419, e:\workshopEdu\workshopEdu\css\app */
+/* line 437, e:\workshopEdu\workshopEdu\css\app */
 .slider .caption .btn.btn-blue.btn-lg {
   float: right;
 }
-/* line 425, e:\workshopEdu\workshopEdu\css\app */
+/* line 443, e:\workshopEdu\workshopEdu\css\app */
 .main-boxes {
   margin-top: -35px;
   position: relative;
   z-index: 1;
   margin-bottom: 35px;
 }
-/* line 432, e:\workshopEdu\workshopEdu\css\app */
+/* line 450, e:\workshopEdu\workshopEdu\css\app */
 .main-boxes .box a {
   -webkit-box-shadow: 0 10px 12px -6px rgba(0, 0, 0, 0.4), inset 0 0 0 5px rgba(255, 255, 255, 0.1);
   display: block;
@@ -440,7 +459,7 @@ ul.list li {
   margin-bottom: 15px;
   border-radius: 5px;
 }
-/* line 445, e:\workshopEdu\workshopEdu\css\app */
+/* line 463, e:\workshopEdu\workshopEdu\css\app */
 .main-boxes .box h3 {
   margin-top: 0px;
   margin-bottom: 0px;
@@ -448,37 +467,173 @@ ul.list li {
   font-size: 28px;
   font-weight: bold;
 }
-/* line 452, e:\workshopEdu\workshopEdu\css\app */
+/* line 470, e:\workshopEdu\workshopEdu\css\app */
 .main-boxes .box img {
   float: right;
   height: auto;
   border: 0;
   vertical-align: middle;
 }
-/* line 459, e:\workshopEdu\workshopEdu\css\app */
+/* line 477, e:\workshopEdu\workshopEdu\css\app */
 .main-boxes .green a:hover {
   transition: background-color 0.8s;
   background-color: #669933;
 }
-/* line 464, e:\workshopEdu\workshopEdu\css\app */
+/* line 482, e:\workshopEdu\workshopEdu\css\app */
 .main-boxes .orange a:hover {
   transition: background-color 0.8s;
   background-color: #F60;
 }
-/* line 468, e:\workshopEdu\workshopEdu\css\app */
+/* line 486, e:\workshopEdu\workshopEdu\css\app */
 .main-boxes .red a:hover {
   transition: background-color 0.8s;
   background-color: #ff6666;
 }
-/* line 479, e:\workshopEdu\workshopEdu\css\app */
-.gallery .col-left {
+/* line 492, e:\workshopEdu\workshopEdu\css\app */
+.ribbon-box {
+  background: #eaf9ff url(http://www.ansonika.com/edu/img/sticker-1.png) no-repeat top right;
+  padding: 30px 30px 10px 30px;
+  -webkit-box-shadow: inset 0 0 0 5px rgba(200, 200, 200, 0.1), 0 0 3px 0 rgba(0, 0, 0, 0.35);
+  border: 1px solid #fff;
+  border-radius: 5px;
+  color: #2e415c;
+  position: relative;
+  margin-bottom: 20px;
+}
+/* line 502, e:\workshopEdu\workshopEdu\css\app */
+.ribbon-box .feat {
+  padding-left: 60px;
+  position: relative;
+  margin-bottom: 20px;
+}
+/* line 507, e:\workshopEdu\workshopEdu\css\app */
+.ribbon-box .feat i {
+  color: #ff6666;
+  position: absolute;
+  left: 0;
+}
+/* line 514, e:\workshopEdu\workshopEdu\css\app */
+.img-rounded {
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+  border: 0;
+}
+/* line 521, e:\workshopEdu\workshopEdu\css\app */
+.col-right {
   padding: 30px 30px 15px 30px;
   background-color: #fff;
   border: 1px solid #e2e2e2;
   border-radius: 5px;
   margin-bottom: 30px;
+  margin-bottom: 60px;
 }
-/* line 486, e:\workshopEdu\workshopEdu\css\app */
+/* line 524, e:\workshopEdu\workshopEdu\css\app */
+.col-right .strip-lessons {
+  border-bottom: 1px solid #eeeeee;
+  margin-bottom: 30px;
+  padding-bottom: 10px;
+}
+/* line 529, e:\workshopEdu\workshopEdu\css\app */
+.col-right .box-course {
+  border-radius: 5px;
+  background: #eaf9ff;
+  position: relative;
+  text-align: center;
+  margin-bottom: 20px;
+}
+/* line 535, e:\workshopEdu\workshopEdu\css\app */
+.col-right .box-course h5 {
+  background: #2d343e;
+  bottom: 0;
+  left: 0;
+  padding: 4px 0;
+  color: #eaf9ff;
+  text-transform: uppercase;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+/* line 545, e:\workshopEdu\workshopEdu\css\app */
+.col-right .box-course img {
+  max-width: 100%;
+}
+/* line 549, e:\workshopEdu\workshopEdu\css\app */
+.col-right ul.data-lessons {
+  margin-left: 0;
+  padding-left: 0;
+}
+/* line 552, e:\workshopEdu\workshopEdu\css\app */
+.col-right ul.data-lessons li {
+  display: inline-block;
+  margin-right: 8px;
+  padding-right: 8px;
+  border-right: 1px solid #ccc;
+  line-height: 16px;
+  zoom: 1;
+}
+/* line 563, e:\workshopEdu\workshopEdu\css\app */
+footer {
+  background-color: #fff;
+  border-top: 1px solid #e0eaf0;
+  padding-top: 60px;
+  padding-bottom: 45px;
+}
+/* line 568, e:\workshopEdu\workshopEdu\css\app */
+footer .brand-footer {
+  text-align: center;
+}
+/* line 571, e:\workshopEdu\workshopEdu\css\app */
+footer .twitter a,
+footer .fb a {
+  padding: 5px 0 0 20px;
+  text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.3);
+  color: #fff;
+  font-weight: bold;
+  font-size: 12px;
+  height: 32px;
+  display: block;
+  text-decoration: none;
+  line-height: 23px;
+}
+/* line 582, e:\workshopEdu\workshopEdu\css\app */
+footer .twitter,
+footer .fb {
+  display: inline-block;
+  position: relative;
+  background: url(http://www.ansonika.com/edu/img/twitter_btn.png) no-repeat;
+  margin-top: 15px;
+  width: 157px;
+  height: 32px;
+}
+/* line 590, e:\workshopEdu\workshopEdu\css\app */
+footer .fb {
+  width: 157px;
+  background: url(http://www.ansonika.com/edu/img/fb_btn.png) no-repeat;
+}
+/* line 594, e:\workshopEdu\workshopEdu\css\app */
+footer ul {
+  list-style-type: none;
+  padding-left: 0px;
+}
+/* line 597, e:\workshopEdu\workshopEdu\css\app */
+footer ul .glyphicon {
+  margin-right: .4em;
+}
+/* line 600, e:\workshopEdu\workshopEdu\css\app */
+footer ul li a {
+  color: #0088cc;
+}
+/* line 603, e:\workshopEdu\workshopEdu\css\app */
+footer ul li a:hover {
+  color: #005580;
+}
+/* line 607, e:\workshopEdu\workshopEdu\css\app */
+footer input {
+  background-color: #fff;
+  border: 1px solid #e2e2e2;
+  box-shadow: 0 0 8px #e3e3e3 inset;
+}
+/* line 617, e:\workshopEdu\workshopEdu\css\app */
 .gallery .col-right {
   padding: 30px 30px 15px 30px;
   background-color: #fff;
@@ -486,7 +641,7 @@ ul.list li {
   border-radius: 5px;
   margin-bottom: 30px;
 }
-/* line 489, e:\workshopEdu\workshopEdu\css\app */
+/* line 620, e:\workshopEdu\workshopEdu\css\app */
 .gallery .thumbnail {
   border: 0px;
   /*img { 
@@ -494,26 +649,37 @@ ul.list li {
 			height:168px;
 		}*/
 }
-/* line 497, e:\workshopEdu\workshopEdu\css\app */
+/* line 628, e:\workshopEdu\workshopEdu\css\app */
 .gallery .photo-icon {
   background: url(http://www.ansonika.com/edu/img/zoom_1.png) no-repeat 10px 10px;
   position: absolute;
   width: 100%;
-  z-index: 1;
+  display: none;
+  z-index: 10;
 }
-/* line 504, e:\workshopEdu\workshopEdu\css\app */
+/* line 636, e:\workshopEdu\workshopEdu\css\app */
 .gallery .video-icon {
   background: url(http://www.ansonika.com/edu/img/icon_play.png) no-repeat 10px 10px;
   position: absolute;
   width: 100%;
-  z-index: 1;
+  display: none;
+  z-index: 10;
 }
-/* line 512, e:\workshopEdu\workshopEdu\css\app */
-.gallery a:hover .photo-icon,
-.gallery a:hover .video-icon {
+/* line 645, e:\workshopEdu\workshopEdu\css\app */
+.gallery .thumbnail:hover .photo-icon,
+.gallery .thumbnail:hover .video-icon {
   display: inline;
+  opacity: 1;
 }
-/* line 519, e:\workshopEdu\workshopEdu\css\app */
+/* line 653, e:\workshopEdu\workshopEdu\css\app */
 body.modal-open {
   overflow: scroll;
+}
+/* line 658, e:\workshopEdu\workshopEdu\css\app */
+.calendar .col-right {
+  padding: 30px 30px 15px 30px;
+  background-color: #fff;
+  border: 1px solid #e2e2e2;
+  border-radius: 5px;
+  margin-bottom: 30px;
 }

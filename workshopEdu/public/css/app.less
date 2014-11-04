@@ -117,6 +117,13 @@ hr {
 	border-bottom: 1px solid #414750;
 }
 
+hr.double {
+	margin: 10px 0 20px 0;
+	border: 0;
+	border-top: 1px solid #cedee7;
+	border-bottom: 1px solid #fff;
+}
+
 h4 {
 	margin: 0 0 10px 0;
 }
@@ -136,7 +143,7 @@ ul.list-menu {
 	}
 	a {
 		
-		color: @dropdown-text-blue;			
+		color: @dropdown-text-blue;     
 	}
 
 	a:hover {
@@ -153,13 +160,21 @@ ul.list {
 	}
 }
 
+.col-left {
+	padding: 30px 30px 15px 30px;
+	background-color: #fff;
+	border: 1px solid #e2e2e2;
+	border-radius: 5px;
+	margin-bottom: 30px;
+}
+
 #courses {
 	.courses {
 		background-color: @dark-blue;
 
 		h5 {
 			a {
-				color: @dropdown-text-blue;	
+				color: @dropdown-text-blue; 
 			}
 			a:hover {
 				color: #fff;
@@ -187,7 +202,7 @@ ul.list {
 				a {
 					color: #fff;
 					background-color: @tab-blue;
-				}				
+				}       
 			}
 			li {
 				background-color: #424952;
@@ -211,7 +226,7 @@ ul.list {
 				}
 				.business {
 					.management;
-					background: url(http://www.ansonika.com/edu/img/teacher-small-2.jpg) no-repeat;					
+					background: url(http://www.ansonika.com/edu/img/teacher-small-2.jpg) no-repeat;         
 				}
 				.admin {
 					.management;
@@ -277,6 +292,9 @@ ul.list {
 			}
 			li a {
 				color: @dropdown-text-blue;
+			}
+			li a:hover {
+				color: #fff;
 			}
 		}
 		
@@ -471,23 +489,136 @@ ul.list {
 	}
 }
 
-footer {
+.ribbon-box {
+	background: #eaf9ff url(http://www.ansonika.com/edu/img/sticker-1.png) no-repeat top right;
+	padding: 30px 30px 10px 30px;
+	-webkit-box-shadow: inset 0 0 0 5px rgba(200, 200, 200, 0.1), 0 0 3px 0 rgba(0, 0, 0, 0.35);
+	border: 1px solid #fff;
+	border-radius: 5px;
+	color: #2e415c;
+	position: relative;
+	margin-bottom: 20px;
+
+	.feat {
+		padding-left: 60px;
+		position: relative;
+		margin-bottom: 20px;
+	}
+	.feat i {
+		color: @button-red; 
+		position: absolute;
+		left: 0;
+	}
 }
+
+.img-rounded {
+	height: auto;
+	max-width: 100%;
+	vertical-align: middle;
+	border: 0;
+}
+
+.col-right {
+		.col-left;
+		margin-bottom: 60px;
+		.strip-lessons {
+			border-bottom: 1px solid #eeeeee;
+			margin-bottom: 30px;
+			padding-bottom: 10px;
+		}
+		.box-course {
+			border-radius: 5px;
+			background: #eaf9ff;
+			position: relative;
+			text-align: center;
+			margin-bottom: 20px;
+			h5 {
+				background: #2d343e;
+				bottom: 0;
+				left: 0;
+				padding: 4px 0;
+				color: #eaf9ff;
+				text-transform: uppercase;
+				border-bottom-right-radius: 5px;
+				border-bottom-left-radius: 5px;
+			}
+			img {
+				max-width: 100%;
+			}
+		}
+		ul.data-lessons {
+			margin-left: 0;
+			padding-left: 0;
+			li {
+				display: inline-block;
+				margin-right: 8px;
+				padding-right: 8px;
+				border-right: 1px solid #ccc;
+				line-height: 16px;
+				zoom: 1;
+			}
+		}
+}
+
+footer {
+	background-color: #fff;
+	border-top: 1px solid #e0eaf0;
+	padding-top: 60px;
+	padding-bottom: 45px;
+	.brand-footer {
+		text-align: center;
+	}
+	.twitter a, .fb a {
+		padding: 5px 0 0 20px;
+		text-shadow: -1px -1px 0 rgba(0,0,0,.3);
+		color: #fff;
+		font-weight: bold;
+		font-size: 12px;
+		height: 32px;
+		display: block;
+		text-decoration: none;
+		line-height: 23px;
+	}
+	.twitter, .fb {
+		display: inline-block;
+		position: relative;
+		background: url(http://www.ansonika.com/edu/img/twitter_btn.png) no-repeat;
+		margin-top: 15px;
+		width: 157px;
+		height: 32px;
+	}
+	.fb {
+		width: 157px;
+		background: url(http://www.ansonika.com/edu/img/fb_btn.png) no-repeat;
+	}
+	ul {
+		list-style-type: none;
+		padding-left: 0px;
+		.glyphicon {
+			margin-right: .4em;
+		}
+		li a {
+			color: @footer-blue;
+		}
+		li a:hover {
+			color: #005580;
+		}
+	}
+	input {
+		background-color: #fff;
+		border: 1px solid #e2e2e2;
+		box-shadow: 0 0 8px #e3e3e3 inset;
+	}
+}
+
 
 .gallery {
 
-	.col-left {
-		padding: 30px 30px 15px 30px;
-		background-color: #fff;
-		border: 1px solid #e2e2e2;
-		border-radius: 5px;
-		margin-bottom: 30px;
-	}
 	.col-right {
 		.col-left;
 	}
 	.thumbnail
-	{	
+	{ 
 		border: 0px;
 		/*img { 
 			min-height:168px;
@@ -498,19 +629,22 @@ footer {
 		background: url(http://www.ansonika.com/edu/img/zoom_1.png) no-repeat 10px 10px;
 		position: absolute;
 		width: 100%;
-		z-index: 1;
+		display: none;
+		z-index: 10;
 	}
 
 	.video-icon {
 		background: url(http://www.ansonika.com/edu/img/icon_play.png) no-repeat 10px 10px;
 		position: absolute;
 		width: 100%;
-		z-index: 1;
+		display: none;
+		z-index: 10;
 	}
 
-	a:hover {
+	.thumbnail:hover {
 		.photo-icon, .video-icon {
 			display: inline;
+			opacity: 1;
 		}
 	}
 	
@@ -518,4 +652,10 @@ footer {
 
 body.modal-open {
 	overflow: scroll;
+}
+
+.calendar {
+	.col-right {
+		.col-left;
+	}
 }

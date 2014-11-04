@@ -13,6 +13,10 @@
 	<!-- Optional theme -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
 
+	<!-- full calendar -->
+	<link rel="stylesheet" href="/css/fullcalendar.min.css" />
+	<link rel="stylesheet" href="/css/fullcalendar.print.css" />
+
 	<link rel="stylesheet" href="/css/app.css" />
 
 	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -67,8 +71,8 @@
 			<ul class="nav navbar-nav">
 
 				<li class="dropdown">
-					<a href="#" class="dropdown-toggle" data-toggle="dropdown">COURSES <span class="caret"></span></a>
-					<ul class="dropdown-menu" id="courses" role="menu">
+					<a href="all-courses" class="dropdown-toggle" data-toggle="dropdown">COURSES <span class="caret"></span></a>
+					<ul class="dropdown-menu" id="#" role="menu">
 						<div class="container">
 							{>"pages/courses" /}
 						</div>
@@ -134,18 +138,47 @@
 <footer>
 	<div class="container">
 		<div class="row">
-			<div class="col-md-4 col-xs-10">
+			<div class="col-md-4 col-xs-10 brand-footer">
 				<img src="http://www.ansonika.com/edu/img/logo-footer.jpg" alt="">
 				<p>Copyright © 2013</p>
+				<div class="twitter"><a href="#">Follow on Twitter</a></div>
+				<div class="fb"><a href="#">Follow on Facebook</a></div>
 			</div>
 			<div class="col-md-4 col-xs-10">
 				<h4>Contacts</h4>
+					<ul>
+						<li><i class="fa fa-home"></i>
+						&nbsp;&nbsp;11 Fifth Ave, Loftus - NEW JERSEY, US</li>
+						<li><i class="fa fa-phone"></i>&nbsp;&nbsp;Telephone: + 61 (2) 8093 3400</li>
+						<li><i class="fa fa-phone-square"></i>&nbsp;&nbsp;Fax: +61 (2) 9542 3599</li>
+						<li><i class="fa fa-envelope"></i>&nbsp;&nbsp;Email: <a href="#">submissions@domain.com</a></li>
+					</ul>					
 				<hr>
 				<h4>Newsletter</h4>
+				<p>Donec adipiscing, quam non faucibus luctus, mi arcu blandit diam. Dolor consul graecis nec ut, scripta eruditi scriptorem et nam.</p>
+				<form method="post" action="assets/newsletter.php" name="newsletter" id="newsletter" class="form-inline">
+           <input name="email_newsletter" id="email_newsletter" type="email" value="" placeholder="Your Email">
+           <button id="submit-newsletter" class="btn btn-blue"> Subscribe</button>
+        </form>
 			</div>
 			<div class="col-md-4 col-xs-10">
 				<h4>Quick links</h4>
+					<ul class="list">			
+						<li><a href="#">Admissions </a></li>
+						<li><a href="#">Administration </a></li>
+						<li><a href="#">Courses </a></li>
+						<li><a href="#">Departments and Programs </a></li>
+						<li><a href="#">Summer sessions </a></li>
+					</ul>
 				<hr>
+					<ul class="list">			
+						<li><a href="#">Degrees & Majors </a></li>
+						<li><a href="#">Master's online </a></li>
+						<li><a href="#">Professional Courses </a></li>
+						<li><a href="#">Bacherlor's </a></li>
+						<li><a href="#">Courses </a></li>
+						<li><a href="#">Departments and Programs </a></li>
+					</ul>
 			</div>
 		</div>
 	</div>
@@ -155,8 +188,15 @@
 <script data-main="/js/app" src="/components/requirejs/require.js"></script>
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="/js/moment.min.js"></script>
+<script src="/js/fullcalendar.js"></script>
+
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+<script src="../../js/script.js">
+
+</script>
 
 </html>
