@@ -1,0 +1,18 @@
+{>"layouts/pageTemplate" /}
+
+{<pageTitle}
+About us
+{/pageTitle}
+
+
+{<breadcrume}
+About us
+{/breadcrume}
+
+{<contentLeft}	
+
+{/contentLeft}	
+
+{<contentRight}	
+
+{/contentRight}

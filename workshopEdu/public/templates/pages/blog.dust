@@ -1,0 +1,18 @@
+{>"layouts/pageTemplate" /}
+
+{<pageTitle}
+Blog
+{/pageTitle}
+
+
+{<breadcrume}
+Blog
+{/breadcrume}
+
+{<contentLeft}	
+
+{/contentLeft}	
+
+{<contentRight}	
+
+{/contentRight}

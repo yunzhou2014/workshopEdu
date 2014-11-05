@@ -1,0 +1,18 @@
+{>"layouts/pageTemplate" /}
+
+{<pageTitle}
+Administration
+{/pageTitle}
+
+
+{<breadcrume}
+
+{/breadcrume}
+
+{<contentLeft}	
+
+{/contentLeft}	
+
+{<contentRight}	
+
+{/contentRight}

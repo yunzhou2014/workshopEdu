@@ -1,0 +1,26 @@
+{>"layouts/master" /}
+
+{<body}
+
+<div class="container">
+	<div class="row">	
+	  <h1>{+pageTitle /}</h1>
+	  <ol class="breadcrumb">
+		  <li><a href="/">Home</a></li>
+		  <li class="active">{+breadcrume /}</li>
+		</ol>
+		
+		<div class="col-lg-4 col-xs-10">
+			<div class="col-left">
+				{+contentLeft /}				
+			</div>
+		</div>
+
+		<div class="col-lg-8 col-xs-10">
+			<div class="col-right">
+				{+contentRight /}	
+			</div>
+		</div>
+	</div>
+</div>
+{/body}

@@ -10,50 +10,50 @@ module.exports = function (router) {
     });
 
     router.get('/news-events', function (req, res) {
-        res.render('layouts/newsEvents', model);
+        res.render('pages/newsEvents', model);
     });
 
     router.get('/contact', function (req, res) {
-        res.render('layouts/contact', model);
+        res.render('pages/contact', model);
     });
 
     router.get('/all-courses', function (req, res) {
-        res.render('layouts/allCourses', model);
+        res.render('pages/allCourses', model);
     });
 
     router.get('/course-detail', function (req, res) {
-        res.render('layouts/administration', model);
+        res.render('pages/administration', model);
     });
 
     router.get('/staff', function (req, res) {
-        res.render('layouts/staff', model);
+        res.render('pages/staff', model);
     });
 
     router.get('/about-us', function (req, res) {
-        res.render('layouts/aboutUs', model);
+        res.render('pages/aboutUs', model);
     });
 
     router.get('/blog', function (req, res) {
-        res.render('layouts/blog', model);
+        res.render('pages/blog', model);
     });
 
     router.get('/blog_post', function (req, res) {
-        res.render('layouts/blogPost', model);
+        res.render('pages/blogPost', model);
     });
 
     router.get('/typography', function (req, res) {
-        res.render('layouts/typography', model);
+        res.render('pages/typography', model);
     });
 
     router.get('/javascripts', function (req, res) {
-        res.render('layouts/javascripts', model);
+        res.render('pages/javascripts', model);
     });
     
     router.get('/gallery', function (req, res) {
-        res.render('layouts/gallery', model);
+        res.render('pages/gallery', model);
     });
 
     router.get('/events-calendar', function (req, res) {
-        res.render('layouts/eventsCalendar', model);
+        res.render('pages/eventsCalendar', model);
     });
 };

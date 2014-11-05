@@ -1,0 +1,25 @@
+{>"layouts/pageTemplate" /}
+
+{<pageTitle}
+Events Calendar
+{/pageTitle}
+
+
+{<breadcrume}
+Events Calendar
+{/breadcrume}
+
+{<contentLeft}	
+	<h4>Lorem ipsum</h4>
+	<p>Suspendisse quis risus turpis, ut pharetra arcu. Donec adipiscing, quam non faucibus luctus, mi arcu blandit diam, at faucibus mi ante vel augue.</p>
+	<h6>We are looking for</h6>
+	<ul class="list">			
+		<li>Vivamus sagittis lacus vel augue laoreet </li><li>Nullam quis risus eget urna mollis</li>
+		<li>Nullam id dolor id nibh ultricies</li>
+		<li>Donec id elit non mi porta</li>
+	</ul>
+{/contentLeft}	
+
+{<contentRight}	
+
+{/contentRight}

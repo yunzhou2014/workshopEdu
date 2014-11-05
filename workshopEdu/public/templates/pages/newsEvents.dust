@@ -1,0 +1,18 @@
+{>"layouts/pageTemplate" /}
+
+{<pageTitle}
+News & Events
+{/pageTitle}
+
+
+{<breadcrume}
+All Courses
+{/breadcrume}
+
+{<contentLeft}	
+
+{/contentLeft}	
+
+{<contentRight}	
+
+{/contentRight}

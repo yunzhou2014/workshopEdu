@@ -57,7 +57,7 @@ header,section,nav {
 
 
 .navbar {
-	background-color: @body-blue;
+	background: @body-blue -webkit-linear-gradient(top,rgba(255,255,255,.2) 0%, rgba(0,0,0,.2) 100%);
 	margin-bottom: 0;
 	.navbar-toggle .icon-bar {
 		background-color: #fff;
@@ -73,11 +73,9 @@ header,section,nav {
 			color: #fff;
 		}
 	}
-	.dropdown {
+	#simple-drop {
 		position: absolute;
-	}
-	.dropdown.simple-drop {
-		position: relative;
+
 	}
 
 	.dropdown-menu {
@@ -611,12 +609,23 @@ footer {
 	}
 }
 
+#back-to-top {
+	text-align: center;
+	border: 1px solid #ccc;
+	width: 100px;
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+	text-decoration: none;
+	color: #333;
+	background-color: #f7f7f7;
+  font-size: 11px;
+  padding: 5px;
+  cursor: pointer;
+}
 
 .gallery {
 
-	.col-right {
-		.col-left;
-	}
 	.thumbnail
 	{ 
 		border: 0px;
@@ -654,8 +663,3 @@ body.modal-open {
 	overflow: scroll;
 }
 
-.calendar {
-	.col-right {
-		.col-left;
-	}
-}
