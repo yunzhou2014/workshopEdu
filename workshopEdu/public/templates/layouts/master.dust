@@ -14,8 +14,8 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
 
 	<!-- full calendar -->
-	<link rel="stylesheet" href="/css/fullcalendar.min.css" />
-	<link rel="stylesheet" href="/css/fullcalendar.print.css" />
+	<!--link rel="stylesheet" href="/css/fullcalendar.min.css" />
+	<link rel="stylesheet" href="/css/fullcalendar.print.css" /-->
 
 	<link rel="stylesheet" href="/css/app.css" />
 
@@ -159,7 +159,7 @@
 				<h4>Newsletter</h4>
 				<p>Donec adipiscing, quam non faucibus luctus, mi arcu blandit diam. Dolor consul graecis nec ut, scripta eruditi scriptorem et nam.</p>
 				<form method="post" action="assets/newsletter.php" name="newsletter" id="newsletter" class="form-inline">
-           <input name="email_newsletter" id="email_newsletter" type="email" value="" placeholder="Your Email">
+           <input name="email_newsletter" id="email_newsletter" type="email" value="" placeholder="Your Email" class="form-control"> &nbsp;
            <button id="submit-newsletter" class="btn btn-blue"> Subscribe</button>
         </form>
 			</div>

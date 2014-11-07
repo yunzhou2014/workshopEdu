@@ -66,12 +66,29 @@ require(['jquery'], function ($) {
               });
           });
 
+          $('.fancybox-media-admin').on('click',function(event){
+              event.preventDefault();
+              var src = $(this).attr("href");
+              var video = '<iframe width="100%" height="500" src="' +src + '" frameborder="0" allowfullscreen></iframe>';
+              $('#videoModal-admin').modal();
+              $('#videoModal-admin').on('shown.bs.modal', function(){
+                  $('#videoModal-admin .modal-body').html(video);
+              });
+              $('#videoModal-admin').on('hidden.bs.modal', function(){
+                  $('#videoModal-admin .modal-body').html('');
+              });
+          });
+
           $('#myModal button').on('click', function(){
                 $('#myModal').hide();
           });
 
           $('#videoModal button').on('click', function(){
                 $('#videoModal').hide();
+          })
+
+          $('#videoModal-admin button').on('click', function(){
+                $('#videoModal-admin').hide();
           })
 
           /*$('#calendar').fullCalendar({

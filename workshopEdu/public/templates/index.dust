@@ -152,7 +152,7 @@
 				<div class="strip-lessons">
 					<div class="row">
 						<div class="col-md-3 col-xs-10">
-							<div class="box-course"><img src="http://www.ansonika.com/edu/img/teacher.jpg" alt="" class=""><h5>lesson one</h5></div>
+							<div class="box-course"><img src="http://www.ansonika.com/edu/img/teacher.jpg" alt="" class="picture"><h5>lesson one</h5></div>
 						</div>
 						<div class="col-md-9 col-xs-10">
 							<h4>Autem possim his</h4>
@@ -169,7 +169,7 @@
 				<div class="strip-lessons">
 					<div class="row">
 						<div class="col-md-3 col-xs-10">
-							<div class="box-course"><img src="http://www.ansonika.com/edu/img/teacher-2.jpg" alt=""><h5>lesson two</h5></div>
+							<div class="box-course"><img src="http://www.ansonika.com/edu/img/teacher-2.jpg" alt="" class="picture"><h5>lesson two</h5></div>
 						</div>
 						<div class="col-md-9 col-xs-10">
 							<h4>Autem possim his</h4>
@@ -186,7 +186,7 @@
 				<div class="strip-lessons">
 					<div class="row">
 						<div class="col-md-3 col-xs-10">
-							<div class="box-course"><img src="http://www.ansonika.com/edu/img/teacher-3.jpg" alt=""><h5>lesson three</h5></div>
+							<div class="box-course"><img src="http://www.ansonika.com/edu/img/teacher-3.jpg" alt="" class="picture"><h5>lesson three</h5></div>
 						</div>
 						<div class="col-md-9 col-xs-10">
 							<h4>Autem possim his</h4>

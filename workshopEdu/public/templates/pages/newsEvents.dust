@@ -1,4 +1,4 @@
-{>"layouts/pageTemplate" /}
+{>"layouts/pageWoBanner" /}
 
 {<pageTitle}
 News & Events
