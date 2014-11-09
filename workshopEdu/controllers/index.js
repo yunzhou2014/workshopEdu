@@ -37,7 +37,7 @@ module.exports = function (router) {
         res.render('pages/blog', model);
     });
 
-    router.get('/blog_post', function (req, res) {
+    router.get('/blog-post', function (req, res) {
         res.render('pages/blogPost', model);
     });
 

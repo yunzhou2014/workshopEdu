@@ -6,7 +6,7 @@ Administration
 
 
 {<breadcrume}
-
+Administration
 {/breadcrume}
 
 {<contentLeft}	
@@ -20,11 +20,11 @@ Administration
     <li><a href="course-detail">Counseling (04)</a></li>
     <li><a href="course-detail">Education (06)</a></li>
     <li><a href="course-detail">Engineering (08)</a></li>
-</ul>
-<hr>
-<h5>Upcoming Courses</h5>
-<p>Suspendisse quis risus turpis, ut pharetra arcu. Donec adipiscing, quam non faucibus luctus, mi arcu blandit diam, at faucibus mi ante vel augue.</p>
-<p><a href="#" class="btn btn-red btn-sm">View Courses</a></p>
+	</ul>
+	<hr>
+	<h5>Upcoming Courses</h5>
+	<p>Suspendisse quis risus turpis, ut pharetra arcu. Donec adipiscing, quam non faucibus luctus, mi arcu blandit diam, at faucibus mi ante vel augue.</p>
+	<p><a href="#" class="btn btn-red btn-sm">View Courses</a></p>
 {/contentLeft}	
 
 {<contentRight}	

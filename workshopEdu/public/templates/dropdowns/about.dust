@@ -40,7 +40,7 @@
 								<em>Management</em>
 							</h5>
 							<p>An utinam reprimique duo, putant mandamus cu qui. Autem possim his cu, quodsi nominavi fabellas ut sit, mea ea ullum epicurei.</p>
-							<button type="button" class="btn btn-sm btn-red staff" title="staff">Read more</button>
+							<button type="button" class="btn btn-xs btn-red staff" title="staff">Read more</button>
 						</div>
 						<div class="col-md-4 col-xs-10">
 							<div class="business"></div>
@@ -48,7 +48,7 @@
 								<em>Business</em>
 							</h5>
 							<p>An utinam reprimique duo, putant mandamus cu qui. Autem possim his cu, quodsi nominavi fabellas ut sit, mea ea ullum epicurei.</p>
-							<button type="button" class="btn btn-sm btn-red staff" title="staff">Read more</button>
+							<button type="button" class="btn btn-xs btn-red staff" title="staff">Read more</button>
 						</div>
 						<div class="col-md-4 col-xs-10">
 							<div class="admin"></div>
@@ -56,7 +56,7 @@
 								<em>Administration</em>
 							</h5>
 							<p>An utinam reprimique duo, putant mandamus cu qui. Autem possim his cu, quodsi nominavi fabellas ut sit, mea ea ullum epicurei.</p>
-							<button type="button" class="btn btn-sm btn-red staff" title="staff">Read more</button>
+							<button type="button" class="btn btn-xs btn-red staff" title="staff">Read more</button>
 						</div>
 					</div>
 
@@ -66,7 +66,7 @@
 								<p class="lead ">An utinam reprimique duo, putant mandamus cu qui. Autem possim his cu, quodsi nominavi fabellas ut sit, mea ea ullum epicurei. An utinam reprimique duo, putant mandamus cu qui.</p>
 							</div>
 						</div>
-						<hr>
+						<hr class="menu">
 						<div class="row">
 							<div class="col-md-6 col-xs-10">
 								<h5>History</h5>

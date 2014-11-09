@@ -10,9 +10,99 @@ Javascripts
 {/breadcrume}
 
 {<contentLeft}	
-
-{/contentLeft}	
+	<h3>Browse Courses</h3>
+	<ul class="submenu-col">
+    <li><a href="all-courses">All Courses</a></li>
+    <li><a href="course-detail" id="active">Administration (10)</a></li>
+    <li><a href="course-detail">Business (08)</a></li>
+    <li><a href="course-detail">Communication (05) <img src="http://www.ansonika.com/edu/img/new.png" alt="New"></a></li>
+    <li><a href="course-detail">Computing (08) </a></li>
+    <li><a href="course-detail">Counseling (04)</a></li>
+    <li><a href="course-detail">Education (06)</a></li>
+    <li><a href="course-detail">Engineering (08)</a></li>
+	</ul>
+	<hr>
+	<h5>Upcoming Courses</h5>
+	<p>Suspendisse quis risus turpis, ut pharetra arcu. Donec adipiscing, quam non faucibus luctus, mi arcu blandit diam, at faucibus mi ante vel augue.</p>
+	<p><a href="#" class="btn btn-red btn-sm">View Courses</a></p>
+{/contentLeft}		
 
 {<contentRight}	
-
+	<h3>Html Tabs</h3>
+	<!-- Nav tabs -->
+	<ul class="nav nav-tabs" role="tablist">
+	  <li role="presentation" class="active"><a href="#home" role="tab" data-toggle="tab">Home</a></li>
+	  <li role="presentation"><a href="#profile" role="tab" data-toggle="tab">Profile</a></li>
+	  <li role="presentation"><a href="#messages" role="tab" data-toggle="tab">Messages</a></li>
+	  <li role="presentation"><a href="#settings" role="tab" data-toggle="tab">Settings</a></li>
+	</ul>
+	<!-- Tab panes -->
+	<div class="tab-content">
+	  <div role="tabpanel" class="tab-pane active" id="home">
+      Sed pretium, ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget blandit nunc tortor eu nibh. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Nullam mollis.. Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel, dapiPhasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel, dapi
+    </div>
+	  <div role="tabpanel" class="tab-pane" id="profile">
+      Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Sed pretium, ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget blandit nunc tortor eu nibh. Nullam mollis Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel, dapi
+  	</div>
+	  <div class="tab-pane" id="messages">
+      Sed pretium, ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget blandit nunc tortor eu nibh. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Nullam mollis. Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel, dapi
+    </div>
+	  <div role="tabpanel" class="tab-pane" id="settings">
+      Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Sed pretium, ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget blandit nunc tortor eu nibh Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel, dapi
+    </div>
+	</div>
+	<br><br>
+	<section class="messages">
+    <h3>Messages</h3>
+      
+    <!--  End messages --> 
+    <div class="alert alert-info alert-dismissible">
+    	<button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+    	<i class="fa fa-info-circle fa-2x"></i><strong>Information!</strong> Lorem Ipsum is simply dummy
+    </div>
+    <div class="alert alert-success alert-dismissible">
+    	<button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+    	<i class="fa fa-check fa-2x"></i><strong>Sucess!</strong> Lorem Ipsum is simply dummy
+    </div>
+    <div class="alert alert-danger alert-dismissible">
+    	<button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+    	<i class="fa fa-minus-circle fa-2x"></i><strong>Error!</strong> Lorem Ipsum is simply dummy
+    </div>
+    <div class="alert alert-warning alert-dismissible">
+    	<button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+    	<i class="fa fa-warning fa-2x"></i><strong>Alert!</strong> Lorem Ipsum is simply dummy
+    </div>
+    <div class="infomsg alert alert-dismissible">
+    	<button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+    	<strong>Information!</strong> Lorem Ipsum is simply dummy
+    </div>
+        
+  </section>
+  <br><br>
+  <h3>Date/time input </h3>
+  <div class="row">
+    <div class="span3">
+        <div id="datetimepicker" class="input-append">
+          <label>Select a date and time</label>
+          <input type="text" class=" dateinput" id="date_visit" readonly="">
+          <span class="add-on"><i data-time-icon="icon-time" data-date-icon="icon-calendar" class="icon-calendar"></i></span>
+        </div>
+    </div>
+	</div>
+	<br><br>
+	<!--  Tooltips -->
+	<div class="row">
+    <div class="span6">
+        <div id="tooltip">
+            <h3>Tool tips with four directions</h3>
+            <ul>
+                <li><a href="#" class="tooltip-test" data-placement="top" title="" data-original-title="Default tooltip">Tooltip on top</a></li>
+                <li><a href="#" class="tooltip-test" data-placement="right" title="" data-original-title="Default tooltip">Tooltip on right</a></li>
+                <li><a href="#" class="tooltip-test" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Tooltip on bottom">Tooltip on bottom</a></li>
+                <li><a href="#" class="tooltip-test" data-toggle="tooltip" data-placement="left" title="" data-original-title="Tooltip on left">Tooltip on left</a></li>
+            </ul>
+        </div>
+    </div>
+  </div>
+  <br><br>
 {/contentRight}

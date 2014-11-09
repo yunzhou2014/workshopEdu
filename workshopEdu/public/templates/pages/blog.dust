@@ -10,9 +10,91 @@ Blog
 {/breadcrume}
 
 {<contentLeft}	
-
+	<form class="form-inline">
+		<input type="text" class="form-control">
+		<button type="submit" class="btn btn-blue">Search</button> 
+	</form>
+	<hr>
+	<div class="widget">
+		<h4>Text widget</h4>
+		<p>
+			Fusce feugiat malesuada odio. Morbi nunc odio, gravida at, cursus nec, luctus a, lorem. Maecenas tristique orci ac sem. Duis ultricies pharetra magna. Donec accumsan malesuada orci. Donec sit amet eros. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+		</p>
+	</div>
+	<hr>
+	<div class="widget">
+		<h4>Recent post</h4>
+		<ul class="recent_post">
+			<li>
+      	<i class="fa fa-calendar-o"></i> 16th July, 2020 <div><a href="#">It is a long established fact that a reader will be distracted </a></div>
+      </li>
+			<li>
+      	<i class="fa fa-calendar-o"></i> 16th July, 2020 <div><a href="#">It is a long established fact that a reader will be distracted </a></div>
+      </li>
+			<li>
+      	<i class="fa fa-calendar-o"></i> 16th July, 2020 <div><a href="#">It is a long established fact that a reader will be distracted </a></div>
+      </li>
+		</ul>
+	</div>
+	<hr>
+	<div class="widget tags">
+		<h4>Tags</h4>
+		<a href="#">Lorem ipsum</a>
+		<a href="#">Dolor</a>
+		<a href="#">Long established</a>
+		<a href="#">Sit amet</a>
+		<a href="#">Latin words</a>
+		<a href="#">Excepteur sint</a>
+	</div>
 {/contentLeft}	
 
 {<contentRight}	
-
+	<div class="post">
+    <h2><a href="blog-post">Duis aute irure dolor in reprehenderit</a></h2>
+    <a href="#"><img src="http://www.ansonika.com/edu/img/blog-1.jpg" alt=""></a>
+	  <div class="post_info clearfix">
+	    <div class="post-left">
+        <ul>
+        	<li><i class="fa fa-calendar-o"></i>On <span>12 Nov 2020</span></li>
+            <li><i class="fa fa-user"></i>By <a href="#">John Smith</a></li>
+            <li><i class="fa fa-tags"></i>Tags <a href="#">Works</a> <a href="#">Personal</a></li>
+        </ul>
+	    </div>
+     	<div class="post-right"><i class="fa fa-comments"></i><a href="#">25 </a>Comments</div>  
+    </div>                                
+		<p>Praesent vestibulum molestie lacus. Aenean nonummy hendrerit mauris. Phasellus porta. Fusce suscipit varius mi nascetur ridiculus mus. Nulla dui. Fusce feugiat malesuada odio. Morbi nunc odio, gravida at, cursus nec, luctus a, lorem. Maecenas tristique orci ac sem. Duis ultricies pharetra magna. Donec accumsan malesuada orci. Donec sit amet eros. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Mauris fermentum dictum magna. Sed laoreet aliquam leo. Ut tellus dolor, dapibus eget, elementum vel, cursus eleifend, elit. Aenean auctor wisi et urna. Aliquam erat volutpat. Duis ac turpis. Integer rutrum ante eu lacus...</p>
+ 		<p><a href="blog-post" class="btn btn-blue">Read more</a></p>
+ 	</div>
+ 	<div class="post">
+	  <h2><a href="blog-post">Duis aute irure dolor in reprehenderit</a></h2>
+	  <img src="http://www.ansonika.com/edu/img/blog-2.jpg" alt="">
+	  <div class="post_info clearfix">
+	    <div class="post-left">
+	      <ul>
+	      	<li><i class="fa fa-calendar-o"></i>On <span>12 Nov 2020</span></li>
+	        <li><i class="fa fa-user"></i>By <a href="#">John Smith</a></li>
+	        <li><i class="fa fa-tags"></i>Tags <a href="#">Works</a> <a href="#">Personal</a></li>
+	      </ul>
+	 		</div>
+	    <div class="post-right"><i class="fa fa-comments"></i><a href="#">25 </a>Comments</div>  
+		</div>                                
+  	<p>Praesent vestibulum molestie lacus. Aenean nonummy hendrerit mauris. Phasellus porta. Fusce suscipit varius mi nascetur ridiculus mus. Nulla dui. Fusce feugiat malesuada odio. Morbi nunc odio, gravida at, cursus nec, luctus a, lorem. Maecenas tristique orci ac sem. Duis ultricies pharetra magna. Donec accumsan malesuada orci. Donec sit amet eros. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Mauris fermentum dictum magna. Sed laoreet aliquam leo. Ut tellus dolor, dapibus eget, elementum vel, cursus eleifend, elit. Aenean auctor wisi et urna. Aliquam erat volutpat. Duis ac turpis. Integer rutrum ante eu lacus...</p>
+  	<p><a href="blog-post" class="btn btn-blue">Read more</a></p>
+	</div>
+	<div class="post">
+	  <h2><a href="blog-post">Duis aute irure dolor in reprehenderit</a></h2>
+	  <img src="http://www.ansonika.com/edu/img/blog-3.jpg" alt="">
+	  <div class="post_info clearfix">
+    <div class="post-left">
+      <ul>
+      	<li><i class="fa fa-calendar-o"></i>On <span>12 Nov 2020</span></li>
+          <li><i class="fa fa-user"></i>By <a href="#">John Smith</a></li>
+          <li><i class="fa fa-tags"></i>Tags <a href="#">Works</a> <a href="#">Personal</a></li>
+      </ul>
+    </div>
+    <div class="post-right"><i class="fa fa-comments"></i><a href="#">25 </a>Comments</div>  
+    </div>                                
+		<p>Praesent vestibulum molestie lacus. Aenean nonummy hendrerit mauris. Phasellus porta. Fusce suscipit varius mi nascetur ridiculus mus. Nulla dui. Fusce feugiat malesuada odio. Morbi nunc odio, gravida at, cursus nec, luctus a, lorem. Maecenas tristique orci ac sem. Duis ultricies pharetra magna. Donec accumsan malesuada orci. Donec sit amet eros. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Mauris fermentum dictum magna. Sed laoreet aliquam leo. Ut tellus dolor, dapibus eget, elementum vel, cursus eleifend, elit. Aenean auctor wisi et urna. Aliquam erat volutpat. Duis ac turpis. Integer rutrum ante eu lacus...</p>
+ 		<p><a href="blog-post" class="btn btn-blue">Read more</a></p>
+	</div>
 {/contentRight}

@@ -10,9 +10,124 @@ All Courses
 {/breadcrume}
 
 {<contentLeft}	
-
-{/contentLeft}	
+	<h3>Browse Courses</h3>
+	<ul class="submenu-col">
+    <li><a href="all-courses" id="active">All Courses</a></li>
+    <li><a href="course-detail">Administration (10)</a></li>
+    <li><a href="course-detail">Business (08)</a></li>
+    <li><a href="course-detail">Communication (05) <img src="http://www.ansonika.com/edu/img/new.png" alt="New"></a></li>
+    <li><a href="course-detail">Computing (08) </a></li>
+    <li><a href="course-detail">Counseling (04)</a></li>
+    <li><a href="course-detail">Education (06)</a></li>
+    <li><a href="course-detail">Engineering (08)</a></li>
+	</ul>
+	<hr>
+	<h5>Upcoming Courses</h5>
+	<p>Suspendisse quis risus turpis, ut pharetra arcu. Donec adipiscing, quam non faucibus luctus, mi arcu blandit diam, at faucibus mi ante vel augue.</p>
+	<p><a href="#" class="btn btn-red btn-sm">View Courses</a></p>
+{/contentLeft}		
 
 {<contentRight}	
-
+	<div class="main-img">
+    <img src="http://www.ansonika.com/edu/img/pic-2.jpg" alt="">
+    <p class="lead">Tibique dolores adversarium ne vel. At vide errem duo, vis luptatum menandri ullamcorper id. </p>
+	</div>
+	<div class="strip-courses">
+	 	<div class="title-course">
+		  <h3>Administration <img src="http://www.ansonika.com/edu/img/new.png" alt="New"></h3>
+		  <ul>
+	   		<li><i class="fa fa-calendar"></i> Start date: 24/06/13</li>
+	      <li><i class="fa fa-bookmark"></i> ID: 012</li>
+		  </ul>
+   	</div>
+    <div class="description">
+    	<p>An utinam reprimique duo, putant mandamus cu qui. Autem possim his cu, quodsi nominavi fabellas ut sit, mea ea ullum epicurei. Saepe tantas ocurreret duo ea, has facilisi vulputate an. Priaeque iuvaret nominati et, ad mea clita numquam. Maluisset dissentiunt et per, dico liber erroribus vis te. Dolor consul graecis nec ut, scripta eruditi scriptorem et nam.</p>
+      <ul>
+      	<li><i class="fa fa-book"></i> 10 Lessons</li>
+        <li><i class="fa fa-reorder"></i> Level Intermediate</li>
+      </ul>
+    	<a href="course-detail" class="btn btn-blue">Read more </a>
+    </div>
+  </div>
+  <div class="strip-courses gray">
+		<div class="title-course">
+	   	<h3>Business </h3>
+       	<ul>
+     			<li><i class="fa fa-calendar"></i> Start date: 24/06/13</li>
+          <li><i class="fa fa-bookmark"></i> ID: 012</li>
+       	</ul>
+    </div>
+    <div class="description">
+    	<p>An utinam reprimique duo, putant mandamus cu qui. Autem possim his cu, quodsi nominavi fabellas ut sit, mea ea ullum epicurei. Saepe tantas ocurreret duo ea, has facilisi vulputate an. Priaeque iuvaret nominati et, ad mea clita numquam. Maluisset dissentiunt et per, dico liber erroribus vis te. Dolor consul graecis nec ut, scripta eruditi scriptorem et nam.</p>
+        <ul>
+        	<li><i class="fa fa-book"></i> 10 Lessons</li>
+            <li><i class="fa fa-reorder"></i> Level Basic</li>
+            <li class="online"><i class="fa fa-laptop"></i> Online</li>
+        </ul>
+        <a href="course-detail" class="btn btn-blue">Read more </a>
+    </div>
+  </div>
+  <div class="strip-courses">
+    <div class="title-course">
+      <h3>Communication</h3>
+      <ul>
+        <li><i class="fa fa-calendar"></i> Start date: 24/06/13</li>
+        <li><i class="fa fa-bookmark"></i> ID: 012</li>
+      </ul>
+    </div>
+    <div class="description">
+      <p>An utinam reprimique duo, putant mandamus cu qui. Autem possim his cu, quodsi nominavi fabellas ut sit, mea ea ullum epicurei. Saepe tantas ocurreret duo ea, has facilisi vulputate an. Priaeque iuvaret nominati et, ad mea clita numquam. Maluisset dissentiunt et per, dico liber erroribus vis te. Dolor consul graecis nec ut, scripta eruditi scriptorem et nam.</p>
+      <ul>
+        <li><i class="fa fa-book"></i> 10 Lessons</li>
+        <li><i class="fa fa-reorder"></i> Level Intermediate</li>
+        <li class="online"><i class="fa fa-laptop"></i> Online</li>
+      </ul>
+      <a href="course-detail" class="btn btn-blue">Read more </a>
+    </div>
+  </div>
+  <div class="strip-courses gray">
+    <div class="title-course">
+      <h3>Business </h3>
+      <ul>
+        <li><i class="fa fa-calendar"></i> Start date: 24/06/13</li>
+        <li><i class="fa fa-bookmark"></i> ID: 012</li>
+      </ul>
+    </div>
+    <div class="description">
+      <p>An utinam reprimique duo, putant mandamus cu qui. Autem possim his cu, quodsi nominavi fabellas ut sit, mea ea ullum epicurei. Saepe tantas ocurreret duo ea, has facilisi vulputate an. Priaeque iuvaret nominati et, ad mea clita numquam. Maluisset dissentiunt et per, dico liber erroribus vis te. Dolor consul graecis nec ut, scripta eruditi scriptorem et nam.</p>
+      <ul>
+        <li><i class="fa fa-book"></i> 10 Lessons</li>
+          <li><i class="fa fa-reorder"></i> Level Basic</li>
+          <li class="online"><i class="fa fa-laptop"></i> Online</li>
+      </ul>
+      <a href="course-detail" class="btn btn-blue">Read more </a>
+    </div>
+  </div>
+  <div class="strip-courses">
+    <div class="title-course">
+      <h3>Communication</h3>
+      <ul>
+        <li><i class="fa fa-calendar"></i> Start date: 24/06/13</li>
+        <li><i class="fa fa-bookmark"></i> ID: 012</li>
+      </ul>
+    </div>
+    <div class="description">
+      <p>An utinam reprimique duo, putant mandamus cu qui. Autem possim his cu, quodsi nominavi fabellas ut sit, mea ea ullum epicurei. Saepe tantas ocurreret duo ea, has facilisi vulputate an. Priaeque iuvaret nominati et, ad mea clita numquam. Maluisset dissentiunt et per, dico liber erroribus vis te. Dolor consul graecis nec ut, scripta eruditi scriptorem et nam.</p>
+      <ul>
+        <li><i class="fa fa-book"></i> 10 Lessons</li>
+        <li><i class="fa fa-reorder"></i> Level Intermediate</li>
+        <li class="online"><i class="fa fa-laptop"></i> Online</li>
+      </ul>
+      <a href="course-detail" class="btn btn-blue">Read more </a>
+    </div>
+  </div>
+  <nav class="text-center">
+    <ul class="pagination">
+      <li><a href="#">Prev</a></li>
+      <li class="active"><a href="#">1</a></li>
+      <li><a href="#">2</a></li>
+      <li><a href="#">3</a></li>
+      <li><a href="#">Next</a></li>
+    </ul>
+  </nav>
 {/contentRight}

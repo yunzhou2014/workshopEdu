@@ -58,7 +58,7 @@ header,section,nav {
 
 .navbar {
 	background: @body-blue -webkit-linear-gradient(top,rgba(255,255,255,.2) 0%, rgba(0,0,0,.2) 100%);
-	margin-bottom: 0;
+	margin-bottom: 30px;
 	.navbar-toggle .icon-bar {
 		background-color: #fff;
 	}
@@ -87,17 +87,24 @@ header,section,nav {
 }
 
 .btn-red {
+	cursor: pointer;
+	font-weight: 700;
 	background-color: @button-red;
 	color: #fff;
 }
 
 .btn-red:hover {
-	transition: background-color .5s;
+	transition: background-color .5s ease;
+	-moz-transition: background .5s ease;
+	-webkit-transition: background .5s ease;
+	-o-transition: background .5s ease;
 	background-color: @button-blue;
 	color: #fff;
 }
 
 .btn-blue {
+	cursor: pointer;
+	font-weight: 700;
 	background-color: @button-blue;
 	color: #fff;
 }
@@ -108,7 +115,7 @@ header,section,nav {
 	color: #fff;
 }
 
-hr {
+hr.menu {
 	margin: 0 0 20px 0;
 	border: 0;
 	border-top: 1px solid #25282d;
@@ -122,17 +129,38 @@ hr.double {
 	border-bottom: 1px solid #fff;
 }
 
+h1 {
+	font-size: 38px;
+	line-height: 40px;
+}
+
+h2 {
+	font-size: 32px;
+	line-height: 36px;
+}
+
+h3 {
+	font-size: 24px;
+	line-height: 28px;
+}
+
 h4 {
-	margin: 0 0 10px 0;
+	font-size: 18px;
+	line-height: 22px;	
 }
 
 h5 {
+	line-height: 14px;
+	font-weight: bold;
+}
+
+h1, h2, h3, h4, h5, h6 {
 	margin: 0 0 10px 0;
 	font-weight: bold;
 }
 
-ul {
-	list-style-type: none;
+ul, ol {
+	list-style: none;
 	padding-left: 0px;
 }
 
@@ -161,14 +189,6 @@ ul.list {
 		background: url(http://www.ansonika.com/edu/img/arrow_2.png) no-repeat 3px 5px;
 		padding-left: 20px;
 	}
-}
-
-.col-left {
-	padding: 30px 30px 15px 30px;
-	background-color: #fff;
-	border: 1px solid #e2e2e2;
-	border-radius: 5px;
-	margin-bottom: 30px;
 }
 
 #courses {
@@ -305,6 +325,7 @@ ul.list {
 }
 
 .slider {
+	margin-top: -30px;
 	.carousel {
 		height: 500px;
 	}
@@ -448,52 +469,55 @@ ul.list {
 	position: relative;
 	z-index: 1;
 	margin-bottom: 35px;
-
-	.box {
-		a {
-			-webkit-box-shadow: 0 10px 12px -6px rgba(000, 000, 000, 0.4), inset 0 0 0 5px rgba(255, 255, 255, 0.1);
-			display: block;
-			font-size: 14px;
-			text-shadow: 1px 1px 0 px rgba(0,0,0,.3);
-			padding: 25px 25px 5px 25px;
-			text-decoration: none;
-			font-weight: 700;
-			background-color: @body-blue;
-			color: #fff;
-			margin-bottom: 15px;
-			border-radius: 5px;
-		}
-		h3 {
-			margin-top: 0px;
-			margin-bottom: 0px;
-			color: #FF9;
-			font-size: 28px;
-			font-weight: bold;
-		}
-		img {
-			float: right;
-			height: auto;
-			border: 0;
-			vertical-align: middle;
-		}
-	}
-	.green a:hover {
-		transition: background-color .8s;
-		background-color: #669933;
-	}
-
-	.orange a:hover {
-		transition: background-color .8s;
-		background-color: #F60;
-	}
-	.red a:hover {
-		transition: background-color .8s;
-		background-color: #ff6666;
-	}
 }
 
-.ribbon-box {
+.box {
+	a {
+		-webkit-box-shadow: 0 10px 12px -6px rgba(000, 000, 000, 0.4), inset 0 0 0 5px rgba(255, 255, 255, 0.1);
+		display: block;
+		font-size: 14px;
+		text-shadow: 1px 1px 0 px rgba(0,0,0,.3);
+		padding: 25px 25px 5px 25px;
+		text-decoration: none;
+		font-weight: 700;
+		background-color: @body-blue;
+		color: #fff;
+		margin-bottom: 15px;
+		border-radius: 5px;
+	}
+	h3 {
+		margin-top: 0px;
+		margin-bottom: 0px;
+		color: #FF9;
+		font-size: 28px;
+		font-weight: bold;
+	}
+	img {
+		float: right;
+		height: auto;
+		border: 0;
+		vertical-align: middle;
+	}
+}
+.green a:hover {
+	transition: background-color .8s;
+	background-color: #669933;
+}
+
+.orange a:hover {
+	transition: background-color .8s;
+	background-color: #F60;
+}
+.red a:hover {
+	transition: background-color .8s;
+	background-color: #ff6666;
+}
+
+.box-style.ribbon-box {
 	background: #eaf9ff url(http://www.ansonika.com/edu/img/sticker-1.png) no-repeat top right;
+}
+.box-style {
+	background: #eaf9ff;
 	padding: 30px 30px 10px 30px;
 	-webkit-box-shadow: inset 0 0 0 5px rgba(200, 200, 200, 0.1), 0 0 3px 0 rgba(0, 0, 0, 0.35);
 	border: 1px solid #fff;
@@ -522,52 +546,76 @@ ul.list {
 	border-radius: 6px;
 }
 
+.col-left {
+	padding: 30px 30px 15px 30px;
+	background-color: #fff;
+	border: 1px solid #e2e2e2;
+	border-radius: 5px;
+	margin-bottom: 30px;
+	h3, .widget h4 {
+		text-transform: uppercase;
+		font-size: 14px;
+		color: #bbbbbb;
+		margin: 0 0 15px 0;
+		padding: 0;
+		line-height: 17px;
+	}
+}
+
 .col-right {
-		.col-left;
-		margin-bottom: 60px;
-		.strip-lessons {
-			border-bottom: 1px solid #eeeeee;
-			margin-bottom: 30px;
-			padding-bottom: 10px;
+
+	padding: 30px 30px 15px 30px;
+	background-color: #fff;
+	border: 1px solid #e2e2e2;
+	border-radius: 5px;
+	margin-bottom: 60px;
+	p { margin: 0 0 25px 0; }
+	.strip-lessons {
+		border-bottom: 1px solid #eeeeee;
+		margin-bottom: 30px;
+		padding-bottom: 10px;
+	}
+	.box-course {
+		border-radius: 5px;
+		background: #eaf9ff;
+		position: relative;
+		text-align: center;
+		margin-bottom: 20px;
+		h5 {
+			background: #2d343e;
+			bottom: 0;
+			left: 0;
+			padding: 4px 0;
+			color: #eaf9ff;
+			text-transform: uppercase;
+			border-bottom-right-radius: 5px;
+			border-bottom-left-radius: 5px;
 		}
-		.box-course {
-			border-radius: 5px;
-			background: #eaf9ff;
-			position: relative;
-			text-align: center;
-			margin-bottom: 20px;
-			h5 {
-				background: #2d343e;
-				bottom: 0;
-				left: 0;
-				padding: 4px 0;
-				color: #eaf9ff;
-				text-transform: uppercase;
-				border-bottom-right-radius: 5px;
-				border-bottom-left-radius: 5px;
-			}
-			img {
-				max-width: 100%;
-				margin: 30px 0 15px 0;
-			}
-			img.picture {
-				margin: 0;
-				border-top-left-radius: 5px;
-				border-top-right-radius: 5px;
-			}
+		img {
+			max-width: 100%;
+			margin: 30px 0 15px 0;
 		}
-		ul.data-lessons {
-			margin-left: 0;
-			padding-left: 0;
-			li {
-				display: inline-block;
-				margin-right: 8px;
-				padding-right: 8px;
-				border-right: 1px solid #ccc;
-				line-height: 16px;
-				zoom: 1;
-			}
+		img.picture {
+			margin: 0;
+			border-top-left-radius: 5px;
+			border-top-right-radius: 5px;
 		}
+	}
+	ul.data-lessons {
+		margin-left: 0;
+		padding-left: 0;
+		li {
+			display: inline-block;
+			margin-right: 8px;
+			padding-right: 8px;
+			border-right: 1px solid #ccc;
+			line-height: 16px;
+			zoom: 1;
+		}
+	}
+	ul {
+		margin: 0 0 10px 0;
+	}
 }
 
 footer {
@@ -634,6 +682,7 @@ footer {
   font-size: 11px;
   padding: 5px;
   cursor: pointer;
+  display: none;
 }
 
 .gallery {
@@ -703,7 +752,6 @@ ul.submenu-col {
 	}	
 }
 
-
 .main-img {
 	margin: -30px -30px 30px -30px;
 	overflow: hidden;
@@ -749,4 +797,224 @@ ul.submenu-col {
 .button-align {
 	text-align: right;
 	padding-top: 25px;
+}
+
+.strip-courses {
+	background: #eaf9ff;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	color: #395070;
+	margin-bottom: 30px;
+	.description {
+		padding: 15px;
+	}
+	ul {
+		margin: 0;
+		padding: 0;
+
+		li {
+			display: inline-block;
+			font-weight: 600;
+			margin-right: 8px;
+			padding-right: 8px;
+			border-right: 1px solid #ccc;
+			line-height: 16px;
+			zoom: 1;
+		}
+		li:last-child {
+			border-right: none;
+		}
+	}
+}
+
+.title-course {
+	background: #2d343e;
+	-webkit-border-top-left-radius: 5px;
+	-webkit-border-top-right-radius: 5px;
+	-moz-border-radius-topleft: 5px;
+	-moz-border-radius-topright: 5px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	color: #fff;
+	position: relative;
+	h3 {
+		font-size: 18px;
+		padding: 3px 0 3px 15px;
+		margin: 0;
+	}
+	ul {
+		position: absolute;
+		color: #fff;
+		right: 15px;
+		top: 7px;
+
+		li {
+			display: inline-block;
+			font-weight: 600;
+			margin-left: 15px;
+			zoom: 1;
+		}
+	}
+}
+
+.news-strip {
+	ul li {
+	cursor: pointer;
+	list-style: none;
+	margin: 0;
+	padding: 20px 0 0 0;
+	margin-bottom: 15px;
+	}
+	ul li:hover {
+		background-color: #eaf9ff;
+		-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
+		border-radius: 5px;
+	}
+}
+
+.strip-staff {
+	h4 em {
+		display: block;
+		font-weight: normal;
+		color: #777;
+		font-size: 12px;
+	}
+}
+
+.date-news {
+	float: left;
+	background: #f8f8f8;
+	text-align: center;
+	width: 80px;
+	height: 60px;
+	padding-top: 20px;
+	color: #999;
+	font-size: 12px;
+	border: 1px solid #fff;
+	font-weight: 700;
+	border-radius: 500px;
+	-webkit-border-radius: 500px;
+	-webkit-box-shadow: inset 0 0 0 4px rgba(200, 200, 200, 0.1), 0 0 3px 0 rgba(0, 0, 0, 0.35);
+	text-shadow: -1px -1px 0px rgba(255,255,255,1);
+	margin: 0 15px 10px 10px;
+	strong {
+		display: block;
+		font-size: 24px;
+		color: #333;
+	}
+}
+
+ul.data-staff li {
+	font-weight: 700;
+	display: inline-block;
+	margin-right: 3px;
+	padding: 8px 12px;
+	background-color: #f8f8f8;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	text-align: center;
+	zoom: 1;
+}
+
+ul.recent_post li, ul.latest_news li {
+	padding: 0 0 8px 0;
+	margin-bottom: 15px;
+	border-bottom: 1px #e7e7e7 dotted;
+	color: #313131;
+	list-style: none;
+	line-height: 18px;
+	padding-bottom: 15px;
+	color: #888;
+	font-style: italic;
+	div {
+		font-weight: 700;
+		padding-left: 25px;
+		font-style: normal;
+	}
+}
+
+.tags {
+	a {
+		display: inline-block;
+		margin: 5px 14px 10px 0;
+		height: 33px;
+		line-height: 33px;
+		background: #ededed url(http://www.ansonika.com/edu/img/tag_bg.png) no-repeat 91% center;
+		padding: 0 28px 0 11px;
+		-webkit-transition: background .5s ease;
+		color: #646464;
+	}
+	a:hover {
+		text-decoration: none;
+		background-color: @button-blue;
+		color: #fff;
+	}
+}
+
+.post {
+	img {
+		border-radius: 5px;
+		margin-bottom: 18px;
+	}
+
+	.post_info {
+		padding: 10px 0;
+		border-bottom: 1px #e7e7e7 solid;
+		border-top: 1px #e7e7e7 solid;
+		margin-bottom: 12px;
+		color: #555;
+
+		.post-left {
+			float: left;
+			ul li {
+				float: left;
+				margin-right: 10px;
+				list-style: none;
+			}
+			span {
+				color: @button-red;
+			}
+		}
+		.post-right {
+			float: right;
+		}
+	}
+}
+
+#comments {
+	ol li ul li {
+		padding: 23px 0 0 30px;
+		margin: 0;
+	}
+	.avatar {
+		float: left;
+		margin-right: 11px;
+		img {
+		-moz-border-radius: 3px;
+		-webkit-border-radius: 3px;
+		border-radius: 3px;
+		}
+	}
+	.comment-right {
+		display: table;
+		.comment-info {
+			padding-bottom: 7px;
+			span {
+				padding: 0 12px;
+			}
+		}
+	}
+}
+
+.infomsg {
+	background-color: #fff;
+	border: 1px solid #afd3f2;
+	display: block;
+	margin: 20px 0;
+	padding: 15px 8px 15px 15px;
+	position: relative;
+	color: #666;
 }

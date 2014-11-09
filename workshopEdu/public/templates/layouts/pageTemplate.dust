@@ -14,6 +14,7 @@
 			<div class="col-left">
 				{+contentLeft /}			
 			</div>
+			
 			<p><img src="http://www.ansonika.com/edu/img/banner.jpg" alt="Banner" class="img-rounded"></p>	
 		</div>
 

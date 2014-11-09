@@ -35,7 +35,7 @@
 				<a href="blog" title="Blog "><i class="fa fa-comments-o fa-3x"></i>Blog </a>
 		</div>
 		<div class="col-md-3 col-xs-10">
-			<a href="blog_post" title="Single post "><i class="fa fa-comments fa-3x"></i>Single post </a>
+			<a href="blog-post" title="Single post "><i class="fa fa-comments fa-3x"></i>Single post </a>
 		</div>
 		<div class="col-md-3 col-xs-10">
 			<a href="typography" title="Typography "><i class="fa fa-font fa-3x"></i>Typography </a>

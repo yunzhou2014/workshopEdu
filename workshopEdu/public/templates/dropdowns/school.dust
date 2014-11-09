@@ -9,11 +9,11 @@
 				<h4>Youtube Video</h4>
 				<p>An utinam reprimique duo, putant mandamus cu qui. Autem possim his cu, quodsi nominavi fabellas ut sit, mea ea ullum epicurei. Saepe tantas ocurreret duo ea, has facilisi vulputate an. Pri aeque iuvaret nominati et, ad mea clita numquam.</p>
 				<p>An utinam reprimique duo, putant mandamus cu qui. Autem possim his cu, quodsi nominavi fabellas ut sit, mea ea ullum epicurei. Saepe tantas ocurreret duo ea, has facilisi vulputate an. Pri aeque iuvaret nominati et, ad mea clita numquam.</p>
-				<a href="all-courses" class="btn btn-sm btn-red" title="All courses">Read more</a>
+				<a href="all-courses" class="btn btn-xs btn-red" title="All courses">Read more</a>
 			</div>
 		</div>
 	</div>
-	<hr>
+	<hr class="menu">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-3 col-xs-10">
