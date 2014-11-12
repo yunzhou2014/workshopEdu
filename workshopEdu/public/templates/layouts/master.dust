@@ -2,7 +2,8 @@
 <head>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Educational</title>
+	<link rel="icon" href="http://www.ansonika.com/edu/img/favicon.ico">
+	<title>Educational Template</title>
 
 	<!-- Bootstrap -->
 	<!-- Latest compiled and minified CSS -->
@@ -30,24 +31,25 @@
 <header class="header-top">
 	<div class="container">
 		<div class="row">      
-			<div class="logo col-md-4 hidden-xs">
+			<div class="col-sm-4 col-xs-12">
 				<a href="/">
-					<img src="http://www.ansonika.com/edu/img/logo.png"></img>
+					<img id="big" class="hidden-xs" src="http://www.ansonika.com/edu/img/logo.png"></img>
 				</a>
+				<img id="small" class="visible-xs center-block" src="http://www.ansonika.com/edu/img/logo-mobile.png">
 			</div>
-			<div class="col-md-4 col-xs-10">
+			<div class="col-sm-4 col-xs-12">
 				<div class="menu-top">
 					<ul>
-							<li><a href="/">Home</a>|</li>
-							<li><a href="news-events">News & Events</a> |</li>
+							<li><a href="/">Home</a>&nbsp;|&nbsp;</li>
+							<li><a href="news-events">News & Events</a>&nbsp;|&nbsp;</li>
 							<li><a href="contact">Contact</a></li>
 					</ul>
 				</div>
 			</div>
-			<div class="col-md-4 hidden-xs">
+			<div class="col-sm-4 hidden-xs">
 				<div id="phone">
-						<strong>+44 (0) 123 456 789</strong>
-						Admissions department
+					<strong>+44 (0) 123 456 789</strong>
+					Admissions department
 				</div>
 			</div>
 		</div>
@@ -55,7 +57,7 @@
 </header>
 
 <nav class="navbar">
-	<div class="container">  
+	<div class="container">
 		<!-- Brand and toggle get grouped for better mobile display -->
 		<div class="navbar-header">
 			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#content-navbar-collapse">
@@ -64,7 +66,7 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</button>
-			<a class="navbar-brand visible-xs" href="#">Menu</a>
+			<a class="navbar-brand" href="#">Menu</a>
 		</div>
 
 		<div class="collapse navbar-collapse" id="content-navbar-collapse">
@@ -72,45 +74,45 @@
 
 				<li>
 					<a href="#">COURSES <span class="caret"></span></a>
-					<ul class="dropdown-menu" role="menu">
+					<div class="dropdown-panel" role="menu">
 						<div class="container">
 							{>"dropdowns/courses" /}
 						</div>
-					</ul>
+					</div>
 				</li>
 
 				<li>
 					<a href="#">SCHOOL&ACADEMICS <span class="caret"></span></a>
-					<ul class="dropdown-menu" id="school" role="menu">
+					<div class="dropdown-panel" id="school" role="menu">
 						<div class="container">
 							{>"dropdowns/school" /}
 						</div>
-					</ul>
+					</div>
 				</li>
 
 				<li>
 					<a href="#">ABOUT <span class="caret"></span></a>
-					<ul class="dropdown-menu" id="about" role="menu">
+					<div class="dropdown-panel" id="about" role="menu">
 						<div class="container">
 							{>"dropdowns/about" /}
 						</div>
-					</ul>
+					</div>
 				</li>
 
 				<li>
 					<a href="#">PAGES <span class="caret"></span></a>
-					<ul class="dropdown-menu" id="pages" role="menu">
+					<div class="dropdown-panel" id="pages" role="menu">
 						<div class="container">
 							{>"dropdowns/pages" /}
 						</div>
-					</ul>
+					</div>
 				</li>
 
 				<li><a href="blog">BLOG </a></li>
 
 				<li>
 					<a href="#">SIMPLE DROP <span class="caret"></span></a>
-					<ul class="dropdown-menu" id="simple-drop" role="menu">
+					<ul class="dropdown-panel" id="simple-drop" role="menu">
 						<li><a href="about-us">About</a></li>
 						<li><a href="all-courses">All Courses</a></li>
 						<li><a href="course-detail">Course detail</a></li>						
@@ -119,11 +121,11 @@
 				
 				<li>
 					<a href="#">CONTACTS <span class="caret"></span></a>
-					<ul class="dropdown-menu" id="contacts" role="menu">
+					<div class="dropdown-panel" id="contacts" role="menu">
 						<div class="container">
 							{>"dropdowns/contacts" /}
 						</div>
-					</ul>
+					</div>
 				</li>
 			</ul>
 		</div>    
@@ -140,20 +142,22 @@
 <footer>
 	<div class="container">
 		<div class="row">
-			<div class="col-md-4 col-xs-10 brand-footer">
-				<img src="http://www.ansonika.com/edu/img/logo-footer.jpg" alt="">
-				<p>Copyright © 2013</p>
-				<div class="twitter"><a href="#">Follow on Twitter</a></div>
-				<div class="fb"><a href="#">Follow on Facebook</a></div>
+			<div class="col-sm-4 brand-footer">
+				<p>
+					<img src="http://www.ansonika.com/edu/img/logo-footer.jpg" alt="">
+				</p>
+				<p>Copyright © 2014</p>
+				<div class="twitter"><a href="https://twitter.com/">Follow on Twitter</a></div>
+				<div class="fb"><a href="https://www.facebook.com/">Follow on Facebook</a></div>
 			</div>
-			<div class="col-md-4 col-xs-10">
+			<div class="col-sm-4 col-xs-12">
 				<h4>Contacts</h4>
-					<ul>
-						<li><i class="fa fa-home"></i>
-						&nbsp;&nbsp;11 Fifth Ave, Loftus - NEW JERSEY, US</li>
-						<li><i class="fa fa-phone"></i>&nbsp;&nbsp;Telephone: + 61 (2) 8093 3400</li>
-						<li><i class="fa fa-phone-square"></i>&nbsp;&nbsp;Fax: +61 (2) 9542 3599</li>
-						<li><i class="fa fa-envelope"></i>&nbsp;&nbsp;Email: <a href="#">submissions@domain.com</a></li>
+					<ul class="fa-ul">
+						<li><i class="fa-li fa fa-home"></i>
+						11 Fifth Ave, Loftus - NEW JERSEY, US</li>
+						<li><i class="fa-li fa fa-phone"></i>Telephone: + 61 (2) 8093 3400</li>
+						<li><i class="fa-li fa fa-phone-square"></i>Fax: +61 (2) 9542 3599</li>
+						<li><i class="fa-li fa fa-envelope"></i>Email: <a href="#">submissions@domain.com</a></li>
 					</ul>					
 				<hr>
 				<h4>Newsletter</h4>
@@ -163,7 +167,7 @@
            <button id="submit-newsletter" class="btn btn-blue"> Subscribe</button>
         </form>
 			</div>
-			<div class="col-md-4 col-xs-10">
+			<div class="col-sm-4 col-xs-12">
 				<h4>Quick links</h4>
 					<ul class="list">			
 						<li><a href="#">Admissions </a></li>
@@ -189,9 +193,10 @@
 
 <script data-main="/js/app" src="/components/requirejs/require.js"></script>
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<script src="/js/moment.min.js"></script>
-<script src="/js/fullcalendar.js"></script>
+<!--script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script-->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<!--script src="/js/moment.min.js"></script>
+<script src="/js/fullcalendar.js"></script-->
 
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <!-- Latest compiled and minified JavaScript -->

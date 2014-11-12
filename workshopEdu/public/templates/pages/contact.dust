@@ -12,14 +12,15 @@ Contact
 {<contentLeft}
 
 <h3>Address</h3>
-<ul>
-	<li><i class="fa fa-home"></i>
-	&nbsp;&nbsp;11 Fifth Ave, Loftus - NEW JERSEY, US</li>
-	<li><i class="fa fa-phone"></i>&nbsp;&nbsp;Telephone: + 61 (2) 8093 3400</li>
-	<li><i class="fa fa-phone-square"></i>&nbsp;&nbsp;Fax: +61 (2) 9542 3599</li>
-	<li><i class="fa fa-envelope"></i>&nbsp;&nbsp;Email: <a href="#">submissions@domain.com</a></li>
+<ul class="fa-ul">
+	<li><i class="fa-li fa fa-home"></i>
+	11 Fifth Ave, Loftus - NEW JERSEY, US</li>
+	<li><i class="fa-li fa fa-phone"></i>Telephone: + 61 (2) 8093 3400</li>
+	<li><i class="fa-li fa fa-phone-square"></i>Fax: +61 (2) 9542 3599</li>
+	<li><i class="fa-li fa fa-envelope"></i>Email: <a href="#">submissions@domain.com</a></li>
 </ul>
-<iframe height="250" src="https://maps.google.it/maps?f=q&amp;source=s_q&amp;hl=it&amp;geocode=&amp;q=new+york&amp;sll=40.714353,-74.005973&amp;sspn=0.868126,2.422485&amp;ie=UTF8&amp;hq=&amp;hnear=New+York,+Stati+Uniti&amp;t=m&amp;z=10&amp;iwloc=A&amp;ll=40.714353,-74.005973&amp;output=embed" style="border:0;">
+<hr>
+<iframe height="250" width="100%" src="https://maps.google.it/maps?f=q&amp;source=s_q&amp;hl=it&amp;geocode=&amp;q=new+york&amp;sll=40.714353,-74.005973&amp;sspn=0.868126,2.422485&amp;ie=UTF8&amp;hq=&amp;hnear=New+York,+Stati+Uniti&amp;t=m&amp;z=10&amp;iwloc=A&amp;ll=40.714353,-74.005973&amp;output=embed" style="border:0;">
 </iframe>
 <br>
 <small><a href="https://maps.google.it/maps?f=q&amp;source=embed&amp;hl=it&amp;geocode=&amp;q=new+york&amp;sll=40.714353,-74.005973&amp;sspn=0.868126,2.422485&amp;ie=UTF8&amp;hq=&amp;hnear=New+York,+Stati+Uniti&amp;t=m&amp;z=10&amp;iwloc=A&amp;ll=40.714353,-74.005973" style="text-align:left">View bigger</a></small>
@@ -42,27 +43,27 @@ Contact
 	<h4>General Enquire or Apply</h4>
 	<form method="post" action="assets/contact.php" >
 		<div class="row form-group">
-			<div class="col-md-4 col-xs-10">
+			<div class="col-sm-5 col-xs-12">
 				<label>Name<span class="required">* </span></label>
-				<input type="text" class="form-control col-md-4">
+				<input type="text" class="form-control col-sm-5">
 			</div>
-			<div class="col-md-4 col-xs-10">
+			<div class="col-sm-5 col-xs-12">
 				<label>Last name<span class="required">* </span></label>
-				<input type="text" class="form-control col-md-4">
+				<input type="text" class="form-control col-sm-5">
 			</div>
 		</div>
 		<div class="row form-group">
-			<div class="col-md-4 col-xs-10">
+			<div class="col-sm-5 col-xs-12">
 				<label>Email<span class="required">* </span></label>
-				<input type="email" class="form-control col-md-4">
+				<input type="email" class="form-control col-sm-5">
 			</div>
-			<div class="col-md-4 col-xs-10">
+			<div class="col-sm-5 col-xs-12">
 				<label>Phone<span class="required">* </span></label>
-				<input type="tel" class="form-control col-md-4">
+				<input type="tel" class="form-control col-sm-5">
 			</div>
 		</div>
 		<div class="row form-group">
-			<div class="col-md-4 col-xs-10">
+			<div class="col-sm-5 col-xs-12">
 				<label>Select a department</label>
 				<select class="form-control">
 					<option value="Administration">Administration</option>
@@ -73,17 +74,17 @@ Contact
 			</div>
 		</div>
 		<div class="row form-group">
-			<div class="col-md-10 col-xs-10">
+			<div class="col-sm-10 col-xs-12">
 				<label>Message <span class="required">*</span></label>
 				<textarea rows="5" class="form-control" id="message_contact"></textarea>
 			</div>
 		</div>
 		<div class="row form-group">
-			<div class="col-md-4 col-xs-10">
+			<div class="col-sm-4 col-xs-12">
 				<label><span class="required">*</span> Are you human? 3 + 1 =</label>
 				<input type="text" id="verify_contact" class="form-control">
 			</div>
-			<div class="col-md-4 col-xs-10 button-align">
+			<div class="col-sm-6 col-xs-12 button-align">
 				<input type="submit" value="Submit" class="btn btn-blue">
 			</div>
 		</div>
@@ -93,35 +94,34 @@ Contact
 
 	<form method="post" action="assets/visit.php" id="visit">
 		<div class="row form-group">
-			<div class="col-md-4 col-xs-10">
+			<div class="col-sm-5 col-xs-12">
 				<label>Name <span class="required">* </span></label>
 				<input type="text" class="form-control" id="name_visit">
 			</div>
-			<div class="col-md-4 col-xs-10">
+			<div class="col-sm-5 col-xs-12">
 				<label>Last name <span class="required">* </span></label>
 				<input type="text" class="form-control" id="lastname_visit">
 			</div>
 		</div>
 		<div class="row form-group">
-			<div class="col-md-4 col-xs-10">
+			<div class="col-sm-5 col-xs-12">
 				<label>Email <span class="required">* </span></label>
 				<input type="email" id="email_visit" class="form-control">
 			</div>
-			<div class="col-md-4 col-xs-10">
+			<div class="col-sm-5 col-xs-12">
 				<label>Phone <span class="required">* </span></label>
 				<input type="text" id="phone_visit" class="form-control">
 			</div>
 		</div>
 		<div class="row form-group">
-			<div class="col-md-4 col-xs-10">
+			<div class="col-sm-5 col-xs-12">
 				<label>Select a date <span class="required">* </span></label>
 				<div id="datetimepicker" class="input-group margin-bottom-sm">
 					<span class="input-group-addon"><i class="fa fa-calendar"></i></span>
 					<input type="date" id="date_visit" class="form-control">
-					
 				</div>
 			</div>
-			<div class="col-md-4 col-xs-10">
+			<div class="col-sm-5 col-xs-12">
 				<label><span class="required">*</span> Are you human? 3 + 1 =</label>
 				<input type="text" id="verify_visit" class="form-control">
 			</div>

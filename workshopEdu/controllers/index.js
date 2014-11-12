@@ -56,4 +56,8 @@ module.exports = function (router) {
     router.get('/events-calendar', function (req, res) {
         res.render('pages/eventsCalendar', model);
     });
+
+    router.get('/*', function (req, res) {
+        res.status(404).render('errors/404', model);
+    });
 };

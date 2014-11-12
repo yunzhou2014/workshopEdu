@@ -14,6 +14,7 @@ body {
 	font: 13px/20px "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+
 header,section,nav {
 	color: #fff;
 }
@@ -21,9 +22,16 @@ header,section,nav {
 .header-top {
 	background-color: @dark-blue;
 	padding: 8px 0;
+	img {
+		height: auto;
+		max-width: 100%;
+		vertical-align: middle;
+		border: 0;
+	}
 
 	.menu-top {
 		float: right;
+		margin-top: 5px;
 		ul {
 			list-style-type: none;
 			margin: 0;
@@ -32,6 +40,7 @@ header,section,nav {
 		li {
 			display: inline;
 			color: #d0dbeb;
+			font-size: 11px;
 			a {
 				color: #d0dbeb;
 			}
@@ -56,9 +65,11 @@ header,section,nav {
 }
 
 
-.navbar {
+nav.navbar {
 	background: @body-blue -webkit-linear-gradient(top,rgba(255,255,255,.2) 0%, rgba(0,0,0,.2) 100%);
 	margin-bottom: 30px;
+	border: none;
+	border-radius: 0;
 	.navbar-toggle .icon-bar {
 		background-color: #fff;
 	}
@@ -67,25 +78,49 @@ header,section,nav {
 		color: #FF9;
 	}
 
-	.nav>li {
-		position: inherit;
+	.navbar-collapse {
+		background: @body-blue -webkit-linear-gradient(top,rgba(255,255,255,.2) 0%, rgba(0,0,0,.2) 100%);
+		padding-left: 0px;
+		position: absolute;
+		z-index: 2000;
+		width: 100%;
+	}
+	
+	.nav.navbar-nav>li {
+		margin: 0;
+		line-height: 20px;
 		>a {
 			color: #fff;
+			padding: 14px 10px 15px 15px;
+			font-size: 12px;
+			font-weight: 700;
 		}
 	}
-	#simple-drop {
-		position: absolute;
-
+	.navbar-nav>li>a:hover {
+		background-color: #006e92;
+		box-shadow: inset 5px 0 5px -5px rgba(0, 0, 0, 0.35), inset -5px 0 5px -5px rgba(0, 0, 0, 0.35);
+		-webkit-box-shadow: inset 5px 0 5px -5px rgba(0, 0, 0, 0.35), inset -5px 0 5px -5px rgba(0, 0, 0, 0.35);
+		-moz-box-shadow: inset 5px 0 5px -5px rgba(0, 0, 0, 0.35), inset -5px 0 5px -5px rgba(0, 0, 0, 0.35);
+		text-decoration: none;
 	}
 
-	.dropdown-menu {
+	.dropdown-panel {
+		position: absolute;
+		display: none;
+		z-index: 1000;
 		background-color: @dark-blue;
 		padding-top: 30px;
 		padding-bottom: 20px;
-		margin: 0 9%;
+		cursor: default;
+		p, li {
+			font-size: 12px;
+		}
 	}
 }
 
+.btn {
+	margin: 10px 0;
+}
 .btn-red {
 	cursor: pointer;
 	font-weight: 700;
@@ -183,12 +218,34 @@ ul.list-menu {
 	}
 }
 
-ul.list {
+ul.list-arrowdown {
 	list-style: none;
 	li {
 		background: url(http://www.ansonika.com/edu/img/arrow_2.png) no-repeat 3px 5px;
 		padding-left: 20px;
 	}
+}
+
+ul.list-check li {
+	background: url(http://www.ansonika.com/edu/img/tick_1.png) no-repeat left 3px;
+	line-height: 18px;
+	padding-left: 20px;
+}
+
+ul.list-arrow li {
+	background: url(http://www.ansonika.com/edu/img/arrow_3.png) no-repeat 5px 7px;
+	line-height: 18px;
+	padding-left: 20px;
+}
+
+ul.list-dbarrow li {
+	background: url(http://www.ansonika.com/edu/img/arrow_4.png) no-repeat 4px 6px;
+	line-height: 18px;
+	padding-left: 20px;
+}
+
+.breadcrumb {
+	padding-left: 0;
 }
 
 #courses {
@@ -221,6 +278,7 @@ ul.list {
 
 		.nav.nav-tabs {
 			border-bottom: 2px solid #414750;
+			margin-bottom: 15px;
 			li.active {
 				a {
 					color: #fff;
@@ -241,20 +299,6 @@ ul.list {
 
 		.tab-content {
 			#staff {
-				.management {
-					height: 150px;
-					border-radius: 10px;
-					margin: 10px 10px;
-					background: url(http://www.ansonika.com/edu/img/teacher-small.jpg) no-repeat;
-				}
-				.business {
-					.management;
-					background: url(http://www.ansonika.com/edu/img/teacher-small-2.jpg) no-repeat;         
-				}
-				.admin {
-					.management;
-					background: url(http://www.ansonika.com/edu/img/teacher-small-3.jpg) no-repeat;
-				}
 				h5 em {
 					display: block;
 					font-weight: normal;
@@ -326,17 +370,14 @@ ul.list {
 
 .slider {
 	margin-top: -30px;
-	.carousel {
-		height: 500px;
-	}
 	.carousel-roll .carousel-inner {
 		.item {
 			.bg {
-				width: 1920px;
+				/*width: 1920px;
 				min-width: 1920px;
 				height: 500px;
 				left: -285.5px;
-				position: relative;
+				position: relative;*/
 			}
 		}
 
@@ -445,16 +486,21 @@ ul.list {
 		right: 10%;
 
 		.caption-text {
-			text-shadow: none;
-			font-weight: 800;
+			opacity: 1;
+			left: 193.6875px;
+			top: 180px;
 			font-size: 45px;
-			line-height: 60px;
+			padding: 0px 15px;
 			margin: 0px;
 			border-width: 0px;
-			border-style: none;
+			line-height: 60px;
 			white-space: nowrap;
-			padding-top: 1px;
-			padding: 0 15px;
+			min-width: 0px;
+			min-height: 0px;
+			transform: scale(1, 1) rotate(0deg);
+			text-shadow: none;
+			font-weight: 800;
+			border-style: none;
 			background-color: @dark-blue;
 		}
 
@@ -510,7 +556,7 @@ ul.list {
 }
 .red a:hover {
 	transition: background-color .8s;
-	background-color: #ff6666;
+	background-color: @button-red;
 }
 
 .box-style.ribbon-box {
@@ -612,6 +658,9 @@ ul.list {
 			line-height: 16px;
 			zoom: 1;
 		}
+		li:last-child {
+			border-right: none;
+		}
 	}
 	ul {
 		margin: 0 0 10px 0;
@@ -621,8 +670,10 @@ ul.list {
 footer {
 	background-color: #fff;
 	border-top: 1px solid #e0eaf0;
+	width: 100%;
 	padding-top: 60px;
 	padding-bottom: 45px;
+	color: #666;
 	.brand-footer {
 		text-align: center;
 	}
@@ -639,6 +690,7 @@ footer {
 	}
 	.twitter, .fb {
 		display: inline-block;
+		margin-right: 5px;
 		position: relative;
 		background: url(http://www.ansonika.com/edu/img/twitter_btn.png) no-repeat;
 		margin-top: 15px;
@@ -646,15 +698,10 @@ footer {
 		height: 32px;
 	}
 	.fb {
-		width: 157px;
 		background: url(http://www.ansonika.com/edu/img/fb_btn.png) no-repeat;
 	}
 	ul {
-		list-style-type: none;
-		padding-left: 0px;
-		.glyphicon {
-			margin-right: .4em;
-		}
+		
 		li a {
 			color: @footer-blue;
 		}
@@ -683,6 +730,17 @@ footer {
   padding: 5px;
   cursor: pointer;
   display: none;
+}
+
+// contacts page
+span.required {
+	font-size: 13px;
+	color: @button-red;
+}
+
+.button-align {
+	text-align: right;
+	padding-top: 25px;
 }
 
 .gallery {
@@ -722,6 +780,28 @@ footer {
 
 body.modal-open {
 	overflow: scroll;
+}
+
+.modal-header.borderless {
+	min-height: 0px;
+	padding: 0px;
+	border-bottom: none;
+	.fancybox-close {
+		background: url("http://www.ansonika.com/edu/js/fancybox/source/fancybox_sprite.png");
+		position: absolute;
+		top: -18px;
+		right: -18px;
+		width: 36px;
+		height: 36px;
+		cursor: pointer;
+		z-index: 8040;
+		opacity: 1;
+	}
+}
+
+.modal-body {
+	max-height: 550px;
+	overflow-y: auto;
 }
 
 ul.submenu-col {
@@ -794,11 +874,6 @@ ul.submenu-col {
 	}
 }
 
-.button-align {
-	text-align: right;
-	padding-top: 25px;
-}
-
 .strip-courses {
 	background: #eaf9ff;
 	-webkit-border-radius: 5px;
@@ -808,22 +883,24 @@ ul.submenu-col {
 	margin-bottom: 30px;
 	.description {
 		padding: 15px;
-	}
-	ul {
-		margin: 0;
-		padding: 0;
+	
+		ul {
+			margin: 0;
+			padding: 0;
 
-		li {
-			display: inline-block;
-			font-weight: 600;
-			margin-right: 8px;
-			padding-right: 8px;
-			border-right: 1px solid #ccc;
-			line-height: 16px;
-			zoom: 1;
-		}
-		li:last-child {
-			border-right: none;
+			li {
+				display: inline-block;
+				font-weight: 600;
+				margin-right: 8px;
+				padding-right: 8px;
+				border-right: 1px solid #ccc;
+				line-height: 16px;
+				zoom: 1;
+			}
+			li:last-child {
+				border-right: none;
+				color: @button-red;
+			}
 		}
 	}
 }
@@ -842,6 +919,9 @@ ul.submenu-col {
 		font-size: 18px;
 		padding: 3px 0 3px 15px;
 		margin: 0;
+		img {
+			max-width: 100%;
+		}
 	}
 	ul {
 		position: absolute;
@@ -883,19 +963,20 @@ ul.submenu-col {
 	}
 }
 
+
 .date-news {
 	float: left;
 	background: #f8f8f8;
 	text-align: center;
 	width: 80px;
-	height: 60px;
+	height: 80px;
 	padding-top: 20px;
 	color: #999;
 	font-size: 12px;
 	border: 1px solid #fff;
 	font-weight: 700;
-	border-radius: 500px;
-	-webkit-border-radius: 500px;
+	border-radius: 50px;
+	-webkit-border-radius: 50px;
 	-webkit-box-shadow: inset 0 0 0 4px rgba(200, 200, 200, 0.1), 0 0 3px 0 rgba(0, 0, 0, 0.35);
 	text-shadow: -1px -1px 0px rgba(255,255,255,1);
 	margin: 0 15px 10px 10px;
@@ -919,6 +1000,13 @@ ul.data-staff li {
 	zoom: 1;
 }
 
+.form-aligned .col-md-9 {
+	margin: 0 -15px 10px 0;
+	.form-control {
+		width: 100%;
+	}
+}
+
 ul.recent_post li, ul.latest_news li {
 	padding: 0 0 8px 0;
 	margin-bottom: 15px;
@@ -934,6 +1022,11 @@ ul.recent_post li, ul.latest_news li {
 		padding-left: 25px;
 		font-style: normal;
 	}
+}
+
+ul.recent_post li:last-child {
+	margin-bottom: 0;
+	border-bottom: 0;
 }
 
 .tags {
@@ -958,6 +1051,7 @@ ul.recent_post li, ul.latest_news li {
 	img {
 		border-radius: 5px;
 		margin-bottom: 18px;
+		width: 100%;
 	}
 
 	.post_info {
@@ -1007,6 +1101,9 @@ ul.recent_post li, ul.latest_news li {
 			}
 		}
 	}
+	.comment_info span {
+		padding: 0 12px;
+		}
 }
 
 .infomsg {
@@ -1017,4 +1114,129 @@ ul.recent_post li, ul.latest_news li {
 	padding: 15px 8px 15px 15px;
 	position: relative;
 	color: #666;
+}
+
+.panel-header(@color, @padding-top) {
+	background: #f5f5f5 url(http://www.ansonika.com/edu/img/plus.png) no-repeat center right;
+	padding: @padding-top 15px;
+	cursor: pointer;
+	display: block;
+	margin-bottom: 5px;
+	font-size: 16px;
+	color: @color;
+}
+#accordion {
+	.panel-heading {
+		background: #f5f5f5;
+		padding: 0;
+	}
+	.panel-title a  {
+		.panel-header(@footer-blue, 5px);
+		line-height: 32px;
+		transition: background .5s ease;
+	}
+	.panel-title a:hover {
+		text-decoration: none;
+		background: #099ad1 url(http://www.ansonika.com/edu/img/plus.png) no-repeat center right;
+		color: #fff;
+	}
+	#panel-text {
+		border-top: 0;
+	}
+	.panel.panel-default {
+		border: 0;
+	}
+
+}
+
+.togglehandle {
+	.panel-header(black, 8px);
+	border: 1px solid #D6D4CB;
+}
+
+.toggledata {
+	padding: 0 15px;
+}
+
+// bigger than  extra small devices
+@media(min-width: 768px) {
+	.carousel-inner {
+		.item {
+			.bg {
+				width: 1920px;
+				min-width: 1920px;
+				height: 500px;
+				left: -285.5px;
+				position: relative;
+			}
+		}
+	}
+}
+
+// small to medium device
+@media(max-width: 991px) and (min-width: 768px) {
+	
+		.box img {
+			float: none;
+			margin: auto;
+			margin-bottom: 20px;
+			display: block;
+		}
+		.green a {
+			background: #669933;
+		}
+		.orange a {
+			background: #fab90c;
+		}
+		.red a {
+			background: @button-red;
+		}
+		.green a:hover, .orange a:hover, .red a:hover {
+			background: #2d343e;
+		}
+	
+	.box-style .feat {
+		padding-left: 0;
+		i {
+			position: relative;
+			padding-bottom: 15px;
+			top: 0;
+			left: 0;
+			display: block;
+		}
+	}
+	#date_visit {
+		width: 70%;
+	}
+}
+
+// on xs devices
+@media(max-width: 767px) {
+	.header-top .menu-top {
+		float: none;
+		text-align: center;
+	}
+	nav.navbar {
+		.nav.navbar-nav>li>a {
+			padding: 15px 15px;
+		}
+
+		.navbar-collapse {
+			padding-left: 15px;
+		}
+
+		.dropdown-panel {
+			margin: 0 2%;
+		}
+	}
+
+	
+
+	.main-boxes {
+		margin-top: 30px;
+	}
+
+	.button-align {
+		text-align: left;
+	}
 }

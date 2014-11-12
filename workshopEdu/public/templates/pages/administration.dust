@@ -169,8 +169,8 @@ Administration
   <div class="modal-dialog modal-lg">
 
     <div class="modal-content">  
-    	<div class="modal-header">
-    		<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+    	<div class="modal-header borderless">
+    		<button type="button" class="fancybox-close close" data-dismiss="modal" aria-hidden="true"></button>
     	</div>
       <div class="modal-body">  
       	

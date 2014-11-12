@@ -1,7 +1,7 @@
 <section class="about">
 
 	<div class="row">      
-		<div class="col-md-3 col-xs-10">
+		<div class="col-sm-3 col-xs-12">
 
 			<h4>Quick links</h4>
 			<ul class="list-menu">
@@ -20,11 +20,11 @@
 				<li><a href="contact" title="Contact ">Ask for more information </a>
 				</li>
 			</ul>
-
-			<a href="all-courses" class="btn btn-blue" title="Courses">View all courses</a>			
+			<p>
+			<a href="all-courses" class="btn btn-blue" title="Courses">View all courses</a></p>		
 		</div>
 
-		<div class="col-md-9 col-xs-10">
+		<div class="col-sm-9 col-xs-12">
 			
 				<ul class="nav nav-tabs" role="tablist">
 					<li class="active"><a href="#staff" role="tab" data-toggle="tab">Staff</a></li>
@@ -34,24 +34,27 @@
 				<!--Tab panes -->
 				<div class="tab-content">
 					<div class="tab-pane active row" id="staff">
-						<div class="col-md-4 col-xs-10">
-							<div class="management"></div>
+						<div class="col-sm-4 col-xs-12">
+							<p>
+							<img class="img-rounded img-responsive" src="http://www.ansonika.com/edu/img/teacher-small.jpg" alt=""></img></p>
 							<h5>Ms. Annie Ann 
 								<em>Management</em>
 							</h5>
 							<p>An utinam reprimique duo, putant mandamus cu qui. Autem possim his cu, quodsi nominavi fabellas ut sit, mea ea ullum epicurei.</p>
 							<button type="button" class="btn btn-xs btn-red staff" title="staff">Read more</button>
 						</div>
-						<div class="col-md-4 col-xs-10">
-							<div class="business"></div>
+						<div class="col-sm-4 col-xs-12">
+							<p>
+							<img class="img-rounded img-responsive" src="http://www.ansonika.com/edu/img/teacher-small-2.jpg" alt=""></img></p>
 							<h5>Ms. Annie Ann 
 								<em>Business</em>
 							</h5>
 							<p>An utinam reprimique duo, putant mandamus cu qui. Autem possim his cu, quodsi nominavi fabellas ut sit, mea ea ullum epicurei.</p>
 							<button type="button" class="btn btn-xs btn-red staff" title="staff">Read more</button>
 						</div>
-						<div class="col-md-4 col-xs-10">
-							<div class="admin"></div>
+						<div class="col-sm-4 col-xs-10">
+							<p>
+							<img class="img-rounded img-responsive" src="http://www.ansonika.com/edu/img/teacher-small-3.jpg" alt=""></img></p>
 							<h5>Ms. Annie Ann 
 								<em>Administration</em>
 							</h5>
@@ -62,17 +65,17 @@
 
 					<div class="tab-pane" id="history">
 						<div class="row">
-							<div class="col-md-10 col-xs-10">
+							<div class="col-xs-12">
 								<p class="lead ">An utinam reprimique duo, putant mandamus cu qui. Autem possim his cu, quodsi nominavi fabellas ut sit, mea ea ullum epicurei. An utinam reprimique duo, putant mandamus cu qui.</p>
 							</div>
 						</div>
 						<hr class="menu">
 						<div class="row">
-							<div class="col-md-6 col-xs-10">
+							<div class="col-sm-6 col-xs-12">
 								<h5>History</h5>
 								<p>An utinam reprimique duo, putant mandamus cu qui. Autem possim his cu, quodsi nominavi fabellas ut sit, mea ea ullum epicurei. An utinam reprimique duo, putant mandamus cu qui. Autem possim his cu, quodsi nominavi fabellas ut sit, mea ea ullum epicurei.</p>
 							</div>
-							<div class="col-md-6 col-xs-10">
+							<div class="col-sm-6 col-xs-12">
 								<h5>Mission</h5>
 								<p>An utinam reprimique duo, putant mandamus cu qui. <strong>Autem possim his cu</strong>, quodsi nominavi fabellas ut sit, mea ea ullum epicurei. An utinam reprimique duo, putant mandamus cu qui. Autem possim his cu, quodsi nominavi fabellas ut sit, mea ea ullum epicurei.</p>
 							</div>

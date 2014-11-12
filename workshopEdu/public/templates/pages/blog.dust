@@ -9,10 +9,16 @@ Blog
 Blog
 {/breadcrume}
 
-{<contentLeft}	
-	<form class="form-inline">
-		<input type="text" class="form-control">
-		<button type="submit" class="btn btn-blue">Search</button> 
+{<contentLeft}
+	<form class="form-inline form-aligned">
+		<div class="row">
+			<div class="col-md-9 col-sm-12">
+				<input type="text" class="form-control">
+			</div>
+			<div class="col-md-3 col-sm-12">
+				<button type="submit" class="btn btn-blue">Search</button>
+			</div> 
+		</div>
 	</form>
 	<hr>
 	<div class="widget">
@@ -26,13 +32,13 @@ Blog
 		<h4>Recent post</h4>
 		<ul class="recent_post">
 			<li>
-      	<i class="fa fa-calendar-o"></i> 16th July, 2020 <div><a href="#">It is a long established fact that a reader will be distracted </a></div>
+      	<i class="fa fa-calendar-o"></i>&nbsp; 16th July, 2020 <div><a href="#">It is a long established fact that a reader will be distracted </a></div>
       </li>
 			<li>
-      	<i class="fa fa-calendar-o"></i> 16th July, 2020 <div><a href="#">It is a long established fact that a reader will be distracted </a></div>
+      	<i class="fa fa-calendar-o"></i>&nbsp; 16th July, 2020 <div><a href="#">It is a long established fact that a reader will be distracted </a></div>
       </li>
 			<li>
-      	<i class="fa fa-calendar-o"></i> 16th July, 2020 <div><a href="#">It is a long established fact that a reader will be distracted </a></div>
+      	<i class="fa fa-calendar-o"></i>&nbsp; 16th July, 2020 <div><a href="#">It is a long established fact that a reader will be distracted </a></div>
       </li>
 		</ul>
 	</div>
@@ -55,12 +61,12 @@ Blog
 	  <div class="post_info clearfix">
 	    <div class="post-left">
         <ul>
-        	<li><i class="fa fa-calendar-o"></i>On <span>12 Nov 2020</span></li>
-            <li><i class="fa fa-user"></i>By <a href="#">John Smith</a></li>
-            <li><i class="fa fa-tags"></i>Tags <a href="#">Works</a> <a href="#">Personal</a></li>
+        	<li><i class="fa fa-calendar-o"></i>&nbsp;On <span>12 Nov 2020</span></li>
+            <li><i class="fa fa-user"></i>&nbsp;By <a href="#">John Smith</a></li>
+            <li><i class="fa fa-tags"></i>&nbsp;Tags <a href="#">Works</a> <a href="#">Personal</a></li>
         </ul>
 	    </div>
-     	<div class="post-right"><i class="fa fa-comments"></i><a href="#">25 </a>Comments</div>  
+     	<div class="post-right"><i class="fa fa-comments"></i>&nbsp;<a href="#">25 </a>Comments</div>  
     </div>                                
 		<p>Praesent vestibulum molestie lacus. Aenean nonummy hendrerit mauris. Phasellus porta. Fusce suscipit varius mi nascetur ridiculus mus. Nulla dui. Fusce feugiat malesuada odio. Morbi nunc odio, gravida at, cursus nec, luctus a, lorem. Maecenas tristique orci ac sem. Duis ultricies pharetra magna. Donec accumsan malesuada orci. Donec sit amet eros. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Mauris fermentum dictum magna. Sed laoreet aliquam leo. Ut tellus dolor, dapibus eget, elementum vel, cursus eleifend, elit. Aenean auctor wisi et urna. Aliquam erat volutpat. Duis ac turpis. Integer rutrum ante eu lacus...</p>
  		<p><a href="blog-post" class="btn btn-blue">Read more</a></p>
@@ -71,12 +77,12 @@ Blog
 	  <div class="post_info clearfix">
 	    <div class="post-left">
 	      <ul>
-	      	<li><i class="fa fa-calendar-o"></i>On <span>12 Nov 2020</span></li>
-	        <li><i class="fa fa-user"></i>By <a href="#">John Smith</a></li>
-	        <li><i class="fa fa-tags"></i>Tags <a href="#">Works</a> <a href="#">Personal</a></li>
+	      	<li><i class="fa fa-calendar-o"></i>&nbsp;On <span>12 Nov 2020</span></li>
+	        <li><i class="fa fa-user"></i>&nbsp;By <a href="#">John Smith</a></li>
+	        <li><i class="fa fa-tags"></i>&nbsp;Tags <a href="#">Works</a> <a href="#">Personal</a></li>
 	      </ul>
 	 		</div>
-	    <div class="post-right"><i class="fa fa-comments"></i><a href="#">25 </a>Comments</div>  
+	    <div class="post-right"><i class="fa fa-comments"></i>&nbsp;<a href="#">25 </a>Comments</div>  
 		</div>                                
   	<p>Praesent vestibulum molestie lacus. Aenean nonummy hendrerit mauris. Phasellus porta. Fusce suscipit varius mi nascetur ridiculus mus. Nulla dui. Fusce feugiat malesuada odio. Morbi nunc odio, gravida at, cursus nec, luctus a, lorem. Maecenas tristique orci ac sem. Duis ultricies pharetra magna. Donec accumsan malesuada orci. Donec sit amet eros. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Mauris fermentum dictum magna. Sed laoreet aliquam leo. Ut tellus dolor, dapibus eget, elementum vel, cursus eleifend, elit. Aenean auctor wisi et urna. Aliquam erat volutpat. Duis ac turpis. Integer rutrum ante eu lacus...</p>
   	<p><a href="blog-post" class="btn btn-blue">Read more</a></p>
@@ -87,14 +93,26 @@ Blog
 	  <div class="post_info clearfix">
     <div class="post-left">
       <ul>
-      	<li><i class="fa fa-calendar-o"></i>On <span>12 Nov 2020</span></li>
-          <li><i class="fa fa-user"></i>By <a href="#">John Smith</a></li>
-          <li><i class="fa fa-tags"></i>Tags <a href="#">Works</a> <a href="#">Personal</a></li>
+      	<li><i class="fa fa-calendar-o"></i>&nbsp;On <span>12 Nov 2020</span></li>
+          <li><i class="fa fa-user"></i>&nbsp;By <a href="#">John Smith</a></li>
+          <li><i class="fa fa-tags"></i>&nbsp;Tags <a href="#">Works</a> <a href="#">Personal</a></li>
       </ul>
     </div>
-    <div class="post-right"><i class="fa fa-comments"></i><a href="#">25 </a>Comments</div>  
+    <div class="post-right"><i class="fa fa-comments"></i>&nbsp;<a href="#">25 </a>Comments</div>  
     </div>                                
 		<p>Praesent vestibulum molestie lacus. Aenean nonummy hendrerit mauris. Phasellus porta. Fusce suscipit varius mi nascetur ridiculus mus. Nulla dui. Fusce feugiat malesuada odio. Morbi nunc odio, gravida at, cursus nec, luctus a, lorem. Maecenas tristique orci ac sem. Duis ultricies pharetra magna. Donec accumsan malesuada orci. Donec sit amet eros. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Mauris fermentum dictum magna. Sed laoreet aliquam leo. Ut tellus dolor, dapibus eget, elementum vel, cursus eleifend, elit. Aenean auctor wisi et urna. Aliquam erat volutpat. Duis ac turpis. Integer rutrum ante eu lacus...</p>
  		<p><a href="blog-post" class="btn btn-blue">Read more</a></p>
 	</div>
+	<hr>
+	<nav class="text-center">
+    <ul class="pagination">
+      <li><a href="#">Prev</a></li>
+      <li class="active"><a href="#">1</a></li>
+      <li><a href="#">2</a></li>
+      <li><a href="#">3</a></li>
+      <li><a href="#">4</a></li>
+      <li><a href="#">5</a></li>
+      <li><a href="#">Next</a></li>
+    </ul>
+  </nav>
 {/contentRight}

@@ -13,7 +13,7 @@ Staff
 	<h4>Jobs opportunities</h4>
 	<p>Suspendisse quis risus turpis, ut pharetra arcu. Donec adipiscing, quam non faucibus luctus, mi arcu blandit diam, at faucibus mi ante vel augue.</p>
 	<h6>We are looking for</h6>
-	<ul class="list">
+	<ul class="list-arrowdown">
 		<li>Vivamus sagittis lacus vel augue laoreet </li>
 		<li>Nullam quis risus eget urna mollis</li>
 		<li>Nullam id dolor id nibh ultricies</li>
@@ -33,10 +33,10 @@ Staff
 	<hr>
 	<div class="strip-staff">
 		<div class="row">
-			<div class="col-md-3 pic-teacher">
-				<div class="borders"><img src="http://www.ansonika.com/edu/img/teacher.jpg" alt="" class="img-rounded"></div>
+			<div class="col-sm-3 pic-teacher">
+				<div class="borders"><img src="http://www.ansonika.com/edu/img/teacher.jpg" alt="" class="img-rounded img-responsive"></div>
 			</div>
-			<div class="col-md-8">
+			<div class="col-sm-8">
 				<h4>Ms. Annie Ann <em>Management and Business</em></h4>
 				<p>
 					An utinam reprimique duo, putant mandamus cu qui. Autem possim his cu, quodsi nominavi fabellas ut sit, <strong>mea ea ullum epicurei</strong>. Saepe tantas ocurreret duo ea, has facilisi vulputate an. Pri aeque iuvaret nominati et, ad mea clita numquam.
@@ -53,10 +53,10 @@ Staff
 	<hr>
 	<div class="strip-staff">
 		<div class="row">
-			<div class="col-md-3 pic-teacher">
-				<div><img src="http://www.ansonika.com/edu/img/teacher-2.jpg" alt="" class="img-rounded"></div>
+			<div class="col-sm-3 pic-teacher">
+				<div><img src="http://www.ansonika.com/edu/img/teacher-2.jpg" alt="" class="img-rounded img-responsive"></div>
 			</div>
-			<div class="col-md-8">
+			<div class="col-sm-8">
 				<h4>Ms. Carla Francis<em>Communication</em></h4>
 				<p>
 					An utinam reprimique duo, putant mandamus cu qui. Autem possim his cu, quodsi nominavi fabellas ut sit, <strong>mea ea ullum epicurei</strong>. Saepe tantas ocurreret duo ea, has facilisi vulputate an. Pri aeque iuvaret nominati et, ad mea clita numquam.
@@ -73,10 +73,10 @@ Staff
 	<hr>
 	<div class="strip-staff">
 		<div class="row">
-			<div class="col-md-3 pic-teacher">
-				<div class="borders"><img src="http://www.ansonika.com/edu/img/teacher-3.jpg" alt="" class=" img-rounded"></div>
+			<div class="col-sm-3 pic-teacher">
+				<div class="borders"><img src="http://www.ansonika.com/edu/img/teacher-3.jpg" alt="" class="img-rounded img-responsive"></div>
 			</div>
-			<div class="col-md-8">
+			<div class="col-sm-8">
 				<h4>Ms. Megan Fox<em>Administration</em></h4>
 				<p>
 					An utinam reprimique duo, putant mandamus cu qui. Autem possim his cu, quodsi nominavi fabellas ut sit, <strong>mea ea ullum epicurei</strong>. Saepe tantas ocurreret duo ea, has facilisi vulputate an. Pri aeque iuvaret nominati et, ad mea clita numquam.

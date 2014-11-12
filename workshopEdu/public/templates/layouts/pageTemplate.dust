@@ -3,14 +3,16 @@
 {<body}
 
 <div class="container">
-	<div class="row">	
-	  <h1>{+pageTitle /}</h1>
-	  <ol class="breadcrumb">
-		  <li><a href="/">Home</a></li>
-		  <li class="active">{+breadcrume /}</li>
-		</ol>
+	<div class="row">
+		<div class="col-xs-12">
+		  <h1>{+pageTitle /}</h1>
+		  <ol class="breadcrumb">
+			  <li><a href="/">Home</a></li>
+			  <li class="active">{+breadcrume /}</li>
+			</ol>
+		</div>
 		
-		<div class="col-lg-4 col-xs-10">
+		<div class="col-sm-4 col-xs-12">
 			<div class="col-left">
 				{+contentLeft /}			
 			</div>
@@ -18,8 +20,8 @@
 			<p><img src="http://www.ansonika.com/edu/img/banner.jpg" alt="Banner" class="img-rounded"></p>	
 		</div>
 
-		<div class="col-lg-8 col-xs-10">
-			<div class="col-right">
+		<div class="col-sm-8 col-xs-12">
+			<div class="col-right col-xs-12">
 				{+contentRight /}	
 			</div>
 		</div>

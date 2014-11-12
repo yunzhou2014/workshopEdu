@@ -36,10 +36,9 @@
 					<div class="caption-text">
 						JOIN THE COMMUNITY
 					</div>
-					<br>
-					<div>
+					<p>
 						<a href="#" class="btn btn-blue btn-lg">Read more</a>
-					</div>
+					</p>
 				</div>
 			</div>
 
@@ -49,10 +48,9 @@
 					<div class="caption-text">
 						DIFFERENT COURSES AVAILABLE
 					</div>
-					<br>
-					<div>
+					<p>
 						<button type="button" class="btn btn-blue btn-lg">Read more</button>
-					</div>
+					</p>
 				</div>
 			</div>
 		</div>
@@ -70,21 +68,21 @@
 <section class="main-boxes">
 	<div class="container">
 		<div class="row">
-			<div class = "col-md-4 col-xs-10 box green">
+			<div class = "col-sm-4 col-xs-12 box green">
 				<a href="all-courses" title="All Courses">
 					<img src="http://www.ansonika.com/edu/img/icon-home-course.png" alt="">
 					<h3>Courses</h3>
 					<p>Lorem ipsum dolor sit amet, dicta aliquip ad vix, ne sit everti corpora. Qui cu eros feugiat, elitr iudico ad pri.</p>
 				</a>
 			</div>
-			<div class = "col-md-4 col-xs-10 box orange">
+			<div class = "col-sm-4 col-xs-12 box orange">
 				<a href="contact" title="Apply">
 					<img src="http://www.ansonika.com/edu/img/icon-home-apply.png" alt="">
 					<h3>Apply now</h3>
 					<p>Lorem ipsum dolor sit amet, dicta aliquip ad vix, ne sit everti corpora. Qui cu eros feugiat, elitr iudico ad pri.</p>
 				</a>
 			</div>
-			<div class = "col-md-4 col-xs-10 box red">
+			<div class = "col-sm-4 col-xs-12 box red">
 				<a href="contact" title="Plan a visit">
 					<img src="http://www.ansonika.com/edu/img/icon-home-visit.png" alt="">
 					<h3>Plan a visit</h3>
@@ -98,7 +96,7 @@
 
 <div class="container">
 	<div class="row">
-		<div class="col-md-4 col-xs-10">
+		<div class="col-sm-4 col-xs-12">
 			<div class="box-style ribbon-box">
 				<div class="feat">
 					<i class="fa fa-group fa-3x"></i>
@@ -127,7 +125,7 @@
 			</div>
 			<p><a href="all-courses" title="All courses"><img src="http://www.ansonika.com/edu/img/banner.jpg" alt="Banner" class="img-rounded"></a></p>
 		</div>
-		<div class="col-md-8 col-xs-10">
+		<div class="col-sm-8 col-xs-12">
 			<div class="col-right">
 				<h2>Upcoming courses</h2>
 				<p>An utinam reprimique duo, putant mandamus cu qui. Autem possim his cu, quodsi nominavi fabellas ut sit, mea ea ullum epicurei. Saepe tantas ocurreret duo ea, has facilisi vulputate an. Priaeque iuvaret nominati et, ad mea clita numquam. Maluisset dissentiunt et per, dico liber erroribus vis te. Dolor consul graecis nec ut, scripta eruditi scriptorem et nam.</p>
@@ -135,10 +133,10 @@
 
 				<div class="strip-lessons">
 					<div class="row">
-						<div class="col-md-3 col-xs-10">
+						<div class="col-sm-3 col-xs-12">
 							<div class="box-course"><img src="http://www.ansonika.com/edu/img/lessons.png" alt=""><h5>Intro</h5></div>
 						</div>
-						<div class="col-md-9 col-xs-10">
+						<div class="col-sm-9 col-xs-12">
 							<h4>Autem possim his</h4>
 							<p>An utinam reprimique duo, putant mandamus cu qui. Autem possim his cu, quodsi nominavi fabellas ut sit, <strong>mea ea ullum epicurei</strong>. Saepe tantas ocurreret duo ea, has facilisi vulputate an. Pri aeque iuvaret nominati et, ad mea clita numquam. </p>
 							<ul class="data-lessons">
@@ -152,11 +150,11 @@
 
 				<div class="strip-lessons">
 					<div class="row">
-						<div class="col-md-3 col-xs-10">
-							<div class="box-course"><img src="http://www.ansonika.com/edu/img/teacher.jpg" alt="" class="picture"><h5>lesson one</h5></div>
+						<div class="col-sm-3 col-xs-12">
+							<div class="box-course"><img src="http://www.ansonika.com/edu/img/teacher.jpg" alt="" class="picture"><h5>html</h5></div>
 						</div>
-						<div class="col-md-9 col-xs-10">
-							<h4>Autem possim his</h4>
+						<div class="col-sm-9 col-xs-12">
+							<h4>Putant mandamus</h4>
 							<p>An utinam reprimique duo, putant mandamus cu qui. Autem possim his cu, quodsi nominavi fabellas ut sit, <strong>mea ea ullum epicurei</strong>. Saepe tantas ocurreret duo ea, has facilisi vulputate an. Pri aeque iuvaret nominati et, ad mea clita numquam. </p>
 							<ul class="data-lessons">
               	<li><i class="fa fa-clock-o"></i>&nbsp;Duration: 3 hours</li>
@@ -169,11 +167,11 @@
 
 				<div class="strip-lessons">
 					<div class="row">
-						<div class="col-md-3 col-xs-10">
-							<div class="box-course"><img src="http://www.ansonika.com/edu/img/teacher-2.jpg" alt="" class="picture"><h5>lesson two</h5></div>
+						<div class="col-sm-3 col-xs-12">
+							<div class="box-course"><img src="http://www.ansonika.com/edu/img/teacher-2.jpg" alt="" class="picture"><h5>css</h5></div>
 						</div>
-						<div class="col-md-9 col-xs-10">
-							<h4>Autem possim his</h4>
+						<div class="col-sm-9 col-xs-12">
+							<h4>Quodsi nominavi</h4>
 							<p>An utinam reprimique duo, putant mandamus cu qui. Autem possim his cu, quodsi nominavi fabellas ut sit, <strong>mea ea ullum epicurei</strong>. Saepe tantas ocurreret duo ea, has facilisi vulputate an. Pri aeque iuvaret nominati et, ad mea clita numquam. </p>
 							<ul class="data-lessons">
 	            	<li><i class="fa fa-clock-o"></i>&nbsp;Duration: 3 hours</li>
@@ -186,11 +184,11 @@
 
 				<div class="strip-lessons">
 					<div class="row">
-						<div class="col-md-3 col-xs-10">
-							<div class="box-course"><img src="http://www.ansonika.com/edu/img/teacher-3.jpg" alt="" class="picture"><h5>lesson three</h5></div>
+						<div class="col-sm-3 col-xs-12">
+							<div class="box-course"><img src="http://www.ansonika.com/edu/img/teacher-3.jpg" alt="" class="picture"><h5>javascript</h5></div>
 						</div>
-						<div class="col-md-9 col-xs-10">
-							<h4>Autem possim his</h4>
+						<div class="col-sm-9 col-xs-12">
+							<h4>Saepe tantas</h4>
 							<p>An utinam reprimique duo, putant mandamus cu qui. Autem possim his cu, quodsi nominavi fabellas ut sit, <strong>mea ea ullum epicurei</strong>. Saepe tantas ocurreret duo ea, has facilisi vulputate an. Pri aeque iuvaret nominati et, ad mea clita numquam. </p>
 							<ul class="data-lessons">
 	            	<li><i class="fa fa-clock-o"></i>&nbsp;Duration: 3 hours</li>
@@ -212,8 +210,8 @@
     <div class="modal-dialog modal-lg">
 
       <div class="modal-content">  
-      	<div class="modal-header">
-      		<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+      	<div class="modal-header borderless">
+      		<button type="button" title="Close" class="close fancybox-close" data-dismiss="modal" aria-hidden="true"></button>
       	</div>
         <div class="modal-body">  
         	
