@@ -1,19 +1,10 @@
-@dark-blue: #2d343e;
-@body-blue: #0099cc;
-@dropdown-text-blue: #12b0e6;
-@button-blue: #099ad1;
-@tab-blue: #0f91bd;
-@footer-blue: #0088cc;
-
-@button-red: #ff6666;
-@bg-color: #f8f8f8;
+@import "variables";
 
 body {
 	background: @bg-color url(http://www.ansonika.com/edu/img/pattern.jpg) repeat;
 	color: #555;
 	font: 13px/20px "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-
 
 header,section,nav {
 	color: #fff;
@@ -66,7 +57,19 @@ header,section,nav {
 
 
 nav.navbar {
-	background: @body-blue -webkit-linear-gradient(top,rgba(255,255,255,.2) 0%, rgba(0,0,0,.2) 100%);
+	background:@body-blue;
+	/* Old browsers */
+	background:@body-blue -moz-linear-gradient(top,rgba(255,255,255,.2) 0%,rgba(0,0,0,.2) 100%);
+	/* FF3.6+*/
+	background:@body-blue -webkit-gradient(linear,left top,left bottom,color-stop(0%,rgba(255,255,255,.2)),color-stop(100%,rgba(0,0,0,.2)));
+	/* Chrome,Safari4+*/
+	background:@body-blue -webkit-linear-gradient(top,rgba(255,255,255,.2) 0%,rgba(0,0,0,.2) 100%);
+	/* Chrome10+,Safari5.1+*/
+	background:@body-blue -o-linear-gradient(top,rgba(255,255,255,.2) 0%,rgba(0,0,0,.2) 100%);
+	/* Opera11.10+*/
+	background:@body-blue -ms-linear-gradient(top,rgba(255,255,255,.2) 0%,rgba(0,0,0,.2) 100%);
+	/* IE10+*/
+	background:@body-blue linear-gradient(top,rgba(255,255,255,.2) 0%,rgba(0,0,0,.2) 100%);
 	margin-bottom: 30px;
 	border: none;
 	border-radius: 0;
@@ -79,11 +82,25 @@ nav.navbar {
 	}
 
 	.navbar-collapse {
-		background: @body-blue -webkit-linear-gradient(top,rgba(255,255,255,.2) 0%, rgba(0,0,0,.2) 100%);
+		background:@body-blue;
+		/* Old browsers */
+		background:@body-blue -moz-linear-gradient(top,rgba(255,255,255,.2) 0%,rgba(0,0,0,.2) 100%);
+		/* FF3.6+*/
+		background:@body-blue -webkit-gradient(linear,left top,left bottom,color-stop(0%,rgba(255,255,255,.2)),color-stop(100%,rgba(0,0,0,.2)));
+		/* Chrome,Safari4+*/
+		background:@body-blue -webkit-linear-gradient(top,rgba(255,255,255,.2) 0%,rgba(0,0,0,.2) 100%);
+		/* Chrome10+,Safari5.1+*/
+		background:@body-blue -o-linear-gradient(top,rgba(255,255,255,.2) 0%,rgba(0,0,0,.2) 100%);
+		/* Opera11.10+*/
+		background:@body-blue -ms-linear-gradient(top,rgba(255,255,255,.2) 0%,rgba(0,0,0,.2) 100%);
+		/* IE10+*/
+		background:@body-blue linear-gradient(top,rgba(255,255,255,.2) 0%,rgba(0,0,0,.2) 100%);
 		padding-left: 0px;
-		position: absolute;
 		z-index: 2000;
 		width: 100%;
+		&.in {
+			overflow-y: visible; 
+		}
 	}
 	
 	.nav.navbar-nav>li {
@@ -94,6 +111,11 @@ nav.navbar {
 			padding: 14px 10px 15px 15px;
 			font-size: 12px;
 			font-weight: 700;
+			-webkit-transition: background-color 0.4s ease-out;
+			-moz-transition: background-color 0.4s ease-out;
+			-o-transition: background-color 0.4s ease-out;
+			-ms-transition: background-color 0.4s ease-out;
+			transition: background-color 0.4s ease-out;
 		}
 	}
 	.navbar-nav>li>a:hover {
@@ -130,9 +152,10 @@ nav.navbar {
 
 .btn-red:hover {
 	transition: background-color .5s ease;
-	-moz-transition: background .5s ease;
-	-webkit-transition: background .5s ease;
-	-o-transition: background .5s ease;
+	-moz-transition: background-color .5s ease;
+	-webkit-transition: background-color .5s ease;
+	-o-transition: background-color .5s ease;
+	-ms-transition: background-color .5s ease;
 	background-color: @button-blue;
 	color: #fff;
 }
@@ -145,7 +168,11 @@ nav.navbar {
 }
 
 .btn-blue:hover {
-	transition: background-color .5s;
+	transition: background-color .5s ease;
+	-moz-transition: background-color .5s ease;
+	-webkit-transition: background-color .5s ease;
+	-o-transition: background-color .5s ease;
+	-ms-transition: background-color .5s ease;
 	background-color: #333;
 	color: #fff;
 }
@@ -318,12 +345,15 @@ ul.list-dbarrow li {
 			background-color: #424952;
 			color: #fff;
 			border-radius: 5px;
+			-webkit-border-radius: 5px;
+			-moz-border-radius: 5px;
 			font-size: 14px;
 			font-weight: 700;
 			padding: 20px 15px;
 			margin-bottom: 25px;
 			
 			-webkit-box-shadow: inset 0 0 0 3px rgba(255, 255, 255, 0.1);
+			-moz-box-shadow: inset 0 0 0 3px rgba(255, 255, 255, 0.1) ;
 			box-shadow: inset 0 0 0 3px rgba(255, 255, 255, 0.1);
 
 			i {
@@ -333,6 +363,10 @@ ul.list-dbarrow li {
 		}
 		a:hover {
 			transition: background .5s;
+			-moz-transition: background .5s;
+			-webkit-transition: background .5s;
+			-o-transition: background .5s;
+			-ms-transition: background .5s;
 			background-color: @body-blue;
 			text-decoration: none;
 		}
@@ -340,11 +374,20 @@ ul.list-dbarrow li {
 }
 
 #simple-drop {
-	background-color: @body-blue;
-	margin-top: 5px;
-	border-radius: 10px;
-	li a {
-		color: #fff;
+	background: none;
+	padding: 0px;
+	width: 180px;
+	li {			
+		padding: 5px 15px;
+		margin: 5px;
+		background-color: @body-blue;
+		border-radius: 6px;
+		-webkit-border-radius: 6px;
+		-moz-border-radius: 6px;
+		a {
+			color: #fff;
+			text-decoration: none;
+		}
 	}
 }
 
@@ -370,144 +413,6 @@ ul.list-dbarrow li {
 
 .slider {
 	margin-top: -30px;
-	.carousel-roll .carousel-inner {
-		.item {
-			.bg {
-				/*width: 1920px;
-				min-width: 1920px;
-				height: 500px;
-				left: -285.5px;
-				position: relative;*/
-			}
-		}
-
-		.active, .active.left, .active.right {
-		}
-	}
-
-	.flyin-img {
-		transition-property: right, bottom;
-		transition-duration: 1s, 1s;
-		transition-timing-function: ease-in;
-		transition-delay: 0.5s;
-		bottom: -800px;
-		right: 40%;
-		position: absolute;
-	}
-
-	#icon1 {
-		top: 18%;
-		left: 23%;
-		position: absolute;
-	}
-	#icon2 {
-		bottom: 18%;
-		left: 25%;
-		position: absolute;
-	}
-	#icon3 {
-		top: 18%;
-		right: 30%;
-		position: absolute;
-	}
-	#icon4 {
-		bottom: 20%;
-		right: 30%;
-		position: absolute;
-	}
-
-	.active>.flyin-img {
-		bottom: 30%;
-	} 
-
-	.active>#icon1 {
-		-webkit-animation: icon-animate1 2.5s linear;
-	}
-
-	@-webkit-keyframes icon-animate1 {
-		from { 
-			top: -800px;
-			left: -800px;
-		}
-		to { 
-			top: 18%;
-			left: 23%;
-		}
-	}
-
-	.active>#icon2 {
-		-webkit-animation: icon-animate2 3s linear;
-	}
-
-	@-webkit-keyframes icon-animate2 {
-		from { 
-			bottom: -800px;
-			left: -800px;
-		}
-		to { 
-			bottom: 18%;
-			left: 25%;
-		}
-	}
-
-	.active>#icon3 {
-		-webkit-animation: icon-animate3 3.5s linear;
-	}
-
-	@-webkit-keyframes icon-animate3 {
-		from { 
-			top: -800px;
-			right: -800px;
-		}
-		to { 
-			top: 18%;
-			right: 30%;
-		}
-	}
-
-	.active>#icon4 {
-		-webkit-animation: icon-animate4 4s linear;
-	}
-
-	@-webkit-keyframes icon-animate4 {
-		from { 
-			bottom: -800px;
-			right: -800px;
-		}
-		to { 
-			bottom: 20%;
-			right: 30%;
-		}
-	}
-
-	.caption {
-		position: absolute;
-		bottom: 30%;
-		right: 10%;
-
-		.caption-text {
-			opacity: 1;
-			left: 193.6875px;
-			top: 180px;
-			font-size: 45px;
-			padding: 0px 15px;
-			margin: 0px;
-			border-width: 0px;
-			line-height: 60px;
-			white-space: nowrap;
-			min-width: 0px;
-			min-height: 0px;
-			transform: scale(1, 1) rotate(0deg);
-			text-shadow: none;
-			font-weight: 800;
-			border-style: none;
-			background-color: @dark-blue;
-		}
-
-		.btn.btn-blue.btn-lg {
-			float: right;
-		}
-	}
 }
 
 .main-boxes {
@@ -520,6 +425,8 @@ ul.list-dbarrow li {
 .box {
 	a {
 		-webkit-box-shadow: 0 10px 12px -6px rgba(000, 000, 000, 0.4), inset 0 0 0 5px rgba(255, 255, 255, 0.1);
+  	-moz-box-shadow: 0 10px 12px -6px rgba(000, 000, 000, 0.4), inset 0 0 0 5px rgba(255, 255, 255, 0.1) ;
+  	box-shadow: 0 10px 12px -6px rgba(000, 000, 000, 0.4), inset 0 0 0 5px rgba(255, 255, 255, 0.1);
 		display: block;
 		font-size: 14px;
 		text-shadow: 1px 1px 0 px rgba(0,0,0,.3);
@@ -530,6 +437,8 @@ ul.list-dbarrow li {
 		color: #fff;
 		margin-bottom: 15px;
 		border-radius: 5px;
+		-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
 	}
 	h3 {
 		margin-top: 0px;
@@ -547,15 +456,27 @@ ul.list-dbarrow li {
 }
 .green a:hover {
 	transition: background-color .8s;
+	-moz-transition: background-color .8s;
+	-webkit-transition: background-color .8s;
+	-o-transition: background-color .8s;
+	-ms-transition: background-color .8s;
 	background-color: #669933;
 }
 
 .orange a:hover {
 	transition: background-color .8s;
+	-moz-transition: background-color .8s;
+	-webkit-transition: background-color .8s;
+	-o-transition: background-color .8s;
+	-ms-transition: background-color .8s;
 	background-color: #F60;
 }
 .red a:hover {
 	transition: background-color .8s;
+	-moz-transition: background-color .8s;
+	-webkit-transition: background-color .8s;
+	-o-transition: background-color .8s;
+	-ms-transition: background-color .8s;
 	background-color: @button-red;
 }
 
@@ -565,9 +486,13 @@ ul.list-dbarrow li {
 .box-style {
 	background: #eaf9ff;
 	padding: 30px 30px 10px 30px;
-	-webkit-box-shadow: inset 0 0 0 5px rgba(200, 200, 200, 0.1), 0 0 3px 0 rgba(0, 0, 0, 0.35);
+	box-shadow: inset 0 0 0 5px rgba(200, 200, 200, 0.1), 0 0 3px 0 rgba(0, 0, 0, 0.35); 
+	-webkit-box-shadow: inset 0 0 0 5px rgba(200, 200, 200, 0.1), 0 0 3px 0 rgba(0, 0, 0, 0.35); 
+	-moz-box-shadow: inset 0 0 0 5px rgba(200, 200, 200, 0.1), 0 0 3px 0 rgba(0, 0, 0, 0.35); 
 	border: 1px solid #fff;
 	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
 	color: #2e415c;
 	position: relative;
 	margin-bottom: 20px;
@@ -590,6 +515,8 @@ ul.list-dbarrow li {
 	vertical-align: middle;
 	border: 0;
 	border-radius: 6px;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
 }
 
 .col-left {
@@ -597,6 +524,8 @@ ul.list-dbarrow li {
 	background-color: #fff;
 	border: 1px solid #e2e2e2;
 	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
 	margin-bottom: 30px;
 	h3, .widget h4 {
 		text-transform: uppercase;
@@ -614,6 +543,8 @@ ul.list-dbarrow li {
 	background-color: #fff;
 	border: 1px solid #e2e2e2;
 	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
 	margin-bottom: 60px;
 	p { margin: 0 0 25px 0; }
 	.strip-lessons {
@@ -623,6 +554,8 @@ ul.list-dbarrow li {
 	}
 	.box-course {
 		border-radius: 5px;
+		-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
 		background: #eaf9ff;
 		position: relative;
 		text-align: center;
@@ -634,6 +567,10 @@ ul.list-dbarrow li {
 			padding: 4px 0;
 			color: #eaf9ff;
 			text-transform: uppercase;
+			-webkit-border-bottom-right-radius: 5px;
+			-webkit-border-bottom-left-radius: 5px;
+			-moz-border-radius-bottomright: 5px;
+			-moz-border-radius-bottomleft: 5px;
 			border-bottom-right-radius: 5px;
 			border-bottom-left-radius: 5px;
 		}
@@ -643,6 +580,10 @@ ul.list-dbarrow li {
 		}
 		img.picture {
 			margin: 0;
+			-webkit-border-top-left-radius: 5px;
+			-webkit-border-top-right-radius: 5px;
+			-moz-border-radius-topleft: 5px;
+			-moz-border-radius-topright: 5px;
 			border-top-left-radius: 5px;
 			border-top-right-radius: 5px;
 		}
@@ -713,6 +654,8 @@ footer {
 		background-color: #fff;
 		border: 1px solid #e2e2e2;
 		box-shadow: 0 0 8px #e3e3e3 inset;
+		-webkit-shadow:0 0 8px #e3e3e3 inset;
+   	-moz-shadow:0 0 8px #e3e3e3 inset;
 	}
 }
 
@@ -748,10 +691,6 @@ span.required {
 	.thumbnail
 	{ 
 		border: 0px;
-		/*img { 
-			min-height:168px;
-			height:168px;
-		}*/
 	} 
 	.photo-icon {
 		background: url(http://www.ansonika.com/edu/img/zoom_1.png) no-repeat 10px 10px;
@@ -819,6 +758,8 @@ ul.submenu-col {
 	}
 		a:hover {
 			background: #efefef;
+			-webkit-border-radius: 3px;
+			-moz-border-radius: 3px;
 			border-radius: 3px;
 			color: #326e99;
 		}
@@ -840,6 +781,10 @@ ul.submenu-col {
 		height: auto;
 		max-width: 100%;
 		border: 0;
+		-webkit-border-top-left-radius: 4px;
+		-webkit-border-top-right-radius: 4px;
+		-moz-border-radius-topleft: 4px;
+		-moz-border-radius-topright: 4px;
 		border-top-left-radius: 4px;
 		border-top-right-radius: 4px;
 	}
@@ -857,8 +802,13 @@ ul.submenu-col {
 .table-bordered
 {
 	thead tr {
-		background: -webkit-linear-gradient(top, #eeeeee 0%, #dadada 100%);
-		background-repeat: repeat-x;
+		background-color: #e6e6e6;
+	  background-image: -moz-linear-gradient(top, #eeeeee, #dadada);
+	  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#eeeeee), to(#dadada));
+	  background-image: -webkit-linear-gradient(top, #eeeeee, #dadada);
+	  background-image: -o-linear-gradient(top, #eeeeee, #dadada);
+	  background-image: linear-gradient(to bottom, #eeeeee, #dadada);
+	  background-repeat: repeat-x;
 	}
 	tbody {
 		tr td {
@@ -977,7 +927,9 @@ ul.submenu-col {
 	font-weight: 700;
 	border-radius: 50px;
 	-webkit-border-radius: 50px;
-	-webkit-box-shadow: inset 0 0 0 4px rgba(200, 200, 200, 0.1), 0 0 3px 0 rgba(0, 0, 0, 0.35);
+	box-shadow: inset 0 0 0 4px rgba(200, 200, 200, 0.1), 0 0 3px 0 rgba(0, 0, 0, 0.35); 
+	-webkit-box-shadow: inset 0 0 0 4px rgba(200, 200, 200, 0.1), 0 0 3px 0 rgba(0, 0, 0, 0.35); 
+	-moz-box-shadow: inset 0 0 0 4px rgba(200, 200, 200, 0.1), 0 0 3px 0 rgba(0, 0, 0, 0.35); 
 	text-shadow: -1px -1px 0px rgba(255,255,255,1);
 	margin: 0 15px 10px 10px;
 	strong {
@@ -1037,7 +989,11 @@ ul.recent_post li:last-child {
 		line-height: 33px;
 		background: #ededed url(http://www.ansonika.com/edu/img/tag_bg.png) no-repeat 91% center;
 		padding: 0 28px 0 11px;
+		transition: background .5s ease;
+		-moz-transition: background .5s ease;
 		-webkit-transition: background .5s ease;
+		-o-transition: background .5s ease;
+		-ms-transition: background .5s ease;
 		color: #646464;
 	}
 	a:hover {
@@ -1049,6 +1005,8 @@ ul.recent_post li:last-child {
 
 .post {
 	img {
+		-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
 		border-radius: 5px;
 		margin-bottom: 18px;
 		width: 100%;
@@ -1134,6 +1092,10 @@ ul.recent_post li:last-child {
 		.panel-header(@footer-blue, 5px);
 		line-height: 32px;
 		transition: background .5s ease;
+		-moz-transition: background .5s ease;
+		-webkit-transition: background .5s ease;
+		-o-transition: background .5s ease;
+		-ms-transition: background .5s ease;
 	}
 	.panel-title a:hover {
 		text-decoration: none;
@@ -1158,24 +1120,202 @@ ul.recent_post li:last-child {
 	padding: 0 15px;
 }
 
-// bigger than  extra small devices
-@media(min-width: 768px) {
-	.carousel-inner {
-		.item {
-			.bg {
-				width: 1920px;
-				min-width: 1920px;
-				height: 500px;
-				left: -285.5px;
-				position: relative;
+// on medium and large devices
+@media(min-width: 992px) {
+	.slider {
+		.carousel-inner .item >img {
+			width: 1920px;
+			min-width: 1920px;
+			height: 500px;
+			left: -285.5px;
+			position: relative;
+		}
+		#big-logo {
+			position: absolute;
+			right: 40%;
+			bottom: 30%;
+			-webkit-animation: logo-animate 2s ease;
+		}
+		@-webkit-keyframes logo-animate {
+			0% { 
+				right: 40%;
+				bottom: 50%;
+				width: 1px;
+				opacity: 0;
+				-webkit-transform: rotate3d(1,-1,1,230deg);
+				transform: rotate3d(1,-1,1,230deg);
+			}
+			100% { 
+				right: 40%;
+				bottom: 30%;
+				opacity: 1;
+				-webkit-transform: rotate3d(0,0,0,0deg);
+				transform: rotate3d(0,0,0,0deg);
+			}
+		}
+
+		#services {
+			position: absolute;
+			right: 40%;
+			bottom: 30%;
+			-webkit-animation: logo-animate 2s ease;
+		}
+
+		#icon1 {
+			top: 18%;
+			left: 23%;
+			position: absolute;
+			-webkit-animation: icon-animate1 2.5s linear;
+		}
+		#icon2 {
+			bottom: 18%;
+			left: 25%;
+			position: absolute;
+			-webkit-animation: icon-animate2 3s linear;
+		}
+		#icon3 {
+			top: 18%;
+			right: 30%;
+			position: absolute;
+			-webkit-animation: icon-animate3 3.5s linear;
+		}
+		#icon4 {
+			bottom: 20%;
+			right: 30%;
+			position: absolute;
+			-webkit-animation: icon-animate4 4s linear;
+		}
+
+		@-webkit-keyframes icon-animate1 {
+			from { 
+				top: -800px;
+				left: -800px;
+			}
+			to { 
+				top: 18%;
+				left: 23%;
+			}
+		}
+
+		@-webkit-keyframes icon-animate2 {
+			from { 
+				bottom: -800px;
+				left: -800px;
+			}
+			to { 
+				bottom: 18%;
+				left: 25%;
+			}
+		}
+
+		@-webkit-keyframes icon-animate3 {
+			from { 
+				top: -800px;
+				right: -800px;
+			}
+			to { 
+				top: 18%;
+				right: 30%;
+			}
+		}
+
+		@-webkit-keyframes icon-animate4 {
+			from { 
+				bottom: -800px;
+				right: -800px;
+			}
+			to { 
+				bottom: 20%;
+				right: 30%;
+			}
+		}
+
+		.carousel-caption {
+			.caption-text {
+				position: absolute;
+				top: -200px;
+				right: -100px;
+				font-size: 45px;
+				padding: 0px 15px;
+				margin: 0px;
+				border-width: 0px;
+				line-height: 60px;
+				white-space: nowrap;
+				min-width: 0px;
+				min-height: 0px;
+				text-shadow: none;
+				font-weight: 800;
+				border-style: none;
+				background-color: @dark-blue;
+				-webkit-animation: text-animate 1s ease;
+			}
+
+			.caption-button {
+				position: absolute;
+				top: -100px;
+				right: -100px;
+				-webkit-animation: caption-button-animate 1s ease;
+			}
+
+			@-webkit-keyframes text-animate {
+				0% { 
+					top: -200px;
+					right: 10000px;
+					opacity: 0;
+				}
+				100% { 
+					top: -200px;
+					right: -100px;
+					opacity: 1;
+				}
+			}
+
+			@-webkit-keyframes caption-button-animate {
+				0% { 
+					top: -100px;
+					right: -10000px;
+					opacity: 0;
+				}
+				100% { 
+					top: -100px;
+					right: -100px;
+					opacity: 1;
+				}
 			}
 		}
 	}
 }
 
-// small to medium device
-@media(max-width: 991px) and (min-width: 768px) {
-	
+// on bigger than extra small devices
+@media all and (min-width: 768px) {
+	#school { 
+		left: -95px;
+	}
+	#about { 
+		left: -266px;
+	}
+	#pages {
+		left: -346px;
+	}
+	#contacts {
+		left: -603px;
+	}
+}
+
+@media (max-width: 991px) {
+	.slider {
+		.carousel-caption {
+			display: none;
+		}
+		.img-group {
+			display: none;
+		}
+	}
+}
+
+// on small devices
+@media (min-width: 768px) and (max-width: 991px){
+		
 		.box img {
 			float: none;
 			margin: auto;
@@ -1230,7 +1370,9 @@ ul.recent_post li:last-child {
 		}
 	}
 
-	
+	.carousel-inner .item>img {
+		height: 50%;
+	}
 
 	.main-boxes {
 		margin-top: 30px;
