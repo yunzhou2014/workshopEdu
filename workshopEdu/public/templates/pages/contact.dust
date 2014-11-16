@@ -1,7 +1,7 @@
 {>"layouts/pageTemplate" /}
 
 {<pageTitle}
-Contacts
+{title}
 {/pageTitle}
 
 

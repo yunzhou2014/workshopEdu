@@ -3,7 +3,7 @@
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="icon" href="http://www.ansonika.com/edu/img/favicon.ico">
-	<title>Educational Template</title>
+	<title>{title}</title>
 
 	<!-- Bootstrap -->
 	<!-- Latest compiled and minified CSS -->
@@ -28,109 +28,8 @@
 	<![endif]-->
 </head>
 
-<header class="header-top">
-	<div class="container">
-		<div class="row">      
-			<div class="col-sm-4 col-xs-12">
-				<a href="/">
-					<img id="big" class="hidden-xs" src="http://www.ansonika.com/edu/img/logo.png"></img>
-				</a>
-				<img id="small" class="visible-xs center-block" src="http://www.ansonika.com/edu/img/logo-mobile.png">
-			</div>
-			<div class="col-sm-4 col-xs-12">
-				<div class="menu-top">
-					<ul>
-							<li><a href="/">Home</a>&nbsp;|&nbsp;</li>
-							<li><a href="news-events">News & Events</a>&nbsp;|&nbsp;</li>
-							<li><a href="contact">Contact</a></li>
-					</ul>
-				</div>
-			</div>
-			<div class="col-sm-4 hidden-xs">
-				<div id="phone">
-					<strong>+44 (0) 123 456 789</strong>
-					Admissions department
-				</div>
-			</div>
-		</div>
-	</div>
-</header>
 
-<nav class="navbar">
-	<div class="container">
-		<!-- Brand and toggle get grouped for better mobile display -->
-		<div class="navbar-header">
-			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#content-navbar-collapse">
-				<span class="sr-only">Toggle navigation</span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-			</button>
-			<a class="navbar-brand visible-xs" href="#">Menu</a>
-		</div>
-
-		<div class="collapse navbar-collapse" id="content-navbar-collapse">
-			<ul class="nav navbar-nav">
-
-				<li>
-					<a href="#">COURSES <span class="caret"></span></a>
-					<div class="dropdown-panel" id="courses" role="menu">
-						<div class="container">
-							{>"dropdowns/courses" /}
-						</div>
-					</div>
-				</li>
-
-				<li>
-					<a href="#">SCHOOL&ACADEMICS <span class="caret"></span></a>
-					<div class="dropdown-panel" id="school" role="menu">
-						<div class="container">
-							{>"dropdowns/school" /}
-						</div>
-					</div>
-				</li>
-
-				<li>
-					<a href="#">ABOUT <span class="caret"></span></a>
-					<div class="dropdown-panel" id="about" role="menu">
-						<div class="container">
-							{>"dropdowns/about" /}
-						</div>
-					</div>
-				</li>
-
-				<li>
-					<a href="#">PAGES <span class="caret"></span></a>
-					<div class="dropdown-panel" id="pages" role="menu">
-						<div class="container">
-							{>"dropdowns/pages" /}
-						</div>
-					</div>
-				</li>
-
-				<li><a href="blog">BLOG </a></li>
-
-				<li>
-					<a href="#">SIMPLE DROP <span class="caret"></span></a>
-					<ul class="dropdown-panel" id="simple-drop" role="menu">
-						<li><a href="about-us">About</a></li>
-						<li><a href="all-courses">All Courses</a></li>
-						<li><a href="course-detail">Course detail</a></li>						
-					</ul>
-				</li>
-				
-				<li>
-					<a href="#">CONTACTS <span class="caret"></span></a>
-					<div class="dropdown-panel" id="contacts" role="menu">
-						<div class="container">
-							{>"dropdowns/contacts" /}
-						</div>
-					</div>
-				</li>
-			</ul>
-		</div>    
-	</div>
-</nav>
+{>"layouts/header" /}
 
 
 <div id="wrapper" class="content">
@@ -139,56 +38,7 @@
 
 <a id="back-to-top" href="#">Back to Top</a>
 
-<footer>
-	<div class="container">
-		<div class="row">
-			<div class="col-sm-4 brand-footer">
-				<p>
-					<img src="http://www.ansonika.com/edu/img/logo-footer.jpg" alt="">
-				</p>
-				<p>Copyright © 2014</p>
-				<div class="twitter"><a href="https://twitter.com/">Follow on Twitter</a></div>
-				<div class="fb"><a href="https://www.facebook.com/">Follow on Facebook</a></div>
-			</div>
-			<div class="col-sm-4 col-xs-12">
-				<h4>Contacts</h4>
-					<ul class="fa-ul">
-						<li><i class="fa-li fa fa-home"></i>
-						11 Fifth Ave, Loftus - NEW JERSEY, US</li>
-						<li><i class="fa-li fa fa-phone"></i>Telephone: + 61 (2) 8093 3400</li>
-						<li><i class="fa-li fa fa-phone-square"></i>Fax: +61 (2) 9542 3599</li>
-						<li><i class="fa-li fa fa-envelope"></i>Email: <a href="#">submissions@domain.com</a></li>
-					</ul>					
-				<hr>
-				<h4>Newsletter</h4>
-				<p>Donec adipiscing, quam non faucibus luctus, mi arcu blandit diam. Dolor consul graecis nec ut, scripta eruditi scriptorem et nam.</p>
-				<form method="post" action="assets/newsletter.php" name="newsletter" id="newsletter" class="form-inline">
-           <input name="email_newsletter" id="email_newsletter" type="email" value="" placeholder="Your Email" class="form-control"> &nbsp;
-           <button id="submit-newsletter" class="btn btn-blue"> Subscribe</button>
-        </form>
-			</div>
-			<div class="col-sm-4 col-xs-12">
-				<h4>Quick links</h4>
-					<ul class="list">			
-						<li><a href="#">Admissions </a></li>
-						<li><a href="#">Administration </a></li>
-						<li><a href="#">Courses </a></li>
-						<li><a href="#">Departments and Programs </a></li>
-						<li><a href="#">Summer sessions </a></li>
-					</ul>
-				<hr>
-					<ul class="list">			
-						<li><a href="#">Degrees & Majors </a></li>
-						<li><a href="#">Master's online </a></li>
-						<li><a href="#">Professional Courses </a></li>
-						<li><a href="#">Bacherlor's </a></li>
-						<li><a href="#">Courses </a></li>
-						<li><a href="#">Departments and Programs </a></li>
-					</ul>
-			</div>
-		</div>
-	</div>
-</footer>
+{>"layouts/footer"/}
 
 
 <script data-main="/js/app" src="/components/requirejs/require.js"></script>

@@ -1,7 +1,7 @@
 {>"layouts/pageTemplate" /}
 
 {<pageTitle}
-About us
+{title}
 {/pageTitle}
 
 

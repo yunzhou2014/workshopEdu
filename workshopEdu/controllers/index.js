@@ -1,63 +1,89 @@
 'use strict';
 
 var IndexModel = require('../models/index');
+var BlogModel = require('../models/blog');
+var StaffModel = require('../models/staff');
+var ContactsModel = require('../models/contacts');
+var NewsModel = require('../models/news');
+var AboutModel= require('../models/about');
+var CalendarModel= require('../models/calendar');
+var CoursesModel= require('../models/courses');
+var AdminModel= require('../models/admin');
+var GalleryModel= require('../models/gallery');
+var JavascriptModel = require('../models/javascript');
+var TypoModel = require('../models/typography');
+var ErrorModel = require('../models/error');
+var BlogSingleModel = require('../models/blogSingle');
 
 module.exports = function (router) {
-    var model = new IndexModel();
+    var indexModel = new IndexModel();
+    var blogModel = new BlogModel();
+    var staffModel = new StaffModel();
+    var contactsModel = new ContactsModel();
+    var newsModel = new NewsModel();
+    var aboutModel = new AboutModel();
+    var calendarModel = new CalendarModel();
+    var coursesModel = new CoursesModel();
+    var adminModel = new AdminModel();
+    var galleryModel = new GalleryModel();
+    var javascriptModel = new JavascriptModel();
+    var typoModel = new TypoModel();
+    var errorModel = new ErrorModel();
+    var blogSingleModel = new BlogSingleModel();
 
     router.get('/', function (req, res) {
-        res.render('index', model);
+        res.render('index', indexModel);
     });
 
     router.get('/news-events', function (req, res) {
-        res.render('pages/newsEvents', model);
+        res.render('pages/newsEvents', newsModel);
     });
 
     router.get('/contact', function (req, res) {
-        res.render('pages/contact', model);
+        res.render('pages/contact', contactsModel);
     });
 
     router.get('/all-courses', function (req, res) {
-        res.render('pages/allCourses', model);
+        res.render('pages/allCourses', coursesModel);
     });
 
     router.get('/course-detail', function (req, res) {
-        res.render('pages/administration', model);
+        res.render('pages/administration', adminModel);
     });
 
     router.get('/staff', function (req, res) {
-        res.render('pages/staff', model);
+        res.render('pages/staff', staffModel);
     });
 
     router.get('/about-us', function (req, res) {
-        res.render('pages/aboutUs', model);
+        res.render('pages/aboutUs', aboutModel);
     });
 
     router.get('/blog', function (req, res) {
-        res.render('pages/blog', model);
+        res.render('pages/blog', blogModel);
     });
 
     router.get('/blog-post', function (req, res) {
-        res.render('pages/blogPost', model);
+        res.render('pages/blogPost', blogSingleModel);
     });
 
     router.get('/typography', function (req, res) {
-        res.render('pages/typography', model);
+        res.render('pages/typography', typoModel);
     });
 
     router.get('/javascripts', function (req, res) {
-        res.render('pages/javascripts', model);
+        res.render('pages/javascripts', javascriptModel);
     });
     
     router.get('/gallery', function (req, res) {
-        res.render('pages/gallery', model);
+        res.render('pages/gallery', galleryModel);
     });
 
     router.get('/events-calendar', function (req, res) {
-        res.render('pages/eventsCalendar', model);
+        res.render('pages/eventsCalendar', calendarModel);
     });
 
     router.get('/*', function (req, res) {
-        res.status(404).render('errors/404', model);
+        res.status(404).render('errors/404', errorModel);
     });
 };

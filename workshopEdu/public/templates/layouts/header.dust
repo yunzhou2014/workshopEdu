@@ -1,0 +1,103 @@
+<header class="header-top">
+	<div class="container">
+		<div class="row">      
+			<div class="col-sm-4 col-xs-12">
+				<a href="/">
+					<img id="big" class="hidden-xs" src="http://www.ansonika.com/edu/img/logo.png"></img>
+				</a>
+				<img id="small" class="visible-xs center-block" src="http://www.ansonika.com/edu/img/logo-mobile.png">
+			</div>
+			<div class="col-sm-4 col-xs-12">
+				<div class="menu-top">
+					<ul>
+							<li><a href="/">Home</a>&nbsp;|&nbsp;</li>
+							<li><a href="news-events">News & Events</a>&nbsp;|&nbsp;</li>
+							<li><a href="contact">Contact</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-sm-4 hidden-xs">
+				<div id="phone">
+					<strong>+44 (0) 123 456 789</strong>
+					Admissions department
+				</div>
+			</div>
+		</div>
+	</div>
+</header>
+
+<nav class="navbar">
+	<div class="container">
+		<!-- Brand and toggle get grouped for better mobile display -->
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#content-navbar-collapse">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand visible-xs" href="#">Menu</a>
+		</div>
+
+		<div class="collapse navbar-collapse" id="content-navbar-collapse">
+			<ul class="nav navbar-nav">
+
+				<li>
+					<a href="#">COURSES <span class="caret"></span></a>
+					<div class="dropdown-panel" id="courses" role="menu">
+						<div class="container">
+							{>"dropdowns/courses" /}
+						</div>
+					</div>
+				</li>
+
+				<li>
+					<a href="#">SCHOOL&ACADEMICS <span class="caret"></span></a>
+					<div class="dropdown-panel" id="school" role="menu">
+						<div class="container">
+							{>"dropdowns/school" /}
+						</div>
+					</div>
+				</li>
+
+				<li>
+					<a href="#">ABOUT <span class="caret"></span></a>
+					<div class="dropdown-panel" id="about" role="menu">
+						<div class="container">
+							{>"dropdowns/about" /}
+						</div>
+					</div>
+				</li>
+
+				<li>
+					<a href="#">PAGES <span class="caret"></span></a>
+					<div class="dropdown-panel" id="pages" role="menu">
+						<div class="container">
+							{>"dropdowns/pages" /}
+						</div>
+					</div>
+				</li>
+
+				<li><a href="blog">BLOG </a></li>
+
+				<li>
+					<a href="#">SIMPLE DROP <span class="caret"></span></a>
+					<ul class="dropdown-panel" id="simple-drop" role="menu">
+						<li><a href="about-us">About</a></li>
+						<li><a href="all-courses">All Courses</a></li>
+						<li><a href="course-detail">Course detail</a></li>						
+					</ul>
+				</li>
+				
+				<li>
+					<a href="#">CONTACTS <span class="caret"></span></a>
+					<div class="dropdown-panel" id="contacts" role="menu">
+						<div class="container">
+							{>"dropdowns/contacts" /}
+						</div>
+					</div>
+				</li>
+			</ul>
+		</div>    
+	</div>
+</nav>

@@ -1,7 +1,7 @@
 {>"layouts/pageWoBanner" /}
 
 {<pageTitle}
-Gallery page
+{title}
 {/pageTitle}
 
 {<breadcrume}

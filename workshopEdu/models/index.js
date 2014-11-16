@@ -2,6 +2,7 @@
 
 module.exports = function IndexModel() {
     return {
-        name: 'myApp'
+        name: 'IndexApp',
+        title: 'Home'
     };
 };

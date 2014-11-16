@@ -1,0 +1,8 @@
+'use strict';
+
+module.exports = function BlogSingleModel() {
+    return {
+        name: 'BlogSingleApp',
+        title: 'Blog single post'
+    };
+};

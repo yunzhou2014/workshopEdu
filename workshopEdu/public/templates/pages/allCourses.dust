@@ -1,7 +1,7 @@
 {>"layouts/pageTemplate" /}
 
 {<pageTitle}
-All Courses
+{title}
 {/pageTitle}
 
 

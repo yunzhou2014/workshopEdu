@@ -1,7 +1,7 @@
 {>"layouts/pageTemplate" /}
 
 {<pageTitle}
-Staff
+{title}
 {/pageTitle}
 
 
