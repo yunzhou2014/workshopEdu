@@ -1,0 +1,26 @@
+/* line 2, e:\workshopEdu\workshopEdu\css\gallery */
+.thumbnail {
+  border: 0px;
+}
+/* line 6, e:\workshopEdu\workshopEdu\css\gallery */
+.photo-icon {
+  background: url(http://www.ansonika.com/edu/img/zoom_1.png) no-repeat 10px 10px;
+  position: absolute;
+  width: 100%;
+  display: none;
+  z-index: 10;
+}
+/* line 14, e:\workshopEdu\workshopEdu\css\gallery */
+.video-icon {
+  background: url(http://www.ansonika.com/edu/img/icon_play.png) no-repeat 10px 10px;
+  position: absolute;
+  width: 100%;
+  display: none;
+  z-index: 10;
+}
+/* line 23, e:\workshopEdu\workshopEdu\css\gallery */
+.thumbnail:hover .photo-icon,
+.thumbnail:hover .video-icon {
+  display: inline;
+  opacity: 1;
+}

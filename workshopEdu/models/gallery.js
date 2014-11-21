@@ -2,7 +2,7 @@
 
 module.exports = function GalleryModel() {
     return {
-        name: 'GalleryApp',
+        viewName: 'gallery',
         title: 'Gallery page'
     };
 };

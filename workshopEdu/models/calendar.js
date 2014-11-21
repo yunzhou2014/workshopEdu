@@ -2,7 +2,7 @@
 
 module.exports = function CalendarModel() {
     return {
-        name: 'CalendarApp',
+        viewName: 'calendar',
         title: 'Events Calendar'
     };
 };

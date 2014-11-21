@@ -2,7 +2,7 @@
 
 module.exports = function TypoModel() {
     return {
-        name: 'TypoApp',
+        viewName: 'typography',
         title: 'Typography'
     };
 };

@@ -1,0 +1,60 @@
+/* line 3, e:\workshopEdu\workshopEdu\css\javascripts */
+.infomsg {
+  background-color: #fff;
+  border: 1px solid #afd3f2;
+  display: block;
+  margin: 20px 0;
+  padding: 15px 8px 15px 15px;
+  position: relative;
+  color: #666;
+}
+/* line 22, e:\workshopEdu\workshopEdu\css\javascripts */
+#accordion .panel-heading {
+  background: #f5f5f5;
+  padding: 0;
+}
+/* line 26, e:\workshopEdu\workshopEdu\css\javascripts */
+#accordion .panel-title a {
+  background: #f5f5f5 url(http://www.ansonika.com/edu/img/plus.png) no-repeat center right;
+  padding: 5px 15px;
+  cursor: pointer;
+  display: block;
+  margin-bottom: 5px;
+  font-size: 16px;
+  color: #0088cc;
+  line-height: 32px;
+  transition: background .5s ease;
+  -moz-transition: background .5s ease;
+  -webkit-transition: background .5s ease;
+  -o-transition: background .5s ease;
+  -ms-transition: background .5s ease;
+}
+/* line 35, e:\workshopEdu\workshopEdu\css\javascripts */
+#accordion .panel-title a:hover {
+  text-decoration: none;
+  background: #099ad1 url(http://www.ansonika.com/edu/img/plus.png) no-repeat center right;
+  color: #fff;
+}
+/* line 40, e:\workshopEdu\workshopEdu\css\javascripts */
+#accordion #panel-text {
+  border-top: 0;
+}
+/* line 43, e:\workshopEdu\workshopEdu\css\javascripts */
+#accordion .panel.panel-default {
+  border: 0;
+}
+/* line 49, e:\workshopEdu\workshopEdu\css\javascripts */
+.togglehandle {
+  background: #f5f5f5 url(http://www.ansonika.com/edu/img/plus.png) no-repeat center right;
+  padding: 8px 15px;
+  cursor: pointer;
+  display: block;
+  margin-bottom: 5px;
+  font-size: 16px;
+  color: #000000;
+  border: 1px solid #D6D4CB;
+}
+/* line 54, e:\workshopEdu\workshopEdu\css\javascripts */
+.toggledata {
+  padding: 0 15px;
+}

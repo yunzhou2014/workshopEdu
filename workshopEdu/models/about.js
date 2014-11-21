@@ -2,7 +2,7 @@
 
 module.exports = function AboutModel() {
     return {
-        name: 'NewsApp',
+        viewName: 'about',
         title: 'About us'
     };
 };

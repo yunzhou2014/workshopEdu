@@ -2,7 +2,7 @@
 
 module.exports = function StaffModel() {
     return {
-        name: 'StaffApp',
+        viewName: 'staff',
         title: 'Staff'
     };
 };

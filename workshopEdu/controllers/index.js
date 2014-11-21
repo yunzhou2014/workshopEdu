@@ -36,7 +36,7 @@ module.exports = function (router) {
     });
 
     router.get('/news-events', function (req, res) {
-        res.render('pages/newsEvents', newsModel);
+        res.render('pages/news', newsModel);
     });
 
     router.get('/contact', function (req, res) {
@@ -44,11 +44,11 @@ module.exports = function (router) {
     });
 
     router.get('/all-courses', function (req, res) {
-        res.render('pages/allCourses', coursesModel);
+        res.render('pages/courses', coursesModel);
     });
 
     router.get('/course-detail', function (req, res) {
-        res.render('pages/administration', adminModel);
+        res.render('pages/admin', adminModel);
     });
 
     router.get('/staff', function (req, res) {
@@ -56,7 +56,7 @@ module.exports = function (router) {
     });
 
     router.get('/about-us', function (req, res) {
-        res.render('pages/aboutUs', aboutModel);
+        res.render('pages/about', aboutModel);
     });
 
     router.get('/blog', function (req, res) {
@@ -80,7 +80,7 @@ module.exports = function (router) {
     });
 
     router.get('/events-calendar', function (req, res) {
-        res.render('pages/eventsCalendar', calendarModel);
+        res.render('pages/calendar', calendarModel);
     });
 
     router.get('/*', function (req, res) {

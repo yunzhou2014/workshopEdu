@@ -2,7 +2,7 @@
 
 module.exports = function ErrorModel() {
     return {
-        name: 'ErrorApp',
+        name: 'error',
         title: 'Error'
     };
 };

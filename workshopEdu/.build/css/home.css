@@ -1,0 +1,258 @@
+/* line 2, e:\workshopEdu\workshopEdu\css\home */
+.slider {
+  margin-top: -30px;
+}
+/* line 6, e:\workshopEdu\workshopEdu\css\home */
+.main-boxes {
+  margin-top: -35px;
+  position: relative;
+  z-index: 1;
+  margin-bottom: 35px;
+}
+/* line 13, e:\workshopEdu\workshopEdu\css\home */
+.strip-lessons {
+  border-bottom: 1px solid #eeeeee;
+  margin-bottom: 30px;
+  padding-bottom: 10px;
+}
+/* line 19, e:\workshopEdu\workshopEdu\css\home */
+.box-course {
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  background: #eaf9ff;
+  position: relative;
+  text-align: center;
+  margin-bottom: 20px;
+}
+/* line 27, e:\workshopEdu\workshopEdu\css\home */
+.box-course h5 {
+  background: #2d343e;
+  bottom: 0;
+  left: 0;
+  padding: 4px 0;
+  color: #eaf9ff;
+  text-transform: uppercase;
+  -webkit-border-bottom-right-radius: 5px;
+  -webkit-border-bottom-left-radius: 5px;
+  -moz-border-radius-bottomright: 5px;
+  -moz-border-radius-bottomleft: 5px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+/* line 41, e:\workshopEdu\workshopEdu\css\home */
+.box-course img {
+  max-width: 100%;
+  margin: 30px 0 15px 0;
+}
+/* line 45, e:\workshopEdu\workshopEdu\css\home */
+.box-course img.picture {
+  margin: 0;
+  -webkit-border-top-left-radius: 5px;
+  -webkit-border-top-right-radius: 5px;
+  -moz-border-radius-topleft: 5px;
+  -moz-border-radius-topright: 5px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+/* line 55, e:\workshopEdu\workshopEdu\css\home */
+ul.data-lessons {
+  margin-left: 0;
+  padding-left: 0;
+}
+/* line 58, e:\workshopEdu\workshopEdu\css\home */
+ul.data-lessons li {
+  display: inline-block;
+  margin-right: 8px;
+  padding-right: 8px;
+  border-right: 1px solid #ccc;
+  line-height: 16px;
+  zoom: 1;
+}
+/* line 66, e:\workshopEdu\workshopEdu\css\home */
+ul.data-lessons li:last-child {
+  border-right: none;
+}
+@media (min-width: 992px) {
+  /* line 74, e:\workshopEdu\workshopEdu\css\home */
+  .slider .carousel-inner .item > img {
+    width: 1920px;
+    min-width: 1920px;
+    height: 500px;
+    left: -285.5px;
+    position: relative;
+  }
+  /* line 81, e:\workshopEdu\workshopEdu\css\home */
+  .slider #big-logo {
+    position: absolute;
+    right: 40%;
+    bottom: 30%;
+    -webkit-animation: logo-animate 2s ease;
+  }
+  @-webkit-keyframes logo-animate {
+    /* line 88, e:\workshopEdu\workshopEdu\css\home */
+    0% {
+      right: 40%;
+      bottom: 50%;
+      width: 1px;
+      opacity: 0;
+      -webkit-transform: rotate3d(1, -1, 1, 230deg);
+      transform: rotate3d(1, -1, 1, 230deg);
+    }
+    /* line 96, e:\workshopEdu\workshopEdu\css\home */
+    100% {
+      right: 40%;
+      bottom: 30%;
+      opacity: 1;
+      -webkit-transform: rotate3d(0, 0, 0, 0deg);
+      transform: rotate3d(0, 0, 0, 0deg);
+    }
+  }
+  /* line 105, e:\workshopEdu\workshopEdu\css\home */
+  .slider #services {
+    position: absolute;
+    right: 40%;
+    bottom: 30%;
+    -webkit-animation: logo-animate 2s ease;
+  }
+  /* line 112, e:\workshopEdu\workshopEdu\css\home */
+  .slider #icon1 {
+    top: 18%;
+    left: 23%;
+    position: absolute;
+    -webkit-animation: icon-animate1 2.5s linear;
+  }
+  /* line 118, e:\workshopEdu\workshopEdu\css\home */
+  .slider #icon2 {
+    bottom: 18%;
+    left: 25%;
+    position: absolute;
+    -webkit-animation: icon-animate2 3s linear;
+  }
+  /* line 124, e:\workshopEdu\workshopEdu\css\home */
+  .slider #icon3 {
+    top: 18%;
+    right: 30%;
+    position: absolute;
+    -webkit-animation: icon-animate3 3.5s linear;
+  }
+  /* line 130, e:\workshopEdu\workshopEdu\css\home */
+  .slider #icon4 {
+    bottom: 20%;
+    right: 30%;
+    position: absolute;
+    -webkit-animation: icon-animate4 4s linear;
+  }
+  @-webkit-keyframes icon-animate1 {
+    /* line 138, e:\workshopEdu\workshopEdu\css\home */
+    from {
+      top: -800px;
+      left: -800px;
+    }
+    /* line 142, e:\workshopEdu\workshopEdu\css\home */
+    to {
+      top: 18%;
+      left: 23%;
+    }
+  }
+  @-webkit-keyframes icon-animate2 {
+    /* line 149, e:\workshopEdu\workshopEdu\css\home */
+    from {
+      bottom: -800px;
+      left: -800px;
+    }
+    /* line 153, e:\workshopEdu\workshopEdu\css\home */
+    to {
+      bottom: 18%;
+      left: 25%;
+    }
+  }
+  @-webkit-keyframes icon-animate3 {
+    /* line 160, e:\workshopEdu\workshopEdu\css\home */
+    from {
+      top: -800px;
+      right: -800px;
+    }
+    /* line 164, e:\workshopEdu\workshopEdu\css\home */
+    to {
+      top: 18%;
+      right: 30%;
+    }
+  }
+  @-webkit-keyframes icon-animate4 {
+    /* line 171, e:\workshopEdu\workshopEdu\css\home */
+    from {
+      bottom: -800px;
+      right: -800px;
+    }
+    /* line 175, e:\workshopEdu\workshopEdu\css\home */
+    to {
+      bottom: 20%;
+      right: 30%;
+    }
+  }
+  /* line 182, e:\workshopEdu\workshopEdu\css\home */
+  .slider .carousel-caption .caption-text {
+    position: absolute;
+    top: -200px;
+    right: -100px;
+    font-size: 45px;
+    padding: 0px 15px;
+    margin: 0px;
+    border-width: 0px;
+    line-height: 60px;
+    white-space: nowrap;
+    min-width: 0px;
+    min-height: 0px;
+    text-shadow: none;
+    font-weight: 800;
+    border-style: none;
+    background-color: #2d343e;
+    -webkit-animation: text-animate 1s ease;
+  }
+  /* line 201, e:\workshopEdu\workshopEdu\css\home */
+  .slider .carousel-caption .caption-button {
+    position: absolute;
+    top: -100px;
+    right: -100px;
+    -webkit-animation: caption-button-animate 1s ease;
+  }
+  @-webkit-keyframes text-animate {
+    /* line 209, e:\workshopEdu\workshopEdu\css\home */
+    0% {
+      top: -200px;
+      right: 10000px;
+      opacity: 0;
+    }
+    /* line 214, e:\workshopEdu\workshopEdu\css\home */
+    100% {
+      top: -200px;
+      right: -100px;
+      opacity: 1;
+    }
+  }
+  @-webkit-keyframes caption-button-animate {
+    /* line 222, e:\workshopEdu\workshopEdu\css\home */
+    0% {
+      top: -100px;
+      right: -10000px;
+      opacity: 0;
+    }
+    /* line 227, e:\workshopEdu\workshopEdu\css\home */
+    100% {
+      top: -100px;
+      right: -100px;
+      opacity: 1;
+    }
+  }
+}
+@media (max-width: 991px) {
+  /* line 239, e:\workshopEdu\workshopEdu\css\home */
+  .slider .carousel-caption {
+    display: none;
+  }
+  /* line 242, e:\workshopEdu\workshopEdu\css\home */
+  .slider .img-group {
+    display: none;
+  }
+}

@@ -37,10 +37,10 @@ Administration
 
 		<div class="strip-lessons">
 			<div class="row">
-				<div class="col-md-3 col-xs-10">
+				<div class="col-md-3 col-xs-12">
 					<div class="box-course"><img src="http://www.ansonika.com/edu/img/lessons.png" alt=""><h5>intro one</h5></div>
 				</div>
-				<div class="col-md-9 col-xs-10">
+				<div class="col-md-9 col-xs-12">
 					<h4>Autem possim his</h4>
 					<p>An utinam reprimique duo, putant mandamus cu qui. Autem possim his cu, quodsi nominavi fabellas ut sit, <strong>mea ea ullum epicurei</strong>. Saepe tantas ocurreret duo ea, has facilisi vulputate an. Pri aeque iuvaret nominati et, ad mea clita numquam. </p>
 					<ul class="data-lessons">
@@ -54,10 +54,10 @@ Administration
 
 		<div class="strip-lessons">
 			<div class="row">
-				<div class="col-md-3 col-xs-10">
+				<div class="col-md-3 col-xs-12">
 					<div class="box-course"><img src="http://www.ansonika.com/edu/img/lessons.png" alt=""><h5>intro two</h5></div>
 				</div>
-				<div class="col-md-9 col-xs-10">
+				<div class="col-md-9 col-xs-12">
 					<h4>Ulum epicurei</h4>
 					<p>An utinam reprimique duo, putant mandamus cu qui. Autem possim his cu, quodsi nominavi fabellas ut sit, <strong>mea ea ullum epicurei</strong>. Saepe tantas ocurreret duo ea, has facilisi vulputate an. Pri aeque iuvaret nominati et, ad mea clita numquam. </p>
 					<ul class="data-lessons">
@@ -71,10 +71,10 @@ Administration
 
 		<div class="strip-lessons">
 			<div class="row">
-				<div class="col-md-3 col-xs-10">
+				<div class="col-md-3 col-xs-12">
 					<div class="box-course"><img src="http://www.ansonika.com/edu/img/teacher.jpg" alt="" class="picture"><h5>lesson one</h5></div>
 				</div>
-				<div class="col-md-9 col-xs-10">
+				<div class="col-md-9 col-xs-12">
 					<h4>Putant mandamus</h4>
 					<p>An utinam reprimique duo, putant mandamus cu qui. Autem possim his cu, quodsi nominavi fabellas ut sit, <strong>mea ea ullum epicurei</strong>. Saepe tantas ocurreret duo ea, has facilisi vulputate an. Pri aeque iuvaret nominati et, ad mea clita numquam. </p>
 					<ul class="data-lessons">
@@ -88,10 +88,10 @@ Administration
 
 		<div class="strip-lessons">
 			<div class="row">
-				<div class="col-md-3 col-xs-10">
+				<div class="col-md-3 col-xs-12">
 					<div class="box-course"><img src="http://www.ansonika.com/edu/img/teacher-2.jpg" alt="" class="picture"><h5>lesson two</h5></div>
 				</div>
-				<div class="col-md-9 col-xs-10">
+				<div class="col-md-9 col-xs-12">
 					<h4>Quodsi nominavi</h4>
 					<p>An utinam reprimique duo, putant mandamus cu qui. Autem possim his cu, quodsi nominavi fabellas ut sit, <strong>mea ea ullum epicurei</strong>. Saepe tantas ocurreret duo ea, has facilisi vulputate an. Pri aeque iuvaret nominati et, ad mea clita numquam. </p>
 					<ul class="data-lessons">
@@ -105,10 +105,10 @@ Administration
 
 		<div class="strip-lessons">
 			<div class="row">
-				<div class="col-md-3 col-xs-10">
+				<div class="col-md-3 col-xs-12">
 					<div class="box-course"><img src="http://www.ansonika.com/edu/img/teacher-3.jpg" alt="" class="picture"><h5>lesson three</h5></div>
 				</div>
-				<div class="col-md-9 col-xs-10">
+				<div class="col-md-9 col-xs-12">
 					<h4>Saepe tantas</h4>
 					<p>An utinam reprimique duo, putant mandamus cu qui. Autem possim his cu, quodsi nominavi fabellas ut sit, <strong>mea ea ullum epicurei</strong>. Saepe tantas ocurreret duo ea, has facilisi vulputate an. Pri aeque iuvaret nominati et, ad mea clita numquam. </p>
 					<ul class="data-lessons">
@@ -161,7 +161,7 @@ Administration
 		</div>
 
 		<p class="text-center">
-		<a href="contact" class="btn btn-blue btn-lg">Apply now</a>
+		<a href="contact" class="btn btn-blue-lg">Apply now</a>
 		</p>
 
 

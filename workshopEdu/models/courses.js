@@ -1,8 +1,8 @@
 'use strict';
 
-module.exports = function IndexModel() {
+module.exports = function CoursesModel() {
     return {
-        name: 'CoursesApp',
+        viewName: 'courses',
         title: 'All Courses'
     };
 };

@@ -2,7 +2,7 @@
 
 module.exports = function ContactsModel() {
     return {
-        name: 'ContactsApp',
+        viewName: 'contacts',
         title: 'Contacts'
     };
 };

@@ -2,7 +2,7 @@
 
 module.exports = function JavascriptModel() {
     return {
-        name: 'JavascriptApp',
+        viewName: 'javascripts',
         title: 'JavaScripts'
     };
 };

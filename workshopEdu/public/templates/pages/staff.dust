@@ -92,6 +92,6 @@ Staff
 	</div>
 	<hr>
 	<p class="text-center">
-		<a href="all-courses" class="btn btn-blue btn-lg">View courses</a>
+		<a href="all-courses" class="btn btn-blue-lg">View courses</a>
 	</p>
 {/contentRight}

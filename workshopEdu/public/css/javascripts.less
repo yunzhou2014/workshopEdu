@@ -1,0 +1,56 @@
+@import "variables";
+
+.infomsg {
+	background-color: #fff;
+	border: 1px solid #afd3f2;
+	display: block;
+	margin: 20px 0;
+	padding: 15px 8px 15px 15px;
+	position: relative;
+	color: #666;
+}
+.panel-header(@color, @padding-top) {
+	background: #f5f5f5 url(http://www.ansonika.com/edu/img/plus.png) no-repeat center right;
+	padding: @padding-top 15px;
+	cursor: pointer;
+	display: block;
+	margin-bottom: 5px;
+	font-size: 16px;
+	color: @color;
+}
+#accordion {
+	.panel-heading {
+		background: #f5f5f5;
+		padding: 0;
+	}
+	.panel-title a  {
+		.panel-header(@footer-blue, 5px);
+		line-height: 32px;
+		transition: background .5s ease;
+		-moz-transition: background .5s ease;
+		-webkit-transition: background .5s ease;
+		-o-transition: background .5s ease;
+		-ms-transition: background .5s ease;
+	}
+	.panel-title a:hover {
+		text-decoration: none;
+		background: @button-blue url(http://www.ansonika.com/edu/img/plus.png) no-repeat center right;
+		color: #fff;
+	}
+	#panel-text {
+		border-top: 0;
+	}
+	.panel.panel-default {
+		border: 0;
+	}
+
+}
+
+.togglehandle {
+	.panel-header(black, 8px);
+	border: 1px solid #D6D4CB;
+}
+
+.toggledata {
+	padding: 0 15px;
+}

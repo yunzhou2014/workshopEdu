@@ -1,0 +1,78 @@
+@import "variables";
+
+ul.recent_post li {
+	padding: 0 0 8px 0;
+	margin-bottom: 15px;
+	border-bottom: 1px #e7e7e7 dotted;
+	color: #313131;
+	list-style: none;
+	line-height: 18px;
+	padding-bottom: 15px;
+	color: #888;
+	font-style: italic;
+	div {
+		font-weight: 700;
+		padding-left: 25px;
+		font-style: normal;
+	}
+}
+
+ul.recent_post li:last-child {
+	margin-bottom: 0;
+	border-bottom: 0;
+}
+
+.tags {
+	a {
+		display: inline-block;
+		margin: 5px 14px 10px 0;
+		height: 33px;
+		line-height: 33px;
+		background: #ededed url(http://www.ansonika.com/edu/img/tag_bg.png) no-repeat 91% center;
+		padding: 0 28px 0 11px;
+		transition: background .5s ease;
+		-moz-transition: background .5s ease;
+		-webkit-transition: background .5s ease;
+		-o-transition: background .5s ease;
+		-ms-transition: background .5s ease;
+		color: #646464;
+	}
+	a:hover {
+		text-decoration: none;
+		background-color: @button-blue;
+		color: #fff;
+	}
+}
+
+.post {
+	img {
+		-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
+		border-radius: 5px;
+		margin-bottom: 18px;
+		width: 100%;
+	}
+
+	.post_info {
+		padding: 10px 0;
+		border-bottom: 1px #e7e7e7 solid;
+		border-top: 1px #e7e7e7 solid;
+		margin-bottom: 12px;
+		color: #555;
+
+		.post-left {
+			float: left;
+			ul li {
+				float: left;
+				margin-right: 10px;
+				list-style: none;
+			}
+			span {
+				color: @button-red;
+			}
+		}
+		.post-right {
+			float: right;
+		}
+	}
+}

@@ -19,6 +19,7 @@
 	<link rel="stylesheet" href="/css/fullcalendar.print.css" /-->
 
 	<link rel="stylesheet" href="/css/app.css" />
+	<link rel="stylesheet" href="/css/{viewName}.css" />
 
 	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -52,7 +53,7 @@
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 
-<script src="../../js/script.js">
+<!--script src="../../js/script.js"-->
 
 </script>
 

@@ -2,7 +2,7 @@
 
 module.exports = function IndexModel() {
     return {
-        name: 'IndexApp',
+        viewName: 'home',
         title: 'Home'
     };
 };

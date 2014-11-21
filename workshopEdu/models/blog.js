@@ -2,7 +2,7 @@
 
 module.exports = function BlogModel() {
     return {
-        name: 'BlogApp',
+        viewName: 'blog',
         title: 'Blog'
     };
 };

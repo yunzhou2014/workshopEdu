@@ -2,7 +2,7 @@
 
 module.exports = function NewsModel() {
     return {
-        name: 'NewsApp',
+        viewName: 'news',
         title: 'News & Events'
     };
 };
