@@ -8,11 +8,24 @@ span.required {
 .button-align {
 	text-align: right;
 	padding-top: 25px;
+	.btn-blue {
+		margin-top: 0;
+	}
+}
+
+label {
+	font-size: 12px;
 }
 
 // on small devices
 @media (min-width: 768px) and (max-width: 991px){
 	#date_visit {
-			width: 70%;
-		}
+		width: 70%;
+	}
+}
+
+@media(max-width: 767px) {
+	.button-align {
+		text-align: left;
+	}
 }

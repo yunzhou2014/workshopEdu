@@ -87,3 +87,7 @@ ul.recent_post li:last-child {
 #comments .comment_info span {
   padding: 0 12px;
 }
+/* line 87, e:\workshopEdu\workshopEdu\css\blogSingle */
+#leave-comment .btn.btn-blue {
+  margin-right: 5px;
+}

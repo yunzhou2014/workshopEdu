@@ -8,9 +8,23 @@ span.required {
   text-align: right;
   padding-top: 25px;
 }
+/* line 11, e:\workshopEdu\workshopEdu\css\contacts */
+.button-align .btn-blue {
+  margin-top: 0;
+}
+/* line 16, e:\workshopEdu\workshopEdu\css\contacts */
+label {
+  font-size: 12px;
+}
 @media (min-width: 768px) and (max-width: 991px) {
-  /* line 15, e:\workshopEdu\workshopEdu\css\contacts */
+  /* line 22, e:\workshopEdu\workshopEdu\css\contacts */
   #date_visit {
     width: 70%;
+  }
+}
+@media (max-width: 767px) {
+  /* line 28, e:\workshopEdu\workshopEdu\css\contacts */
+  .button-align {
+    text-align: left;
   }
 }

@@ -28,7 +28,7 @@
 			</div>
 			<div class="col-sm-4 col-xs-12">
 				<h4>Quick links</h4>
-					<ul class="list">			
+					<ul class="list-arrowdown">			
 						<li><a href="#">Admissions </a></li>
 						<li><a href="#">Administration </a></li>
 						<li><a href="#">Courses </a></li>
@@ -36,7 +36,7 @@
 						<li><a href="#">Summer sessions </a></li>
 					</ul>
 				<hr>
-					<ul class="list">			
+					<ul class="list-arrowdown">			
 						<li><a href="#">Degrees & Majors </a></li>
 						<li><a href="#">Master's online </a></li>
 						<li><a href="#">Professional Courses </a></li>

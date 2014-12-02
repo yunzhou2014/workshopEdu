@@ -33,9 +33,17 @@
 /* line 30, e:\workshopEdu\workshopEdu\css\courses */
 .strip-courses .description ul li:last-child {
   border-right: none;
+}
+/* line 33, e:\workshopEdu\workshopEdu\css\courses */
+.strip-courses .description ul .online {
   color: #ff6666;
 }
-/* line 38, e:\workshopEdu\workshopEdu\css\courses */
+/* line 37, e:\workshopEdu\workshopEdu\css\courses */
+.strip-courses .description .btn.btn-blue {
+  float: right;
+  margin-top: -30px;
+}
+/* line 44, e:\workshopEdu\workshopEdu\css\courses */
 .title-course {
   background: #2d343e;
   -webkit-border-top-left-radius: 5px;
@@ -47,27 +55,34 @@
   color: #fff;
   position: relative;
 }
-/* line 48, e:\workshopEdu\workshopEdu\css\courses */
+/* line 54, e:\workshopEdu\workshopEdu\css\courses */
 .title-course h3 {
   font-size: 18px;
   padding: 3px 0 3px 15px;
   margin: 0;
 }
-/* line 52, e:\workshopEdu\workshopEdu\css\courses */
+/* line 58, e:\workshopEdu\workshopEdu\css\courses */
 .title-course h3 img {
   max-width: 100%;
 }
-/* line 56, e:\workshopEdu\workshopEdu\css\courses */
+/* line 62, e:\workshopEdu\workshopEdu\css\courses */
 .title-course ul {
   position: absolute;
   color: #fff;
   right: 15px;
   top: 7px;
 }
-/* line 62, e:\workshopEdu\workshopEdu\css\courses */
+/* line 68, e:\workshopEdu\workshopEdu\css\courses */
 .title-course ul li {
   display: inline-block;
   font-weight: 600;
   margin-left: 15px;
   zoom: 1;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 78, e:\workshopEdu\workshopEdu\css\courses */
+  .strip-courses .description .btn.btn-blue {
+    float: none;
+    margin-top: 15px;
+  }
 }

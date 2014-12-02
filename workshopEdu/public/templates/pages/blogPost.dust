@@ -10,14 +10,10 @@ Blog post
 {/breadcrume}
 
 {<contentLeft}	
-	<form class="form-inline form-aligned">
+	<form class="form-inline">
 		<div class="row">
-			<div class="col-md-9 col-sm-12">
-				<input type="text" class="form-control">
-			</div>
-			<div class="col-md-3 col-sm-12">
-				<button type="submit" class="btn btn-blue">Search</button>
-			</div> 
+			<input type="text" class="form-control">
+			<button type="submit" class="btn btn-blue">Search</button>
 		</div>
 	</form>
 	<hr>
@@ -109,7 +105,7 @@ Blog post
 	</div>
 
  	<h4>Leave a comment</h4>
- 	<form action="#" method="post">
+ 	<form action="#" method="post" id="leave-comment">
  		<div class="row">
 	 		<div class="form-group col-sm-10">
 	 			<input type="text" value="Name" class="form-control">
